@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResInsightProject>
+    <DocumentFileName>D:/gitroot-ceesol/resinsight-tutorials/tutorials/SummaryEnsemble.rsp</DocumentFileName>
+    <ProjectFileVersionString>2020.04.1-dev.01</ProjectFileVersionString>
+    <ReferencedExternalFiles>
+        $PathId_001$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-0/iter-0/eclipse/model/5_R001_REEK-0.SMSPEC;
+        $PathId_002$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-1/iter-0/eclipse/model/5_R001_REEK-1.SMSPEC;
+        $PathId_003$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-2/iter-0/eclipse/model/5_R001_REEK-2.SMSPEC;
+        $PathId_004$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-3/iter-0/eclipse/model/5_R001_REEK-3.SMSPEC;
+        $PathId_005$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-4/iter-0/eclipse/model/5_R001_REEK-4.SMSPEC;
+        $PathId_006$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-5/iter-0/eclipse/model/5_R001_REEK-5.SMSPEC;
+        $PathId_007$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-6/iter-0/eclipse/model/5_R001_REEK-6.SMSPEC;
+        $PathId_008$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-7/iter-0/eclipse/model/5_R001_REEK-7.SMSPEC;
+        $PathId_009$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-8/iter-0/eclipse/model/5_R001_REEK-8.SMSPEC;
+        $PathId_010$ D:/gitroot-ceesol/resinsight-tutorials/model-data/webviz-subsurface-testdata/reek_history_match/realization-9/iter-0/eclipse/model/5_R001_REEK-9.SMSPEC;
+    </ReferencedExternalFiles>
+    <OilFields>
+        <ResInsightOilField>
+            <AnalysisModels>
+                <ResInsightAnalysisModels>
+                    <Reservoirs/>
+                    <CaseGroups/>
+                </ResInsightAnalysisModels>
+            </AnalysisModels>
+            <GeoMechModels/>
+            <WellPathCollection>
+                <WellPaths>
+                    <Active>True </Active>
+                    <ShowWellPathLabel>True </ShowWellPathLabel>
+                    <WellPathLabelColor>0.901960790157318 0.901960790157318 0.901960790157318</WellPathLabelColor>
+                    <GlobalWellPathVisibility>ALL_ON</GlobalWellPathVisibility>
+                    <WellPathRadiusScale>0.1</WellPathRadiusScale>
+                    <WellPathClip>True </WellPathClip>
+                    <WellPathClipZDistance>100</WellPathClipZDistance>
+                    <WellPaths/>
+                    <WellMeasurements>
+                        <WellMeasurements>
+                            <Measurements/>
+                            <ImportedFiles/>
+                        </WellMeasurements>
+                    </WellMeasurements>
+                </WellPaths>
+            </WellPathCollection>
+            <CompletionTemplateCollection>
+                <CompletionTemplateCollection>
+                    <FractureTemplates>
+                        <FractureDefinitionCollection>
+                            <DefaultUnitForTemplates>UNITS_METRIC</DefaultUnitForTemplates>
+                            <FractureDefinitions>
+                                <RimEllipseFractureTemplate>
+                                    <Id>0</Id>
+                                    <UserDescription>Ellipse Fracture Template</UserDescription>
+                                    <UnitSystem>UNITS_METRIC</UnitSystem>
+                                    <Orientation>TransverseWellPath</Orientation>
+                                    <AzimuthAngle>0</AzimuthAngle>
+                                    <SkinFactor>0</SkinFactor>
+                                    <PerforationLength>1</PerforationLength>
+                                    <PerforationEfficiency>1</PerforationEfficiency>
+                                    <WellDiameter>0.216</WellDiameter>
+                                    <ConductivityType>FiniteConductivity</ConductivityType>
+                                    <FractureContainmentField>
+                                        <FractureContainment>
+                                            <IsUsingFractureContainment>False </IsUsingFractureContainment>
+                                            <TopKLayer>0</TopKLayer>
+                                            <BaseKLayer>0</BaseKLayer>
+                                            <TruncateAtFaults>False </TruncateAtFaults>
+                                            <FaultThrowValue>0</FaultThrowValue>
+                                        </FractureContainment>
+                                    </FractureContainmentField>
+                                    <NonDarcyFlowType>None</NonDarcyFlowType>
+                                    <UserDefinedDFactor>1</UserDefinedDFactor>
+                                    <FractureWidthType>FractureWidth</FractureWidthType>
+                                    <FractureWidth>0.01</FractureWidth>
+                                    <BetaFactorType>UserDefinedBetaFactor</BetaFactorType>
+                                    <InertialCoefficient>0.006083236</InertialCoefficient>
+                                    <PermeabilityType>FractureConductivity</PermeabilityType>
+                                    <RelativePermeability>1</RelativePermeability>
+                                    <EffectivePermeability>0</EffectivePermeability>
+                                    <RelativeGasDensity>0.8</RelativeGasDensity>
+                                    <GasViscosity>0.02</GasViscosity>
+                                    <HeightScaleFactor>1</HeightScaleFactor>
+                                    <WidthScaleFactor>1</WidthScaleFactor>
+                                    <DFactorScaleFactor>1</DFactorScaleFactor>
+                                    <ConductivityFactor>1</ConductivityFactor>
+                                    <HalfLength>100</HalfLength>
+                                    <Height>75</Height>
+                                    <Width>0.01</Width>
+                                    <Permeability>100000</Permeability>
+                                </RimEllipseFractureTemplate>
+                            </FractureDefinitions>
+                            <NextValidFractureTemplateId>1</NextValidFractureTemplateId>
+                        </FractureDefinitionCollection>
+                    </FractureTemplates>
+                    <ValveTemplates>
+                        <ValveTemplateCollection>
+                            <ValveDefinitions>
+                                <ValveTemplate>
+                                    <Name>AICD: Valve Template #1</Name>
+                                    <UnitSystem>UNITS_UNKNOWN</UnitSystem>
+                                    <CompletionType>AICD</CompletionType>
+                                    <UserLabel>Valve Template #1</UserLabel>
+                                    <OrificeDiameter>8</OrificeDiameter>
+                                    <FlowCoefficient>0.7</FlowCoefficient>
+                                    <AICDParameters>
+                                        <WellPathAicdParameters>
+                                            <DeviceOpen>True </DeviceOpen>
+                                            <StrengthAICD></StrengthAICD>
+                                            <DensityCalibrationFluid></DensityCalibrationFluid>
+                                            <ViscosityCalibrationFluid></ViscosityCalibrationFluid>
+                                            <VolumeFlowRateExponent></VolumeFlowRateExponent>
+                                            <ViscosityFunctionExponent></ViscosityFunctionExponent>
+                                            <CriticalWaterLiquidFractionEmul>1*</CriticalWaterLiquidFractionEmul>
+                                            <ViscosityTransitionRegionEmul>1*</ViscosityTransitionRegionEmul>
+                                            <MaxRatioOfEmulsionVisc>1*</MaxRatioOfEmulsionVisc>
+                                            <MaxFlowRate>1*</MaxFlowRate>
+                                            <ExponentOilDensity>1*</ExponentOilDensity>
+                                            <ExponentWaterDensity>1*</ExponentWaterDensity>
+                                            <ExponentGasDensity>1*</ExponentGasDensity>
+                                            <ExponentOilViscosity>1*</ExponentOilViscosity>
+                                            <ExponentWaterViscosity>1*</ExponentWaterViscosity>
+                                            <ExponentGasViscosity>1*</ExponentGasViscosity>
+                                        </WellPathAicdParameters>
+                                    </AICDParameters>
+                                </ValveTemplate>
+                                <ValveTemplate>
+                                    <Name>ICD: Valve Template #2</Name>
+                                    <UnitSystem>UNITS_UNKNOWN</UnitSystem>
+                                    <CompletionType>ICD</CompletionType>
+                                    <UserLabel>Valve Template #2</UserLabel>
+                                    <OrificeDiameter>8</OrificeDiameter>
+                                    <FlowCoefficient>0.7</FlowCoefficient>
+                                    <AICDParameters>
+                                        <WellPathAicdParameters>
+                                            <DeviceOpen>True </DeviceOpen>
+                                            <StrengthAICD></StrengthAICD>
+                                            <DensityCalibrationFluid></DensityCalibrationFluid>
+                                            <ViscosityCalibrationFluid></ViscosityCalibrationFluid>
+                                            <VolumeFlowRateExponent></VolumeFlowRateExponent>
+                                            <ViscosityFunctionExponent></ViscosityFunctionExponent>
+                                            <CriticalWaterLiquidFractionEmul>1*</CriticalWaterLiquidFractionEmul>
+                                            <ViscosityTransitionRegionEmul>1*</ViscosityTransitionRegionEmul>
+                                            <MaxRatioOfEmulsionVisc>1*</MaxRatioOfEmulsionVisc>
+                                            <MaxFlowRate>1*</MaxFlowRate>
+                                            <ExponentOilDensity>1*</ExponentOilDensity>
+                                            <ExponentWaterDensity>1*</ExponentWaterDensity>
+                                            <ExponentGasDensity>1*</ExponentGasDensity>
+                                            <ExponentOilViscosity>1*</ExponentOilViscosity>
+                                            <ExponentWaterViscosity>1*</ExponentWaterViscosity>
+                                            <ExponentGasViscosity>1*</ExponentGasViscosity>
+                                        </WellPathAicdParameters>
+                                    </AICDParameters>
+                                </ValveTemplate>
+                                <ValveTemplate>
+                                    <Name>ICV: Valve Template #3</Name>
+                                    <UnitSystem>UNITS_UNKNOWN</UnitSystem>
+                                    <CompletionType>ICV</CompletionType>
+                                    <UserLabel>Valve Template #3</UserLabel>
+                                    <OrificeDiameter>8</OrificeDiameter>
+                                    <FlowCoefficient>0.7</FlowCoefficient>
+                                    <AICDParameters>
+                                        <WellPathAicdParameters>
+                                            <DeviceOpen>True </DeviceOpen>
+                                            <StrengthAICD></StrengthAICD>
+                                            <DensityCalibrationFluid></DensityCalibrationFluid>
+                                            <ViscosityCalibrationFluid></ViscosityCalibrationFluid>
+                                            <VolumeFlowRateExponent></VolumeFlowRateExponent>
+                                            <ViscosityFunctionExponent></ViscosityFunctionExponent>
+                                            <CriticalWaterLiquidFractionEmul>1*</CriticalWaterLiquidFractionEmul>
+                                            <ViscosityTransitionRegionEmul>1*</ViscosityTransitionRegionEmul>
+                                            <MaxRatioOfEmulsionVisc>1*</MaxRatioOfEmulsionVisc>
+                                            <MaxFlowRate>1*</MaxFlowRate>
+                                            <ExponentOilDensity>1*</ExponentOilDensity>
+                                            <ExponentWaterDensity>1*</ExponentWaterDensity>
+                                            <ExponentGasDensity>1*</ExponentGasDensity>
+                                            <ExponentOilViscosity>1*</ExponentOilViscosity>
+                                            <ExponentWaterViscosity>1*</ExponentWaterViscosity>
+                                            <ExponentGasViscosity>1*</ExponentGasViscosity>
+                                        </WellPathAicdParameters>
+                                    </AICDParameters>
+                                </ValveTemplate>
+                            </ValveDefinitions>
+                            <ValveUnits>UNITS_METRIC</ValveUnits>
+                        </ValveTemplateCollection>
+                    </ValveTemplates>
+                </CompletionTemplateCollection>
+            </CompletionTemplateCollection>
+            <SummaryCaseCollection>
+                <SummaryCaseCollection>
+                    <SummaryCases/>
+                    <SummaryCaseCollections>
+                        <SummaryCaseSubCollection>
+                            <SummaryCases>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-0</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_001$</SummaryHeaderFilename>
+                                    <Id>1</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-1</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_002$</SummaryHeaderFilename>
+                                    <Id>2</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-2</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_003$</SummaryHeaderFilename>
+                                    <Id>3</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-3</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_004$</SummaryHeaderFilename>
+                                    <Id>4</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-4</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_005$</SummaryHeaderFilename>
+                                    <Id>5</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-5</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_006$</SummaryHeaderFilename>
+                                    <Id>6</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-6</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_007$</SummaryHeaderFilename>
+                                    <Id>7</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-7</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_008$</SummaryHeaderFilename>
+                                    <Id>8</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-8</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_009$</SummaryHeaderFilename>
+                                    <Id>9</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                                <FileSummaryCase>
+                                    <ShortName>5_R001_REEK-9</ShortName>
+                                    <AutoShortyName>False </AutoShortyName>
+                                    <SummaryHeaderFilename>$PathId_010$</SummaryHeaderFilename>
+                                    <Id>10</Id>
+                                    <IncludeRestartFiles>False </IncludeRestartFiles>
+                                </FileSummaryCase>
+                            </SummaryCases>
+                            <SummaryCollectionName>Reek</SummaryCollectionName>
+                            <IsEnsemble>True </IsEnsemble>
+                            <Id>1</Id>
+                        </SummaryCaseSubCollection>
+                    </SummaryCaseCollections>
+                </SummaryCaseCollection>
+            </SummaryCaseCollection>
+            <FormationNamesCollection>
+                <FormationNamesCollectionObject>
+                    <FormationNamesList/>
+                </FormationNamesCollectionObject>
+            </FormationNamesCollection>
+            <ObservedDataCollection>
+                <ObservedDataCollection>
+                    <ObservedDataArray/>
+                    <ObservedFmuRftDataArray/>
+                </ObservedDataCollection>
+            </ObservedDataCollection>
+            <AnnotationCollection>
+                <RimAnnotationCollection>
+                    <IsActive>True </IsActive>
+                    <TextAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </TextAnnotations>
+                    <ReachCircleAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </ReachCircleAnnotations>
+                    <UserDefinedPolylineAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </UserDefinedPolylineAnnotations>
+                    <PolylineFromFileAnnotations>
+                        <RimAnnotationGroupCollection>
+                            <IsActive>True </IsActive>
+                            <Annotations/>
+                        </RimAnnotationGroupCollection>
+                    </PolylineFromFileAnnotations>
+                </RimAnnotationCollection>
+            </AnnotationCollection>
+            <SurfaceCollection>
+                <SurfaceCollection>
+                    <SurfaceUserDecription>Surfaces</SurfaceUserDecription>
+                    <SubCollections/>
+                    <SurfacesField/>
+                </SurfaceCollection>
+            </SurfaceCollection>
+        </ResInsightOilField>
+    </OilFields>
+    <ColorLegendCollection>
+        <ColorLegendCollection>
+            <CustomColorLegends/>
+        </ColorLegendCollection>
+    </ColorLegendCollection>
+    <WellPathImport>
+        <RimWellPathImport>
+            <WellTypeSurvey>True </WellTypeSurvey>
+            <WellTypePlans>True </WellTypePlans>
+            <UtmMode>UTM_FILTER_OFF</UtmMode>
+            <UtmNorth>0</UtmNorth>
+            <UtmSouth>0</UtmSouth>
+            <UtmEast>0</UtmEast>
+            <UtmWest>0</UtmWest>
+            <Regions/>
+        </RimWellPathImport>
+    </WellPathImport>
+    <MainPlotCollection>
+        <MainPlotCollection>
+            <Show>True </Show>
+            <WellLogPlotCollection>
+                <WellLogPlotCollection>
+                    <WellLogPlots/>
+                </WellLogPlotCollection>
+            </WellLogPlotCollection>
+            <RftPlotCollection>
+                <WellRftPlotCollection>
+                    <RftPlots/>
+                </WellRftPlotCollection>
+            </RftPlotCollection>
+            <PltPlotCollection>
+                <WellPltPlotCollection>
+                    <PltPlots/>
+                </WellPltPlotCollection>
+            </PltPlotCollection>
+            <SummaryPlotCollection>
+                <SummaryPlotCollection>
+                    <SummaryPlots>
+                        <SummaryPlot>
+                            <WindowController>
+                                <MdiWindowController>
+                                    <MainWindowID>1</MainWindowID>
+                                    <xPos>0</xPos>
+                                    <yPos>0</yPos>
+                                    <Width>973</Width>
+                                    <Height>1070</Height>
+                                    <IsMaximized>True </IsMaximized>
+                                </MdiWindowController>
+                            </WindowController>
+                            <ShowWindow>True </ShowWindow>
+                            <Id>1</Id>
+                            <ShowTrackLegends>True </ShowTrackLegends>
+                            <TrackLegendsHorizontal>True </TrackLegendsHorizontal>
+                            <TitleFontSize>XX_Large</TitleFontSize>
+                            <LegendDeltaFontSize>Small</LegendDeltaFontSize>
+                            <RowSpan>ONE</RowSpan>
+                            <ColSpan>ONE</ColSpan>
+                            <IsUsingAutoName>True </IsUsingAutoName>
+                            <PlotDescription>Reek, Oil Production Total</PlotDescription>
+                            <normalizeCurveYValues>False </normalizeCurveYValues>
+                            <SummaryCurveCollection>
+                                <RimSummaryCurveCollection>
+                                    <CollectionCurves/>
+                                    <IsActive>True </IsActive>
+                                </RimSummaryCurveCollection>
+                            </SummaryCurveCollection>
+                            <EnsembleCurveSetCollection>
+                                <RimEnsembleCurveSetCollection>
+                                    <EnsembleCurveSets>
+                                        <RimEnsembleCurveSet>
+                                            <EnsembleCurveSet>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.945098042488098 0.0549019612371922 0</Color>
+                                                    <FillColor>0.945098042488098 0.0549019612371922 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 2</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.800000011920929 0.200000002980232 0</Color>
+                                                    <FillColor>0.800000011920929 0.200000002980232 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 1</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.368627458810806 0.631372570991516 0</Color>
+                                                    <FillColor>0.368627458810806 0.631372570991516 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 9</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.368627458810806 0.631372570991516 0</Color>
+                                                    <FillColor>0.368627458810806 0.631372570991516 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 3</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>1 0 0</Color>
+                                                    <FillColor>1 0 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 0</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0 1 0</Color>
+                                                    <FillColor>0 1 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 6</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.403921574354172 0.596078455448151 0</Color>
+                                                    <FillColor>0.403921574354172 0.596078455448151 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 5</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.0588235296308994 0.941176474094391 0</Color>
+                                                    <FillColor>0.0588235296308994 0.941176474094391 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 8</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.858823537826538 0.141176477074623 0</Color>
+                                                    <FillColor>0.858823537826538 0.141176477074623 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 4</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>FOPT, Reek</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0.156862750649452 0.843137264251709 0</Color>
+                                                    <FillColor>0.156862750649452 0.843137264251709 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel></SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0 SummaryCases 7</SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                            <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>P90:FOPT</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0 0 0</Color>
+                                                    <FillColor>0 0 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_TRIANGLE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>150</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel>P90</SymbolLabel>
+                                                    <SymbolSize>7</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase></SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_ENSEMBLE_STATISTICS</SummaryVarType>
+                                                            <SummaryQuantityName>P10:FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>P10:FOPT</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0 0 0</Color>
+                                                    <FillColor>0 0 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_DOWN_TRIANGLE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>150</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel>P10</SymbolLabel>
+                                                    <SymbolSize>7</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase></SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_ENSEMBLE_STATISTICS</SummaryVarType>
+                                                            <SummaryQuantityName>P90:FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                                <SummaryCurve>
+                                                    <Show>True </Show>
+                                                    <CurveName>MEAN:FOPT</CurveName>
+                                                    <CurveDescription></CurveDescription>
+                                                    <LegendDescription></LegendDescription>
+                                                    <AutoName>True </AutoName>
+                                                    <Color>0 0 0</Color>
+                                                    <FillColor>0 0 0</FillColor>
+                                                    <Thickness>2</Thickness>
+                                                    <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                                    <LineStyle>STYLE_SOLID</LineStyle>
+                                                    <FillStyle>NO_FILL</FillStyle>
+                                                    <PointSymbol>SYMBOL_ELLIPSE</PointSymbol>
+                                                    <SymbolEdgeColor>0 0 0</SymbolEdgeColor>
+                                                    <SymbolSkipPxDist>150</SymbolSkipPxDist>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <SymbolLabel>MEAN</SymbolLabel>
+                                                    <SymbolSize>6</SymbolSize>
+                                                    <ShowErrorBars>True </ShowErrorBars>
+                                                    <SymbolLabelPosition>LABEL_ABOVE_SYMBOL</SymbolLabelPosition>
+                                                    <StackCurve>False </StackCurve>
+                                                    <StackPhaseColors>True </StackPhaseColors>
+                                                    <SummaryCase></SummaryCase>
+                                                    <SummaryAddress>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType>SUMMARY_ENSEMBLE_STATISTICS</SummaryVarType>
+                                                            <SummaryQuantityName>MEAN:FOPT</SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddress>
+                                                    <SummaryCaseX></SummaryCaseX>
+                                                    <SummaryAddressX>
+                                                        <SummaryAddress>
+                                                            <SummaryVarType></SummaryVarType>
+                                                            <SummaryQuantityName></SummaryQuantityName>
+                                                            <SummaryRegion>-1</SummaryRegion>
+                                                            <SummaryRegion2>-1</SummaryRegion2>
+                                                            <SummaryWellGroup></SummaryWellGroup>
+                                                            <SummaryWell></SummaryWell>
+                                                            <SummaryWellSegment>-1</SummaryWellSegment>
+                                                            <SummaryLgr></SummaryLgr>
+                                                            <SummaryCellI>-1</SummaryCellI>
+                                                            <SummaryCellJ>-1</SummaryCellJ>
+                                                            <SummaryCellK>-1</SummaryCellK>
+                                                            <SummaryAquifer>-1</SummaryAquifer>
+                                                            <IsErrorResult>False </IsErrorResult>
+                                                            <CalculationId>-1</CalculationId>
+                                                        </SummaryAddress>
+                                                    </SummaryAddressX>
+                                                    <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                                    <SummaryCurveNameConfig>
+                                                        <SummaryCurveAutoName>
+                                                            <VectorName>True </VectorName>
+                                                            <Unit>False </Unit>
+                                                            <RegionNumber>True </RegionNumber>
+                                                            <WellGroupName>True </WellGroupName>
+                                                            <WellName>True </WellName>
+                                                            <WellSegmentNumber>True </WellSegmentNumber>
+                                                            <LgrName>True </LgrName>
+                                                            <Completion>True </Completion>
+                                                            <Aquifer>True </Aquifer>
+                                                            <CaseName>True </CaseName>
+                                                        </SummaryCurveAutoName>
+                                                    </SummaryCurveNameConfig>
+                                                    <isTopZWithinCategory>False </isTopZWithinCategory>
+                                                </SummaryCurve>
+                                            </EnsembleCurveSet>
+                                            <IsActive>True </IsActive>
+                                            <SummaryGroup>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0</SummaryGroup>
+                                            <SummaryAddress>
+                                                <SummaryAddress>
+                                                    <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                    <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                    <SummaryRegion>-1</SummaryRegion>
+                                                    <SummaryRegion2>-1</SummaryRegion2>
+                                                    <SummaryWellGroup></SummaryWellGroup>
+                                                    <SummaryWell></SummaryWell>
+                                                    <SummaryWellSegment>-1</SummaryWellSegment>
+                                                    <SummaryLgr></SummaryLgr>
+                                                    <SummaryCellI>-1</SummaryCellI>
+                                                    <SummaryCellJ>-1</SummaryCellJ>
+                                                    <SummaryCellK>-1</SummaryCellK>
+                                                    <SummaryAquifer>-1</SummaryAquifer>
+                                                    <IsErrorResult>False </IsErrorResult>
+                                                    <CalculationId>-1</CalculationId>
+                                                </SummaryAddress>
+                                            </SummaryAddress>
+                                            <ColorMode>BY_ENSEMBLE_PARAM</ColorMode>
+                                            <Color>0 0.439215689897537 0.533333361148834</Color>
+                                            <EnsembleParameter>INTERPOLATE_GO</EnsembleParameter>
+                                            <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                            <LegendConfig>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorLegend>$ROOT$ ColorLegendCollection 0 StandardColorLegends 15</ColorLegend>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                </Legend>
+                                            </LegendConfig>
+                                            <CurveFilters>
+                                                <RimEnsembleCurveFilterCollection>
+                                                    <Active>True </Active>
+                                                    <CurveFilters>
+                                                        <RimEnsembleCurveFilter>
+                                                            <Active>True </Active>
+                                                            <EnsembleParameter>INTERPOLATE_GO</EnsembleParameter>
+                                                            <MinValue>-0.977712</MinValue>
+                                                            <MaxValue>0.842532</MaxValue>
+                                                            <Categories></Categories>
+                                                            <DeleteEnsembleFilter>False </DeleteEnsembleFilter>
+                                                        </RimEnsembleCurveFilter>
+                                                    </CurveFilters>
+                                                    <NewEnsembleFilter>False </NewEnsembleFilter>
+                                                </RimEnsembleCurveFilterCollection>
+                                            </CurveFilters>
+                                            <Statistics>
+                                                <RimEnsembleStatistics>
+                                                    <Active>True </Active>
+                                                    <HideEnsembleCurves>False </HideEnsembleCurves>
+                                                    <BasedOnFilteredCases>False </BasedOnFilteredCases>
+                                                    <ShowP10Curve>True </ShowP10Curve>
+                                                    <ShowP50Curve>False </ShowP50Curve>
+                                                    <ShowP90Curve>True </ShowP90Curve>
+                                                    <ShowMeanCurve>True </ShowMeanCurve>
+                                                    <ShowCurveLabels>True </ShowCurveLabels>
+                                                    <IncludeIncompleteCurves>False </IncludeIncompleteCurves>
+                                                    <Color>0 0 0</Color>
+                                                </RimEnsembleStatistics>
+                                            </Statistics>
+                                            <UserDefinedName>Ensemble Curve Set</UserDefinedName>
+                                            <AutoName>True </AutoName>
+                                            <SummaryAddressNameTools>
+                                                <SummaryCurveAutoName>
+                                                    <VectorName>True </VectorName>
+                                                    <Unit>False </Unit>
+                                                    <RegionNumber>True </RegionNumber>
+                                                    <WellGroupName>True </WellGroupName>
+                                                    <WellName>True </WellName>
+                                                    <WellSegmentNumber>True </WellSegmentNumber>
+                                                    <LgrName>True </LgrName>
+                                                    <Completion>True </Completion>
+                                                    <Aquifer>True </Aquifer>
+                                                    <CaseName>True </CaseName>
+                                                </SummaryCurveAutoName>
+                                            </SummaryAddressNameTools>
+                                        </RimEnsembleCurveSet>
+                                    </EnsembleCurveSets>
+                                    <IsActive>True </IsActive>
+                                </RimEnsembleCurveSetCollection>
+                            </EnsembleCurveSetCollection>
+                            <GridTimeHistoryCurves/>
+                            <AsciiDataCurves/>
+                            <LeftYAxisProperties>
+                                <SummaryYAxisProperties>
+                                    <Active>True </Active>
+                                    <Name>Left Y-Axis</Name>
+                                    <AutoTitle>True </AutoTitle>
+                                    <DisplayLongName>True </DisplayLongName>
+                                    <DisplayShortName>False </DisplayShortName>
+                                    <DisplayUnitText>True </DisplayUnitText>
+                                    <CustomTitle></CustomTitle>
+                                    <VisibleRangeMax>10000000</VisibleRangeMax>
+                                    <VisibleRangeMin>0</VisibleRangeMin>
+                                    <NumberFormat>NUMBER_FORMAT_AUTO</NumberFormat>
+                                    <Decimals>2</Decimals>
+                                    <ScaleFactor>1</ScaleFactor>
+                                    <AutoZoom>True </AutoZoom>
+                                    <LogarithmicScale>False </LogarithmicScale>
+                                    <AxisInverted>False </AxisInverted>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <TitleDeltaFontSize>Medium</TitleDeltaFontSize>
+                                    <ValueDeltaFontSize>Medium</ValueDeltaFontSize>
+                                    <Annotations/>
+                                </SummaryYAxisProperties>
+                            </LeftYAxisProperties>
+                            <RightYAxisProperties>
+                                <SummaryYAxisProperties>
+                                    <Active>True </Active>
+                                    <Name>Right Y-Axis</Name>
+                                    <AutoTitle>True </AutoTitle>
+                                    <DisplayLongName>True </DisplayLongName>
+                                    <DisplayShortName>False </DisplayShortName>
+                                    <DisplayUnitText>True </DisplayUnitText>
+                                    <CustomTitle></CustomTitle>
+                                    <VisibleRangeMax>1000</VisibleRangeMax>
+                                    <VisibleRangeMin>0</VisibleRangeMin>
+                                    <NumberFormat>NUMBER_FORMAT_AUTO</NumberFormat>
+                                    <Decimals>2</Decimals>
+                                    <ScaleFactor>1</ScaleFactor>
+                                    <AutoZoom>True </AutoZoom>
+                                    <LogarithmicScale>False </LogarithmicScale>
+                                    <AxisInverted>False </AxisInverted>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <TitleDeltaFontSize>Medium</TitleDeltaFontSize>
+                                    <ValueDeltaFontSize>Medium</ValueDeltaFontSize>
+                                    <Annotations/>
+                                </SummaryYAxisProperties>
+                            </RightYAxisProperties>
+                            <BottomAxisProperties>
+                                <SummaryYAxisProperties>
+                                    <Active>True </Active>
+                                    <Name>Bottom X-Axis</Name>
+                                    <AutoTitle>True </AutoTitle>
+                                    <DisplayLongName>True </DisplayLongName>
+                                    <DisplayShortName>False </DisplayShortName>
+                                    <DisplayUnitText>True </DisplayUnitText>
+                                    <CustomTitle></CustomTitle>
+                                    <VisibleRangeMax>100</VisibleRangeMax>
+                                    <VisibleRangeMin>-10</VisibleRangeMin>
+                                    <NumberFormat>NUMBER_FORMAT_AUTO</NumberFormat>
+                                    <Decimals>2</Decimals>
+                                    <ScaleFactor>1</ScaleFactor>
+                                    <AutoZoom>True </AutoZoom>
+                                    <LogarithmicScale>False </LogarithmicScale>
+                                    <AxisInverted>False </AxisInverted>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <TitleDeltaFontSize>Medium</TitleDeltaFontSize>
+                                    <ValueDeltaFontSize>Medium</ValueDeltaFontSize>
+                                    <Annotations/>
+                                </SummaryYAxisProperties>
+                            </BottomAxisProperties>
+                            <TimeAxisProperties>
+                                <SummaryTimeAxisProperties>
+                                    <Active>True </Active>
+                                    <ShowTitle>False </ShowTitle>
+                                    <Title>Time</Title>
+                                    <AutoZoom>True </AutoZoom>
+                                    <TimeMode>DATE</TimeMode>
+                                    <TimeUnit>YEARS</TimeUnit>
+                                    <VisibleDateRangeMax>2003_07_01</VisibleDateRangeMax>
+                                    <VisibleDateRangeMin>2000_01_01</VisibleDateRangeMin>
+                                    <VisibleTimeRangeMax>00:00:00</VisibleTimeRangeMax>
+                                    <VisibleTimeRangeMin>00:00:00</VisibleTimeRangeMin>
+                                    <VisibleTimeModeRangeMax>33.4955543234974</VisibleTimeModeRangeMax>
+                                    <VisibleTimeModeRangeMin>29.9992470755731</VisibleTimeModeRangeMin>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <FontSize>Medium</FontSize>
+                                    <ValuesFontSize>Medium</ValuesFontSize>
+                                    <AutoDate>True </AutoDate>
+                                    <DateComponents>YEAR_MONTH_DAY</DateComponents>
+                                    <TimeComponents>NO_TIME</TimeComponents>
+                                    <DateFormat>yyyy;yyyy-MM;yyyy-MM-dd</DateFormat>
+                                    <TimeFormat>HH;HH:mm;HH:mm:ss;HH:mm:ss.zzz</TimeFormat>
+                                    <MajorTickmarkCount>Default</MajorTickmarkCount>
+                                    <VisibleRangeMax></VisibleRangeMax>
+                                    <VisibleRangeMin></VisibleRangeMin>
+                                </SummaryTimeAxisProperties>
+                            </TimeAxisProperties>
+                            <SummaryPlotFilterTextCurveSetEditor>
+                                <SummaryPlotFilterTextCurveSetEditor>
+                                    <CurveFilterText></CurveFilterText>
+                                    <SummaryCases>$ROOT$ OilFields 0 SummaryCaseCollection 0 SummaryCaseCollections 0</SummaryCases>
+                                </SummaryPlotFilterTextCurveSetEditor>
+                            </SummaryPlotFilterTextCurveSetEditor>
+                            <SummaryCurveFilters/>
+                            <SummaryCurves/>
+                        </SummaryPlot>
+                    </SummaryPlots>
+                </SummaryPlotCollection>
+            </SummaryPlotCollection>
+            <AnalysisPlotCollection>
+                <AnalysisPlotCollection>
+                    <AnalysisPlots/>
+                </AnalysisPlotCollection>
+            </AnalysisPlotCollection>
+            <CorrelationPlotCollection>
+                <CorrelationPlotCollection>
+                    <CorrelationPlots/>
+                    <CorrelationReports/>
+                </CorrelationPlotCollection>
+            </CorrelationPlotCollection>
+            <SummaryCrossPlotCollection>
+                <SummaryCrossPlotCollection>
+                    <SummaryCrossPlots/>
+                </SummaryCrossPlotCollection>
+            </SummaryCrossPlotCollection>
+            <FlowPlotCollection>
+                <FlowPlotCollection>
+                    <FlowCharacteristicsPlot/>
+                    <DefaultWellAllocationPlot/>
+                    <WellDistributionPlotCollection/>
+                    <StoredWellAllocationPlots/>
+                    <StoredFlowCharacteristicsPlots/>
+                </FlowPlotCollection>
+            </FlowPlotCollection>
+            <Rim3dCrossPlotCollection>
+                <RimGridCrossPlotCollection>
+                    <GridCrossPlots/>
+                </RimGridCrossPlotCollection>
+            </Rim3dCrossPlotCollection>
+            <RimSaturationPressurePlotCollection>
+                <RimSaturationPressurePlotCollection>
+                    <SaturationPressurePlots/>
+                </RimSaturationPressurePlotCollection>
+            </RimSaturationPressurePlotCollection>
+            <RimMultiPlotCollection>
+                <RimMultiPlotCollection>
+                    <MultiPlots/>
+                </RimMultiPlotCollection>
+            </RimMultiPlotCollection>
+            <FractureModelPlotCollection>
+                <FractureModelPlotCollection>
+                    <FractureModelPlots/>
+                </FractureModelPlotCollection>
+            </FractureModelPlotCollection>
+        </MainPlotCollection>
+    </MainPlotCollection>
+    <LinkedViews>
+        <RimViewLinkerCollection>
+            <Active>True </Active>
+            <ViewLinkers/>
+        </RimViewLinkerCollection>
+    </LinkedViews>
+    <CalculationCollection>
+        <RimSummaryCalculationCollection>
+            <Calculations/>
+        </RimSummaryCalculationCollection>
+    </CalculationCollection>
+    <CommandObjects/>
+    <MultiSnapshotDefinitions/>
+    <TreeViewState></TreeViewState>
+    <TreeViewCurrentModelIndexPath>0 0</TreeViewCurrentModelIndexPath>
+    <PlotWindowTreeViewState>-1-100;-1-110000020;-1-1100000;-1-11000;-1-110</PlotWindowTreeViewState>
+    <PlotWindowTreeViewCurrentModelIndexPath>1 0;0 0;0 0;2 0;0 0</PlotWindowTreeViewCurrentModelIndexPath>
+    <show3DWindow>False </show3DWindow>
+    <showPlotWindow>True </showPlotWindow>
+    <tiled3DWindow>False </tiled3DWindow>
+    <tiledPlotWindow>False </tiledPlotWindow>
+    <DialogData>
+        <RimDialogData>
+            <ExportCarfin>
+                <RicExportCarfinUi>
+                    <CellRange>
+                        <RicCellRangeUi>
+                            <Case></Case>
+                            <GridIndex>0</GridIndex>
+                            <StartIndexI>1</StartIndexI>
+                            <StartIndexJ>1</StartIndexJ>
+                            <StartIndexK>1</StartIndexK>
+                            <CellCountI>1</CellCountI>
+                            <CellCountJ>1</CellCountJ>
+                            <CellCountK>1</CellCountK>
+                        </RicCellRangeUi>
+                    </CellRange>
+                    <ExportFileName></ExportFileName>
+                    <CaseToApply></CaseToApply>
+                    <CellCountI>2</CellCountI>
+                    <CellCountJ>2</CellCountJ>
+                    <CellCountK>2</CellCountK>
+                    <MaxWellCount>8</MaxWellCount>
+                </RicExportCarfinUi>
+            </ExportCarfin>
+            <ExportCompletionData>
+                <RicExportCompletionDataSettingsUi>
+                    <Folder></Folder>
+                    <CaseToApply></CaseToApply>
+                    <FileSplit>SPLIT_ON_WELL_AND_COMPLETION_TYPE</FileSplit>
+                    <compdatExport>TRANSMISSIBILITIES</compdatExport>
+                    <TimeStepIndex>0</TimeStepIndex>
+                    <IncludeMSW>True </IncludeMSW>
+                    <UseLateralNTG>False </UseLateralNTG>
+                    <IncludePerforations>True </IncludePerforations>
+                    <IncludeFishbones>True </IncludeFishbones>
+                    <IncludeFractures>True </IncludeFractures>
+                    <TransScalingType>False </TransScalingType>
+                    <TransScalingTimeStep>0</TransScalingTimeStep>
+                    <TransScalingWBHPSource>WBHP_SUMMARY</TransScalingWBHPSource>
+                    <TransScalingWBHP>200</TransScalingWBHP>
+                    <ExcludeMainBoreForFishbones>False </ExcludeMainBoreForFishbones>
+                    <ReportCompletionTypesSeparately>INDIVIDUALLY</ReportCompletionTypesSeparately>
+                </RicExportCompletionDataSettingsUi>
+            </ExportCompletionData>
+            <MultipleFractionsData>
+                <RiuCreateMultipleFractionsUi>
+                    <SourceCase></SourceCase>
+                    <MinDistanceFromWellTd>10</MinDistanceFromWellTd>
+                    <MaxFracturesPerWell>10</MaxFracturesPerWell>
+                    <Options/>
+                    <FractureCreationSummary>-- Selected Wells
+   
+</FractureCreationSummary>
+                </RiuCreateMultipleFractionsUi>
+            </MultipleFractionsData>
+            <HoloLenseExportToFolderData>
+                <RicHoloLensExportToFolderUi>
+                    <ViewForExport></ViewForExport>
+                    <ExportFolder></ExportFolder>
+                </RicHoloLensExportToFolderUi>
+            </HoloLenseExportToFolderData>
+            <ExportwellPathsData>
+                <RicExportWellPathsUi>
+                    <ExportFolder></ExportFolder>
+                    <MdStepSize>5</MdStepSize>
+                </RicExportWellPathsUi>
+            </ExportwellPathsData>
+            <ExportLgr>
+                <RicExportLgrUi>
+                    <ExportFolder></ExportFolder>
+                    <CaseToApply></CaseToApply>
+                    <TimeStepIndex>0</TimeStepIndex>
+                    <IncludePerforations>True </IncludePerforations>
+                    <IncludeFractures>True </IncludeFractures>
+                    <IncludeFishbones>True </IncludeFishbones>
+                    <CellCountI>2</CellCountI>
+                    <CellCountJ>2</CellCountJ>
+                    <CellCountK>2</CellCountK>
+                    <SplitType>LGR_PER_COMPLETION</SplitType>
+                </RicExportLgrUi>
+            </ExportLgr>
+            <ExportSectorModel>
+                <RicExportEclipseInputGridUi>
+                    <ExportGrid>True </ExportGrid>
+                    <ExportGridFilename>C:/Users/Magne/GRID.GRDECL</ExportGridFilename>
+                    <ExportInLocalCoords>False </ExportInLocalCoords>
+                    <InvisibleCellActnum>False </InvisibleCellActnum>
+                    <GridBoxSelection>VISIBLE_CELLS</GridBoxSelection>
+                    <MinI>2147483647</MinI>
+                    <MinJ>2147483647</MinJ>
+                    <MinK>2147483647</MinK>
+                    <MaxI>-2147483647</MaxI>
+                    <MaxJ>-2147483647</MaxJ>
+                    <MaxK>-2147483647</MaxK>
+                    <ExportFaults>TO_SINGLE_RESULT_FILE</ExportFaults>
+                    <ExportFaultsFilename>C:/Users/Magne/FAULTS.GRDECL</ExportFaultsFilename>
+                    <RefinementCountI>1</RefinementCountI>
+                    <RefinementCountJ>1</RefinementCountJ>
+                    <RefinementCountK>1</RefinementCountK>
+                    <ExportParams>TO_SEPARATE_RESULT_FILES</ExportParams>
+                    <ExportParamsFilename>C:/Users/Magne/RESULTS.GRDECL</ExportParamsFilename>
+                    <ExportMainKeywords></ExportMainKeywords>
+                </RicExportEclipseInputGridUi>
+            </ExportSectorModel>
+            <MockModelSettings>
+                <MockModelSettings>
+                    <CellCountX>100</CellCountX>
+                    <CellCountY>100</CellCountY>
+                    <CellCountZ>10</CellCountZ>
+                    <TotalCellCount>0</TotalCellCount>
+                    <ResultCount>3</ResultCount>
+                    <TimeStepCount>10</TimeStepCount>
+                </MockModelSettings>
+            </MockModelSettings>
+        </RimDialogData>
+    </DialogData>
+</ResInsightProject>

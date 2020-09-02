@@ -1,0 +1,3 @@
+[submodule "model-data/webviz-subsurface-testdata"]
+	path = model-data/webviz-subsurface-testdata
+	url = https://github.com/equinor/webviz-subsurface-testdata

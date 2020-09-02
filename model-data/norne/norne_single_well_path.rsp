@@ -1,0 +1,2065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResInsightProject>
+    <DocumentFileName>D:/Models/Statoil/!kurs og opplæring/UserCourse2019/Demo1_3Dviz/norne_single_well_path.rsp</DocumentFileName>
+    <ProjectFileVersionString>2018.11.2</ProjectFileVersionString>
+    <NextValidCaseId>1</NextValidCaseId>
+    <NextValidCaseGroupId>0</NextValidCaseGroupId>
+    <OilFields>
+        <ResInsightOilField>
+            <AnalysisModels>
+                <ResInsightAnalysisModels>
+                    <Reservoirs>
+                        <EclipseCase>
+                            <CaseUserDescription>NORNE_ATW2013_RFTPLT_V2</CaseUserDescription>
+                            <CaseId>0</CaseId>
+                            <DefaultFormationNames></DefaultFormationNames>
+                            <TimeStepFilter>
+                                <RimTimeStepFilter>
+                                    <FilterType>TS_ALL</FilterType>
+                                    <FirstTimeStep>0</FirstTimeStep>
+                                    <LastTimeStep>9</LastTimeStep>
+                                    <Interval>1</Interval>
+                                    <DateFormat>dd.MMM yyyy</DateFormat>
+                                    <TimeStepIndicesToImport>0 1 2 3 4 5 6 7 8 9 </TimeStepIndicesToImport>
+                                </RimTimeStepFilter>
+                            </TimeStepFilter>
+                            <IntersectionViewCollection>
+                                <Intersection2dViewCollection>
+                                    <IntersectionViews>
+                                        <Intersection2dView>
+                                            <WindowController>
+                                                <MdiWindowController>
+                                                    <MainWindowID>0</MainWindowID>
+                                                    <xPos>0</xPos>
+                                                    <yPos>0</yPos>
+                                                    <Width>-1</Width>
+                                                    <Height>-1</Height>
+                                                    <IsMaximized>False </IsMaximized>
+                                                </MdiWindowController>
+                                            </WindowController>
+                                            <ShowWindow>False </ShowWindow>
+                                            <UserDescription>View 1: Intersection</UserDescription>
+                                            <CameraPosition>1 0 0 0 0 0 1 0 0 -1 0 1000 0 0 0 1</CameraPosition>
+                                            <CameraPointOfInterest>0 0 0</CameraPointOfInterest>
+                                            <GridZScale>5</GridZScale>
+                                            <ViewBackgroundColor>0.689999997615814 0.769999980926514 0.870000004768372</ViewBackgroundColor>
+                                            <MaximumFrameRate>10</MaximumFrameRate>
+                                            <AnimationMode>True </AnimationMode>
+                                            <CurrentTimeStep>0</CurrentTimeStep>
+                                            <MeshMode>FULL_MESH</MeshMode>
+                                            <SurfaceMode>SURFACE</SurfaceMode>
+                                            <DisableLighting>False </DisableLighting>
+                                            <Intersection>.. .. ReservoirViews 0 CrossSections 0 CrossSections 0</Intersection>
+                                            <ShowDefiningPoints>True </ShowDefiningPoints>
+                                            <ShowAxisLines>False </ShowAxisLines>
+                                        </Intersection2dView>
+                                    </IntersectionViews>
+                                </Intersection2dViewCollection>
+                            </IntersectionViewCollection>
+                            <ReservoirViews>
+                                <ReservoirView>
+                                    <WindowController>
+                                        <MdiWindowController>
+                                            <MainWindowID>0</MainWindowID>
+                                            <xPos>0</xPos>
+                                            <yPos>0</yPos>
+                                            <Width>1520</Width>
+                                            <Height>1098</Height>
+                                            <IsMaximized>True </IsMaximized>
+                                        </MdiWindowController>
+                                    </WindowController>
+                                    <ShowWindow>True </ShowWindow>
+                                    <UserDescription>View 1</UserDescription>
+                                    <CameraPosition>0.967687737255766 -0.248791237682299 -0.0410288096015931 -2284.17868028058 0.160734033910554 0.483261318350077 0.860594601731492 -3072.62854112565 -0.194280759489083 -0.839381568917888 0.507635270891701 -7850.3704554572 0 0 0 1</CameraPosition>
+                                    <CameraPointOfInterest>1296.6264572843 2452.00681565422 1823.21855144807</CameraPointOfInterest>
+                                    <PerspectiveProjection>True </PerspectiveProjection>
+                                    <GridZScale>5</GridZScale>
+                                    <ViewBackgroundColor>0.689999997615814 0.769999980926514 0.870000004768372</ViewBackgroundColor>
+                                    <MaximumFrameRate>10</MaximumFrameRate>
+                                    <AnimationMode>True </AnimationMode>
+                                    <CurrentTimeStep>0</CurrentTimeStep>
+                                    <MeshMode>FULL_MESH</MeshMode>
+                                    <SurfaceMode>SURFACE</SurfaceMode>
+                                    <ShowGridBox>True </ShowGridBox>
+                                    <DisableLighting>False </DisableLighting>
+                                    <RangeFilters>
+                                        <CellRangeFilterCollection>
+                                            <RangeFilters/>
+                                            <Active>True </Active>
+                                        </CellRangeFilterCollection>
+                                    </RangeFilters>
+                                    <CrossSections>
+                                        <CrossSectionCollection>
+                                            <CrossSections>
+                                                <CrossSection>
+                                                    <UserDescription>Intersection</UserDescription>
+                                                    <Active>True </Active>
+                                                    <Type>CS_POLYLINE</Type>
+                                                    <Direction>CS_VERTICAL</Direction>
+                                                    <WellPath></WellPath>
+                                                    <SimulationWell></SimulationWell>
+                                                    <Points>455742.312845523 7320952.918001 -2561.12168563545 457885.575346297 7322324.61419512 -2530.22423451262 459105.364108309 7322760.90997029 -2642.8957690051 461192.738836733 7324080.62870742 -2544.58322983505 </Points>
+                                                    <AzimuthAngle>0</AzimuthAngle>
+                                                    <DipAngle>90</DipAngle>
+                                                    <CustomExtrusionPoints></CustomExtrusionPoints>
+                                                    <TwoAzimuthPoints></TwoAzimuthPoints>
+                                                    <Branch>-1</Branch>
+                                                    <ExtentLength>200</ExtentLength>
+                                                    <lengthUp>1000</lengthUp>
+                                                    <lengthDown>1000</lengthDown>
+                                                    <ShowInactiveCells>False </ShowInactiveCells>
+                                                </CrossSection>
+                                            </CrossSections>
+                                            <IntersectionBoxes/>
+                                            <Active>True </Active>
+                                        </CrossSectionCollection>
+                                    </CrossSections>
+                                    <GridCollection>
+                                        <GridCollection>
+                                            <IsActive>False </IsActive>
+                                            <MainGrid>
+                                                <GridInfo>
+                                                    <IsActive>True </IsActive>
+                                                    <GridName>Main Grid</GridName>
+                                                    <GridIndex>0</GridIndex>
+                                                </GridInfo>
+                                            </MainGrid>
+                                            <PersistentLgrs>
+                                                <GridInfoCollection>
+                                                    <IsActive>True </IsActive>
+                                                    <GridInfos/>
+                                                </GridInfoCollection>
+                                            </PersistentLgrs>
+                                        </GridCollection>
+                                    </GridCollection>
+                                    <OverlayInfoConfig>
+                                        <View3dOverlayInfoConfig>
+                                            <Active>True </Active>
+                                            <ShowAnimProgress>True </ShowAnimProgress>
+                                            <ShowInfoText>True </ShowInfoText>
+                                            <ShowResultInfo>True </ShowResultInfo>
+                                            <ShowHistogram>True </ShowHistogram>
+                                            <ShowVolumeWeightedMean>True </ShowVolumeWeightedMean>
+                                            <StatisticsTimeRange>ALL_TIMESTEPS</StatisticsTimeRange>
+                                            <StatisticsCellRange>ALL_CELLS</StatisticsCellRange>
+                                        </View3dOverlayInfoConfig>
+                                    </OverlayInfoConfig>
+                                    <GridCellResult>
+                                        <ResultSlot>
+                                            <ResultType>DYNAMIC_NATIVE</ResultType>
+                                            <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                            <ResultVariable>SOIL</ResultVariable>
+                                            <FlowDiagSolution>.. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                            <SelectedTracers></SelectedTracers>
+                                            <SelectedInjectorTracers></SelectedInjectorTracers>
+                                            <SelectedProducerTracers></SelectedProducerTracers>
+                                            <SelectedSouringTracers></SelectedSouringTracers>
+                                            <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                            <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                            <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                            <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                            <ResultVarLegendDefinitionList>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorRangeMode>NORMAL</ColorRangeMode>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <ResultVariableUsage>None</ResultVariableUsage>
+                                                </Legend>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorRangeMode>NORMAL</ColorRangeMode>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <ResultVariableUsage>SOIL</ResultVariableUsage>
+                                                </Legend>
+                                            </ResultVarLegendDefinitionList>
+                                            <TernaryLegendDefinition>
+                                                <RimTernaryLegendConfig>
+                                                    <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                    <Precision>2</Precision>
+                                                    <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                    <ternaryRangeSummary></ternaryRangeSummary>
+                                                    <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                    <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                    <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                    <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                    <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                    <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                </RimTernaryLegendConfig>
+                                            </TernaryLegendDefinition>
+                                            <LegendDefinitionPtrField>ResultVarLegendDefinitionList 1</LegendDefinitionPtrField>
+                                        </ResultSlot>
+                                    </GridCellResult>
+                                    <GridCellEdgeResult>
+                                        <CellEdgeResultSlot>
+                                            <EnableCellEdgeColors>False </EnableCellEdgeColors>
+                                            <propertyType>MULTI_AXIS_STATIC_PROPERTY</propertyType>
+                                            <CellEdgeVariable>MULT</CellEdgeVariable>
+                                            <UseXVariable>True </UseXVariable>
+                                            <UseYVariable>True </UseYVariable>
+                                            <UseZVariable>True </UseZVariable>
+                                            <LegendDefinition>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorRangeMode>PINK_WHITE</ColorRangeMode>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                </Legend>
+                                            </LegendDefinition>
+                                            <SingleVarEdgeResult>
+                                                <ResultSlot>
+                                                    <ResultType>DYNAMIC_NATIVE</ResultType>
+                                                    <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                                    <ResultVariable>None</ResultVariable>
+                                                    <FlowDiagSolution>.. .. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                                    <SelectedTracers></SelectedTracers>
+                                                    <SelectedInjectorTracers></SelectedInjectorTracers>
+                                                    <SelectedProducerTracers></SelectedProducerTracers>
+                                                    <SelectedSouringTracers></SelectedSouringTracers>
+                                                    <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                                    <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                                    <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                                    <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                                    <ResultVarLegendDefinitionList>
+                                                        <Legend>
+                                                            <ShowLegend>True </ShowLegend>
+                                                            <NumberOfLevels>8</NumberOfLevels>
+                                                            <Precision>4</Precision>
+                                                            <TickNumberFormat>FIXED</TickNumberFormat>
+                                                            <ColorRangeMode>NORMAL</ColorRangeMode>
+                                                            <MappingMode>LinearContinuous</MappingMode>
+                                                            <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                            <UserDefinedMax>1</UserDefinedMax>
+                                                            <UserDefinedMin>0</UserDefinedMin>
+                                                            <ResultVariableUsage>None</ResultVariableUsage>
+                                                        </Legend>
+                                                    </ResultVarLegendDefinitionList>
+                                                    <TernaryLegendDefinition>
+                                                        <RimTernaryLegendConfig>
+                                                            <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                            <Precision>2</Precision>
+                                                            <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                            <ternaryRangeSummary></ternaryRangeSummary>
+                                                            <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                            <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                            <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                            <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                            <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                            <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                        </RimTernaryLegendConfig>
+                                                    </TernaryLegendDefinition>
+                                                    <LegendDefinitionPtrField>ResultVarLegendDefinitionList 0</LegendDefinitionPtrField>
+                                                </ResultSlot>
+                                            </SingleVarEdgeResult>
+                                        </CellEdgeResultSlot>
+                                    </GridCellEdgeResult>
+                                    <FaultResultSettings>
+                                        <RimFaultResultSlot>
+                                            <ShowCustomFaultResult>False </ShowCustomFaultResult>
+                                            <CustomResultSlot>
+                                                <ResultSlot>
+                                                    <ResultType>DYNAMIC_NATIVE</ResultType>
+                                                    <PorosityModelType>MATRIX_MODEL</PorosityModelType>
+                                                    <ResultVariable>None</ResultVariable>
+                                                    <FlowDiagSolution>.. .. .. FlowDiagSolutions 0</FlowDiagSolution>
+                                                    <SelectedTracers></SelectedTracers>
+                                                    <SelectedInjectorTracers></SelectedInjectorTracers>
+                                                    <SelectedProducerTracers></SelectedProducerTracers>
+                                                    <SelectedSouringTracers></SelectedSouringTracers>
+                                                    <FlowTracerSelectionMode>FLOW_TR_INJ_AND_PROD</FlowTracerSelectionMode>
+                                                    <PhaseSelection>PHASE_ALL</PhaseSelection>
+                                                    <MSyncSelectedInjProd>False </MSyncSelectedInjProd>
+                                                    <MSyncSelectedProdInj>False </MSyncSelectedProdInj>
+                                                    <ResultVarLegendDefinitionList>
+                                                        <Legend>
+                                                            <ShowLegend>True </ShowLegend>
+                                                            <NumberOfLevels>8</NumberOfLevels>
+                                                            <Precision>4</Precision>
+                                                            <TickNumberFormat>FIXED</TickNumberFormat>
+                                                            <ColorRangeMode>NORMAL</ColorRangeMode>
+                                                            <MappingMode>LinearContinuous</MappingMode>
+                                                            <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                            <UserDefinedMax>1</UserDefinedMax>
+                                                            <UserDefinedMin>0</UserDefinedMin>
+                                                            <ResultVariableUsage>None</ResultVariableUsage>
+                                                        </Legend>
+                                                    </ResultVarLegendDefinitionList>
+                                                    <TernaryLegendDefinition>
+                                                        <RimTernaryLegendConfig>
+                                                            <ShowTernaryLegend>True </ShowTernaryLegend>
+                                                            <Precision>2</Precision>
+                                                            <RangeType>USER_DEFINED_MAX_MIN</RangeType>
+                                                            <ternaryRangeSummary></ternaryRangeSummary>
+                                                            <UserDefinedMaxSoil>1</UserDefinedMaxSoil>
+                                                            <UserDefinedMinSoil>0</UserDefinedMinSoil>
+                                                            <UserDefinedMaxSgas>1</UserDefinedMaxSgas>
+                                                            <UserDefinedMinSgas>0</UserDefinedMinSgas>
+                                                            <UserDefinedMaxSwat>1</UserDefinedMaxSwat>
+                                                            <UserDefinedMinSwat>0</UserDefinedMinSwat>
+                                                        </RimTernaryLegendConfig>
+                                                    </TernaryLegendDefinition>
+                                                    <LegendDefinitionPtrField>ResultVarLegendDefinitionList 0</LegendDefinitionPtrField>
+                                                </ResultSlot>
+                                            </CustomResultSlot>
+                                        </RimFaultResultSlot>
+                                    </FaultResultSettings>
+                                    <StimPlanColors>
+                                        <RimStimPlanColors>
+                                            <IsChecked>True </IsChecked>
+                                            <ResultName></ResultName>
+                                            <DefaultColor>0.647058844566345 0.164705887436867 0.164705887436867</DefaultColor>
+                                            <LegendConfigurations/>
+                                            <ShowStimPlanMesh>True </ShowStimPlanMesh>
+                                            <StimPlanCellVizMode>COLOR_INTERPOLATION</StimPlanCellVizMode>
+                                        </RimStimPlanColors>
+                                    </StimPlanColors>
+                                    <VirtualPerforationResult>
+                                        <RimVirtualPerforationResults>
+                                            <ShowConnectionFactors>False </ShowConnectionFactors>
+                                            <ShowClosedConnections>True </ShowClosedConnections>
+                                            <GeometryScaleFactor>2</GeometryScaleFactor>
+                                            <LegendDefinition>
+                                                <Legend>
+                                                    <ShowLegend>True </ShowLegend>
+                                                    <NumberOfLevels>8</NumberOfLevels>
+                                                    <Precision>4</Precision>
+                                                    <TickNumberFormat>FIXED</TickNumberFormat>
+                                                    <ColorRangeMode>NORMAL</ColorRangeMode>
+                                                    <MappingMode>LinearContinuous</MappingMode>
+                                                    <RangeType>AUTOMATIC_ALLTIMESTEPS</RangeType>
+                                                    <UserDefinedMax>1</UserDefinedMax>
+                                                    <UserDefinedMin>0</UserDefinedMin>
+                                                    <ResultVariableUsage></ResultVariableUsage>
+                                                </Legend>
+                                            </LegendDefinition>
+                                        </RimVirtualPerforationResults>
+                                    </VirtualPerforationResult>
+                                    <WellCollection>
+                                        <Wells>
+                                            <Active>True </Active>
+                                            <ShowWellsIntersectingVisibleCells>False </ShowWellsIntersectingVisibleCells>
+                                            <WellHeadScale>1</WellHeadScale>
+                                            <WellPipeRadiusScale>0.1</WellPipeRadiusScale>
+                                            <CellCenterSphereScale>0.2</CellCenterSphereScale>
+                                            <WellLabelColor>0.919996976852417 0.919996976852417 0.919996976852417</WellLabelColor>
+                                            <ShowConnectionStatusColors>True </ShowConnectionStatusColors>
+                                            <WellColorForApply>1 1 0</WellColorForApply>
+                                            <WellPipeVertexCount>12</WellPipeVertexCount>
+                                            <WellPipeCoordType>WELLPIPE_INTERPOLATED</WellPipeCoordType>
+                                            <DefaultWellFenceDirection>K_DIRECTION</DefaultWellFenceDirection>
+                                            <WellCellTransparency>0.5</WellCellTransparency>
+                                            <IsAutoDetectingBranches>True </IsAutoDetectingBranches>
+                                            <WellHeadPosition>WELLHEAD_POS_TOP_COLUMN</WellHeadPosition>
+                                            <Wells>
+                                                <Well>
+                                                    <WellName>B-1AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.501960813999176 0.243137255311012 0.458823531866074</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-1BH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.686274528503418 0.168627455830574 0.490196079015732</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-1H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.847058832645416 0.152941182255745 0.521568655967712</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-2H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.921568632125854 0.34901961684227 0.545098066329956</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-3H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.917647063732147 0.352941185235977 0.454901963472366</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-4AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.800000011920929 0.0941176488995552 0.215686276555061</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-4BH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.666666686534882 0.0313725508749485 0.0980392172932625</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-4DH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.521568655967712 0.0862745121121407 0.0588235296308994</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>B-4H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.709803938865662 0.156862750649452 0.062745101749897</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>C-1H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.945098042488098 0.235294118523598 0.0823529437184334</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>C-2H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.976470589637756 0.376470595598221 0.243137255311012</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>C-3H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.925490200519562 0.474509805440903 0.364705890417099</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>C-4AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.650980412960052 0.450980395078659 0.388235300779343</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>C-4H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.635294139385223 0.431372553110123 0.294117659330368</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-1CH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.91372549533844 0.411764711141586 0.0705882385373116</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-1H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.752941191196442 0.329411774873734 0.0313725508749485</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-2H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.388235300779343 0.211764708161354 0.0784313753247261</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-3AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.674509823322296 0.380392163991928 0.0431372560560703</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-3BH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.988235294818878 0.560784339904785 0.0235294122248888</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-3H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.882352948188782 0.603921592235565 0.239215686917305</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-4AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.835294127464294 0.662745118141174 0.317647069692612</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>D-4H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.917647063732147 0.745098054409027 0.10196078568697</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-1H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.843137264251709 0.749019622802734 0</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-2AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.631372570991516 0.682352960109711 0</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-2H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.43529412150383 0.529411792755127 0.0352941192686558</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-3AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.243137255311012 0.341176480054855 0.0862745121121407</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-3BH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.109803922474384 0.415686279535294 0.149019613862038</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-3CH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.0196078438311815 0.490196079015732 0.227450981736183</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-3H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.137254908680916 0.490196079015732 0.384313732385635</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-4AH</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.168627455830574 0.454901963472366 0.494117647409439</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>E-4H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.0509803928434849 0.364705890417099 0.52549022436142</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>F-1H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.211764708161354 0.458823531866074 0.639215707778931</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>F-2H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.572549045085907 0.694117665290833 0.807843148708344</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>F-3H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.443137258291245 0.545098066329956 0.858823537826538</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                                <Well>
+                                                    <WellName>F-4H</WellName>
+                                                    <ShowWell>True </ShowWell>
+                                                    <ShowWellLabel>True </ShowWellLabel>
+                                                    <ShowWellHead>True </ShowWellHead>
+                                                    <ShowWellPipe>True </ShowWellPipe>
+                                                    <ShowWellSpheres>False </ShowWellSpheres>
+                                                    <WellHeadScaleFactor>1</WellHeadScaleFactor>
+                                                    <WellPipeRadiusScale>1</WellPipeRadiusScale>
+                                                    <WellPipeColor>0.180392161011696 0.298039227724075 0.878431379795074</WellPipeColor>
+                                                    <ShowWellCells>False </ShowWellCells>
+                                                    <ShowWellCellFence>False </ShowWellCellFence>
+                                                    <FractureCollection>
+                                                        <SimWellFractureCollection>
+                                                            <Fractures/>
+                                                        </SimWellFractureCollection>
+                                                    </FractureCollection>
+                                                </Well>
+                                            </Wells>
+                                            <ShowWellCommunicationLines>False </ShowWellCommunicationLines>
+                                        </Wells>
+                                    </WellCollection>
+                                    <FaultCollection>
+                                        <Faults>
+                                            <Active>False </Active>
+                                            <ShowFaultFaces>True </ShowFaultFaces>
+                                            <ShowOppositeFaultFaces>True </ShowOppositeFaultFaces>
+                                            <ShowFaultsOutsideFilters>True </ShowFaultsOutsideFilters>
+                                            <FaultFaceCulling>FAULT_BACK_FACE_CULLING</FaultFaceCulling>
+                                            <ShowFaultLabel>False </ShowFaultLabel>
+                                            <FaultLabelColor>0.919996976852417 0.919996976852417 0.919996976852417</FaultLabelColor>
+                                            <ShowNNCs>True </ShowNNCs>
+                                            <HideNncsWhenNoResultIsAvailable>True </HideNncsWhenNoResultIsAvailable>
+                                            <NoCommonAreaNnncCollection>
+                                                <RimNoCommonAreaNncCollection>
+                                                    <UserDescription>NNCs With No Common Area (0)</UserDescription>
+                                                </RimNoCommonAreaNncCollection>
+                                            </NoCommonAreaNnncCollection>
+                                            <Faults>
+                                                <Fault>
+                                                    <FaultName>Undefined Grid Faults</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>Undefined Grid Faults With Inactive</FaultName>
+                                                    <ShowFault>False </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>B2</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>BC</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.549019634723663 0.670588254928589 0.933333337306976</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_01</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.803921580314636 0.513725519180298</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_01_Ti</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.862745106220245 0.831372559070587 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_02</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.509803950786591 1 0.470588237047195</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_04</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.650980412960052 0.862745106220245 0.843137264251709</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_05</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.658823549747467 0.862745106220245 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_06</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.250980406999588 0.925490200519562</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_08</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_08_Ile</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_08_S</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_08_S_Ti</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.549019634723663 0.670588254928589 0.933333337306976</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_08_Ti</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.803921580314636 0.513725519180298</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_09</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.862745106220245 0.831372559070587 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_10</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.509803950786591 1 0.470588237047195</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_12</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.650980412960052 0.862745106220245 0.843137264251709</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_20</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.658823549747467 0.862745106220245 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_20_LTo</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.250980406999588 0.925490200519562</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_21</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_21_Ti</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_22</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_23</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.549019634723663 0.670588254928589 0.933333337306976</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_24</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.803921580314636 0.513725519180298</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_25</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.862745106220245 0.831372559070587 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_26</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.509803950786591 1 0.470588237047195</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_26N</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.650980412960052 0.862745106220245 0.843137264251709</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_27</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.658823549747467 0.862745106220245 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_28</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.250980406999588 0.925490200519562</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>C_29</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>CD</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>CD_0</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>CD_1</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.549019634723663 0.670588254928589 0.933333337306976</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>CD_B3</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.803921580314636 0.513725519180298</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>CD_To</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.862745106220245 0.831372559070587 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>D_05</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.509803950786591 1 0.470588237047195</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DE_0</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.650980412960052 0.862745106220245 0.843137264251709</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DE_1</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.658823549747467 0.862745106220245 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DE_1_LTo</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.250980406999588 0.925490200519562</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DE_2</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DE_B3</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DI</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>DI_S</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.549019634723663 0.670588254928589 0.933333337306976</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>E_01</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.803921580314636 0.513725519180298</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>E_01_F3</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.862745106220245 0.831372559070587 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>EF</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.509803950786591 1 0.470588237047195</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_01</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.650980412960052 0.862745106220245 0.843137264251709</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_02</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.658823549747467 0.862745106220245 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_03</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.250980406999588 0.925490200519562</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_05</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_07</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_08</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_09</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.549019634723663 0.670588254928589 0.933333337306976</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>G_13</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.803921580314636 0.513725519180298</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>GH</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.862745106220245 0.831372559070587 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>H_03</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.509803950786591 1 0.470588237047195</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>IH</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.650980412960052 0.862745106220245 0.843137264251709</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>m_east</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.658823549747467 0.862745106220245 0.650980412960052</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>m_east_2</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.250980406999588 0.925490200519562</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>m_north</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.396078437566757 0.517647087574005 0.376470595598221</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>m_northe</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>1 0.513725519180298 0.549019634723663</Color>
+                                                </Fault>
+                                                <Fault>
+                                                    <FaultName>m_west</FaultName>
+                                                    <ShowFault>True </ShowFault>
+                                                    <Color>0.823529422283173 0.690196096897125 0.439215689897537</Color>
+                                                </Fault>
+                                            </Faults>
+                                        </Faults>
+                                    </FaultCollection>
+                                    <PropertyFilters>
+                                        <CellPropertyFilters>
+                                            <Active>True </Active>
+                                            <PropertyFilters/>
+                                        </CellPropertyFilters>
+                                    </PropertyFilters>
+                                    <ShowInactiveCells>False </ShowInactiveCells>
+                                    <ShowInvalidCells>False </ShowInvalidCells>
+                                </ReservoirView>
+                            </ReservoirViews>
+                            <MatrixModelResults>
+                                <ReservoirCellResultStorage>
+                                    <ResultCacheFileName></ResultCacheFileName>
+                                    <ResultCacheEntries/>
+                                </ReservoirCellResultStorage>
+                            </MatrixModelResults>
+                            <FractureModelResults>
+                                <ReservoirCellResultStorage>
+                                    <ResultCacheFileName></ResultCacheFileName>
+                                    <ResultCacheEntries/>
+                                </ReservoirCellResultStorage>
+                            </FractureModelResults>
+                            <FlipXAxis>False </FlipXAxis>
+                            <FlipYAxis>False </FlipYAxis>
+                            <CachedFileNamesContainingFaults>D:/Models/Statoil/!kurs og opplæring/UserCourse2019/Demo1_3Dviz/FAULT_JUN_05.INC</CachedFileNamesContainingFaults>
+                            <ContourMaps>
+                                <Eclipse2dViewCollection>
+                                    <EclipseViews/>
+                                </Eclipse2dViewCollection>
+                            </ContourMaps>
+                            <CaseFileName>D:/Models/Statoil/!kurs og opplæring/UserCourse2019/Demo1_3Dviz/NORNE_ATW2013_RFTPLT_V2.EGRID</CaseFileName>
+                            <UnitSystem>UNITS_METRIC</UnitSystem>
+                            <FlowDiagSolutions>
+                                <FlowDiagSolution>
+                                    <UserDescription>All Wells</UserDescription>
+                                </FlowDiagSolution>
+                            </FlowDiagSolutions>
+                            <SourSimFileName></SourSimFileName>
+                        </EclipseCase>
+                    </Reservoirs>
+                    <CaseGroups/>
+                </ResInsightAnalysisModels>
+            </AnalysisModels>
+            <GeoMechModels/>
+            <WellPathCollection>
+                <WellPaths>
+                    <Active>True </Active>
+                    <ShowWellPathLabel>True </ShowWellPathLabel>
+                    <WellPathLabelColor>0.919996976852417 0.919996976852417 0.919996976852417</WellPathLabelColor>
+                    <GlobalWellPathVisibility>ALL_ON</GlobalWellPathVisibility>
+                    <WellPathRadiusScale>0.1</WellPathRadiusScale>
+                    <WellPathClip>True </WellPathClip>
+                    <WellPathClipZDistance>100</WellPathClipZDistance>
+                    <WellPaths>
+                        <ModeledWellPath>
+                            <WellPathName>UWell-1</WellPathName>
+                            <UnitSystem>UNITS_METRIC</UnitSystem>
+                            <SimWellName></SimWellName>
+                            <SimBranchIndex>0</SimBranchIndex>
+                            <ShowWellPathLabel>True </ShowWellPathLabel>
+                            <ShowWellPath>True </ShowWellPath>
+                            <WellPathRadiusScale>1</WellPathRadiusScale>
+                            <WellPathColor>0.800000011920929 0 0.800000011920929</WellPathColor>
+                            <Completions>
+                                <WellPathCompletions>
+                                    <Perforations>
+                                        <PerforationCollection>
+                                            <Name>Perforations</Name>
+                                            <IsChecked>True </IsChecked>
+                                            <Perforations/>
+                                            <MswParameters>
+                                                <RimMswCompletionParameters>
+                                                    <LinerDiameter>0.152</LinerDiameter>
+                                                    <RoughnessFactor>1e-05</RoughnessFactor>
+                                                    <PressureDrop>HF-</PressureDrop>
+                                                    <LengthAndDepth>INC</LengthAndDepth>
+                                                    <EnforceMaxSegmentLength>False </EnforceMaxSegmentLength>
+                                                    <MaxSegmentLength>200</MaxSegmentLength>
+                                                </RimMswCompletionParameters>
+                                            </MswParameters>
+                                            <NonDarcyParameters>
+                                                <RimNonDarcyPerforationParameters>
+                                                    <NonDarcyFlowType>None</NonDarcyFlowType>
+                                                    <UserDefinedDFactor>1</UserDefinedDFactor>
+                                                    <GridPermeabilityScalingFactor>1</GridPermeabilityScalingFactor>
+                                                    <WellRadius>0.108</WellRadius>
+                                                    <RelativeGasDensity>0.8</RelativeGasDensity>
+                                                    <GasViscosity>0.02</GasViscosity>
+                                                    <InertialCoefficientBeta0>883.9</InertialCoefficientBeta0>
+                                                    <PermeabilityScalingFactor>-1.1045</PermeabilityScalingFactor>
+                                                    <PorosityScalingFactor>0</PorosityScalingFactor>
+                                                </RimNonDarcyPerforationParameters>
+                                            </NonDarcyParameters>
+                                        </PerforationCollection>
+                                    </Perforations>
+                                    <Fishbones>
+                                        <FishbonesCollection>
+                                            <Name>Fishbones</Name>
+                                            <IsChecked>True </IsChecked>
+                                            <FishbonesSubs/>
+                                            <WellPathCollection>
+                                                <WellPathCompletionCollection>
+                                                    <Name>Imported Laterals</Name>
+                                                    <IsChecked>True </IsChecked>
+                                                    <WellPaths/>
+                                                    <PipeProperties>
+                                                        <FishbonesPipeProperties>
+                                                            <LateralHoleDiameter>12.5</LateralHoleDiameter>
+                                                            <SkinFactor>0</SkinFactor>
+                                                        </FishbonesPipeProperties>
+                                                    </PipeProperties>
+                                                </WellPathCompletionCollection>
+                                            </WellPathCollection>
+                                            <StartMD>inf</StartMD>
+                                            <MainBoreDiameter>0.216</MainBoreDiameter>
+                                            <MainBoreSkinFactor>0</MainBoreSkinFactor>
+                                            <MswParameters>
+                                                <RimMswCompletionParameters>
+                                                    <LinerDiameter>0.152</LinerDiameter>
+                                                    <RoughnessFactor>1e-05</RoughnessFactor>
+                                                    <PressureDrop>HF-</PressureDrop>
+                                                    <LengthAndDepth>INC</LengthAndDepth>
+                                                    <EnforceMaxSegmentLength>False </EnforceMaxSegmentLength>
+                                                    <MaxSegmentLength>200</MaxSegmentLength>
+                                                </RimMswCompletionParameters>
+                                            </MswParameters>
+                                        </FishbonesCollection>
+                                    </Fishbones>
+                                    <Fractures>
+                                        <WellPathFractureCollection>
+                                            <Name>Fractures</Name>
+                                            <IsChecked>True </IsChecked>
+                                            <Fractures/>
+                                            <RefMDType>GridIntersectionRefMD</RefMDType>
+                                            <RefMD>0</RefMD>
+                                            <MswParameters>
+                                                <RimMswCompletionParameters>
+                                                    <LinerDiameter>0.152</LinerDiameter>
+                                                    <RoughnessFactor>1e-05</RoughnessFactor>
+                                                    <PressureDrop>HF-</PressureDrop>
+                                                    <LengthAndDepth>INC</LengthAndDepth>
+                                                    <EnforceMaxSegmentLength>False </EnforceMaxSegmentLength>
+                                                    <MaxSegmentLength>200</MaxSegmentLength>
+                                                </RimMswCompletionParameters>
+                                            </MswParameters>
+                                        </WellPathFractureCollection>
+                                    </Fractures>
+                                    <WellNameForExport>UWell-1</WellNameForExport>
+                                    <WellGroupNameForExport></WellGroupNameForExport>
+                                    <ReferenceDepthForExport></ReferenceDepthForExport>
+                                    <WellTypeForExport>OIL</WellTypeForExport>
+                                </WellPathCompletions>
+                            </Completions>
+                            <WellLogFiles/>
+                            <CollectionOf3dWellLogCurves>
+                                <Rim3dWellLogCurveCollection>
+                                    <Show3dWellLogCurves>True </Show3dWellLogCurves>
+                                    <PlaneWidthScaling>1</PlaneWidthScaling>
+                                    <Show3dWellLogGrid>True </Show3dWellLogGrid>
+                                    <Show3dWellLogBackground>False </Show3dWellLogBackground>
+                                    <ArrayOf3dWellLogCurves/>
+                                </Rim3dWellLogCurveCollection>
+                            </CollectionOf3dWellLogCurves>
+                            <WellPathFormationKeyInFile></WellPathFormationKeyInFile>
+                            <WellPathFormationFilePath></WellPathFormationFilePath>
+                            <WellPathAttributes>
+                                <WellPathAttributes>
+                                    <Name>Casing Design</Name>
+                                    <IsChecked>True </IsChecked>
+                                    <Attributes/>
+                                </WellPathAttributes>
+                            </WellPathAttributes>
+                            <WellPathGeometryDef>
+                                <WellPathGeometryDef>
+                                    <ReferencePosUtmXyd>455886.189168904 7321044.99940387 2604.80248819553</ReferencePosUtmXyd>
+                                    <MdrkbAtFirstTarget>0</MdrkbAtFirstTarget>
+                                    <WellPathTargets>
+                                        <WellPathTarget>
+                                            <IsEnabled>True </IsEnabled>
+                                            <TargetPoint>0 0 -2604.80248819553</TargetPoint>
+                                            <Dogleg1>3</Dogleg1>
+                                            <Dogleg2>3</Dogleg2>
+                                            <TargetType>POINT</TargetType>
+                                            <Azimuth>237.380603323837</Azimuth>
+                                            <Inclination>15.6125046832317</Inclination>
+                                        </WellPathTarget>
+                                        <WellPathTarget>
+                                            <IsEnabled>True </IsEnabled>
+                                            <TargetPoint>0 0 0</TargetPoint>
+                                            <Dogleg1>3</Dogleg1>
+                                            <Dogleg2>3</Dogleg2>
+                                            <TargetType>POINT</TargetType>
+                                            <Azimuth>57.3806033238374</Azimuth>
+                                            <Inclination>87.3038960418742</Inclination>
+                                        </WellPathTarget>
+                                        <WellPathTarget>
+                                            <IsEnabled>True </IsEnabled>
+                                            <TargetPoint>700.674381604418 448.434252089821 39.1741555455096</TargetPoint>
+                                            <Dogleg1>3</Dogleg1>
+                                            <Dogleg2>3</Dogleg2>
+                                            <TargetType>POINT</TargetType>
+                                            <Azimuth>57.4729987909879</Azimuth>
+                                            <Inclination>88.3009847010817</Inclination>
+                                        </WellPathTarget>
+                                        <WellPathTarget>
+                                            <IsEnabled>True </IsEnabled>
+                                            <TargetPoint>2030.18427162129 1290.63066137116 34.1354717222644</TargetPoint>
+                                            <Dogleg1>3</Dogleg1>
+                                            <Dogleg2>3</Dogleg2>
+                                            <TargetType>POINT</TargetType>
+                                            <Azimuth>62.9302095546858</Azimuth>
+                                            <Inclination>87.7675235546314</Inclination>
+                                        </WellPathTarget>
+                                        <WellPathTarget>
+                                            <IsEnabled>True </IsEnabled>
+                                            <TargetPoint>3447.29621796455 1860.1376508316 156.306484828809</TargetPoint>
+                                            <Dogleg1>3</Dogleg1>
+                                            <Dogleg2>3</Dogleg2>
+                                            <TargetType>POINT</TargetType>
+                                            <Azimuth>62.359936634125</Azimuth>
+                                            <Inclination>89.8473402450919</Inclination>
+                                        </WellPathTarget>
+                                        <WellPathTarget>
+                                            <IsEnabled>True </IsEnabled>
+                                            <TargetPoint>4499.77099794568 2525.55243731104 81.4208322210925</TargetPoint>
+                                            <Dogleg1>3</Dogleg1>
+                                            <Dogleg2>3</Dogleg2>
+                                            <TargetType>POINT</TargetType>
+                                            <Azimuth>57.5816783677121</Azimuth>
+                                            <Inclination>93.53039916878</Inclination>
+                                        </WellPathTarget>
+                                    </WellPathTargets>
+                                </WellPathGeometryDef>
+                            </WellPathGeometryDef>
+                        </ModeledWellPath>
+                    </WellPaths>
+                </WellPaths>
+            </WellPathCollection>
+            <FractureDefinitionCollection>
+                <FractureDefinitionCollection>
+                    <DefaultUnitForTemplates>UNITS_METRIC</DefaultUnitForTemplates>
+                    <FractureDefinitions/>
+                    <NextValidFractureTemplateId>0</NextValidFractureTemplateId>
+                </FractureDefinitionCollection>
+            </FractureDefinitionCollection>
+            <SummaryCaseCollection>
+                <SummaryCaseCollection>
+                    <SummaryCases>
+                        <GridSummaryCase>
+                            <ShortName>NORNE_ATW2013_RFTPLT_V2</ShortName>
+                            <AutoShortyName>False </AutoShortyName>
+                            <SummaryHeaderFilename>D:/Models/Statoil/!kurs og opplæring/UserCourse2019/Demo1_3Dviz/NORNE_ATW2013_RFTPLT_V2.SMSPEC</SummaryHeaderFilename>
+                            <Associated3DCase>.. .. AnalysisModels 0 Reservoirs 0</Associated3DCase>
+                            <CachedCasename>NORNE_ATW2013_RFTPLT_V2</CachedCasename>
+                            <IncludeRestartFiles>True </IncludeRestartFiles>
+                        </GridSummaryCase>
+                    </SummaryCases>
+                    <SummaryCaseCollections/>
+                </SummaryCaseCollection>
+            </SummaryCaseCollection>
+            <FormationNamesCollection>
+                <FormationNamesCollectionObject>
+                    <FormationNamesList/>
+                </FormationNamesCollectionObject>
+            </FormationNamesCollection>
+            <ObservedDataCollection>
+                <ObservedDataCollection>
+                    <ObservedDataArray/>
+                </ObservedDataCollection>
+            </ObservedDataCollection>
+        </ResInsightOilField>
+    </OilFields>
+    <ScriptCollection>
+        <ScriptLocation>
+            <ScriptDirectory></ScriptDirectory>
+            <CalcScripts/>
+            <SubDirectories>
+                <ScriptLocation>
+                    <ScriptDirectory>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts</ScriptDirectory>
+                    <CalcScripts>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts\InputPropTest.m</AbsolutePath>
+                        </CalcScript>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts\kaverage.m</AbsolutePath>
+                        </CalcScript>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts\kslice.m</AbsolutePath>
+                        </CalcScript>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts\LGRSOIL.m</AbsolutePath>
+                        </CalcScript>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts\SatNum.m</AbsolutePath>
+                        </CalcScript>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight\OctavePlugin\OctaveScripts\SoilTimeDiff.m</AbsolutePath>
+                        </CalcScript>
+                    </CalcScripts>
+                    <SubDirectories/>
+                </ScriptLocation>
+                <ScriptLocation>
+                    <ScriptDirectory>D:\gitroot\ResInsight-regression-test\OctaveScripts</ScriptDirectory>
+                    <CalcScripts>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight-regression-test\OctaveScripts\OctaveInterfaceTest.m</AbsolutePath>
+                        </CalcScript>
+                        <CalcScript>
+                            <AbsolutePath>D:\gitroot\ResInsight-regression-test\OctaveScripts\ResInsightInterfaceUnitTest.m</AbsolutePath>
+                        </CalcScript>
+                    </CalcScripts>
+                    <SubDirectories/>
+                </ScriptLocation>
+                <ScriptLocation>
+                    <ScriptDirectory>D:/projects/ri_octave_scripts</ScriptDirectory>
+                    <CalcScripts>
+                        <CalcScript>
+                            <AbsolutePath>D:\projects\ri_octave_scripts\msj-well_names.m</AbsolutePath>
+                        </CalcScript>
+                    </CalcScripts>
+                    <SubDirectories/>
+                </ScriptLocation>
+            </SubDirectories>
+        </ScriptLocation>
+    </ScriptCollection>
+    <WellPathImport>
+        <RimWellPathImport>
+            <WellTypeSurvey>True </WellTypeSurvey>
+            <WellTypePlans>True </WellTypePlans>
+            <UtmMode>UTM_FILTER_OFF</UtmMode>
+            <UtmNorth>0</UtmNorth>
+            <UtmSouth>0</UtmSouth>
+            <UtmEast>0</UtmEast>
+            <UtmWest>0</UtmWest>
+            <Regions/>
+        </RimWellPathImport>
+    </WellPathImport>
+    <MainPlotCollection>
+        <MainPlotCollection>
+            <Show>True </Show>
+            <WellLogPlotCollection>
+                <WellLogPlotCollection>
+                    <WellLogPlots/>
+                </WellLogPlotCollection>
+            </WellLogPlotCollection>
+            <RftPlotCollection>
+                <WellRftPlotCollection>
+                    <RftPlots/>
+                </WellRftPlotCollection>
+            </RftPlotCollection>
+            <PltPlotCollection>
+                <WellPltPlotCollection>
+                    <PltPlots/>
+                </WellPltPlotCollection>
+            </PltPlotCollection>
+            <SummaryPlotCollection>
+                <SummaryPlotCollection>
+                    <SummaryPlots>
+                        <SummaryPlot>
+                            <WindowController>
+                                <MdiWindowController>
+                                    <MainWindowID>1</MainWindowID>
+                                    <xPos>0</xPos>
+                                    <yPos>0</yPos>
+                                    <Width>623</Width>
+                                    <Height>730</Height>
+                                    <IsMaximized>True </IsMaximized>
+                                </MdiWindowController>
+                            </WindowController>
+                            <ShowWindow>True </ShowWindow>
+                            <PlotDescription>NORNE_ATW2013_RFTPLT_V2, Oil Production Total</PlotDescription>
+                            <ShowPlotTitle>True </ShowPlotTitle>
+                            <ShowLegend>True </ShowLegend>
+                            <LegendFontSize>11</LegendFontSize>
+                            <IsUsingAutoName>True </IsUsingAutoName>
+                            <SummaryCurveFilters/>
+                            <SummaryCurveCollection>
+                                <RimSummaryCurveCollection>
+                                    <CollectionCurves>
+                                        <SummaryCurve>
+                                            <Show>True </Show>
+                                            <CurveName>FOPT, NORNE_ATW2013_RFTPLT_V2</CurveName>
+                                            <CurveDescription></CurveDescription>
+                                            <AutoName>True </AutoName>
+                                            <Color>0 0.439215689897537 0.533333361148834</Color>
+                                            <Thickness>2</Thickness>
+                                            <CurveInterpolation>INTERPOLATION_POINT_TO_POINT</CurveInterpolation>
+                                            <LineStyle>STYLE_SOLID</LineStyle>
+                                            <PointSymbol>SYMBOL_NONE</PointSymbol>
+                                            <SymbolSkipPxDist>10</SymbolSkipPxDist>
+                                            <ShowLegend>True </ShowLegend>
+                                            <SymbolSize>6</SymbolSize>
+                                            <ShowErrorBars>True </ShowErrorBars>
+                                            <SummaryCase>.. .. .. .. .. OilFields 0 SummaryCaseCollection 0 SummaryCases 0</SummaryCase>
+                                            <VarListFilter>
+                                                <SummaryFilterSettings>
+                                                    <SummaryFilterType>SUM_FILTER_FIELD</SummaryFilterType>
+                                                    <SummaryCompleteVarStringFilter></SummaryCompleteVarStringFilter>
+                                                    <SummaryVarQuantityFilter>FOPT</SummaryVarQuantityFilter>
+                                                    <SummaryRegionNumberFilter></SummaryRegionNumberFilter>
+                                                    <SummaryRegionNumber2Filter></SummaryRegionNumber2Filter>
+                                                    <SummaryWellGroupNameFilter></SummaryWellGroupNameFilter>
+                                                    <SummaryWellNameFilter></SummaryWellNameFilter>
+                                                    <SummaryWellSegmentNumberFilter></SummaryWellSegmentNumberFilter>
+                                                    <SummaryLgrNameFilter></SummaryLgrNameFilter>
+                                                    <SummaryCellIJKFilter></SummaryCellIJKFilter>
+                                                </SummaryFilterSettings>
+                                            </VarListFilter>
+                                            <SummaryAddress>
+                                                <SummaryAddress>
+                                                    <SummaryVarType>SUMMARY_FIELD</SummaryVarType>
+                                                    <SummaryQuantityName>FOPT</SummaryQuantityName>
+                                                    <SummaryRegion>-1</SummaryRegion>
+                                                    <SummaryRegion2>-1</SummaryRegion2>
+                                                    <SummaryWellGroup></SummaryWellGroup>
+                                                    <SummaryWell></SummaryWell>
+                                                    <SummaryWellSegment>-1</SummaryWellSegment>
+                                                    <SummaryLgr></SummaryLgr>
+                                                    <SummaryCellI>-1</SummaryCellI>
+                                                    <SummaryCellJ>-1</SummaryCellJ>
+                                                    <SummaryCellK>-1</SummaryCellK>
+                                                    <SummaryAquifer>-1</SummaryAquifer>
+                                                    <IsErrorResult>False </IsErrorResult>
+                                                </SummaryAddress>
+                                            </SummaryAddress>
+                                            <SummaryCaseX></SummaryCaseX>
+                                            <VarListFilterX>
+                                                <SummaryFilterSettings>
+                                                    <SummaryFilterType>SUM_FILTER_VAR_STRING</SummaryFilterType>
+                                                    <SummaryCompleteVarStringFilter></SummaryCompleteVarStringFilter>
+                                                    <SummaryVarQuantityFilter></SummaryVarQuantityFilter>
+                                                    <SummaryRegionNumberFilter></SummaryRegionNumberFilter>
+                                                    <SummaryRegionNumber2Filter></SummaryRegionNumber2Filter>
+                                                    <SummaryWellGroupNameFilter></SummaryWellGroupNameFilter>
+                                                    <SummaryWellNameFilter></SummaryWellNameFilter>
+                                                    <SummaryWellSegmentNumberFilter></SummaryWellSegmentNumberFilter>
+                                                    <SummaryLgrNameFilter></SummaryLgrNameFilter>
+                                                    <SummaryCellIJKFilter></SummaryCellIJKFilter>
+                                                </SummaryFilterSettings>
+                                            </VarListFilterX>
+                                            <SummaryAddressX>
+                                                <SummaryAddress>
+                                                    <SummaryVarType></SummaryVarType>
+                                                    <SummaryQuantityName></SummaryQuantityName>
+                                                    <SummaryRegion>-1</SummaryRegion>
+                                                    <SummaryRegion2>-1</SummaryRegion2>
+                                                    <SummaryWellGroup></SummaryWellGroup>
+                                                    <SummaryWell></SummaryWell>
+                                                    <SummaryWellSegment>-1</SummaryWellSegment>
+                                                    <SummaryLgr></SummaryLgr>
+                                                    <SummaryCellI>-1</SummaryCellI>
+                                                    <SummaryCellJ>-1</SummaryCellJ>
+                                                    <SummaryCellK>-1</SummaryCellK>
+                                                    <SummaryAquifer>-1</SummaryAquifer>
+                                                    <IsErrorResult>False </IsErrorResult>
+                                                </SummaryAddress>
+                                            </SummaryAddressX>
+                                            <PlotAxis>PLOT_AXIS_LEFT</PlotAxis>
+                                            <SummaryCurveNameConfig>
+                                                <SummaryCurveAutoName>
+                                                    <VectorName>True </VectorName>
+                                                    <Unit>False </Unit>
+                                                    <RegionNumber>True </RegionNumber>
+                                                    <WellGroupName>True </WellGroupName>
+                                                    <WellName>True </WellName>
+                                                    <WellSegmentNumber>True </WellSegmentNumber>
+                                                    <LgrName>True </LgrName>
+                                                    <Completion>True </Completion>
+                                                    <Aquifer>True </Aquifer>
+                                                    <CaseName>True </CaseName>
+                                                </SummaryCurveAutoName>
+                                            </SummaryCurveNameConfig>
+                                            <isTopZWithinCategory>False </isTopZWithinCategory>
+                                        </SummaryCurve>
+                                    </CollectionCurves>
+                                    <IsActive>True </IsActive>
+                                </RimSummaryCurveCollection>
+                            </SummaryCurveCollection>
+                            <EnsembleCurveSetCollection>
+                                <RimEnsembleCurveSetCollection>
+                                    <EnsembleCurveSets/>
+                                    <IsActive>True </IsActive>
+                                </RimEnsembleCurveSetCollection>
+                            </EnsembleCurveSetCollection>
+                            <SummaryCurves/>
+                            <GridTimeHistoryCurves/>
+                            <AsciiDataCurves/>
+                            <LeftYAxisProperties>
+                                <SummaryYAxisProperties>
+                                    <Active>True </Active>
+                                    <Name>Left Y-Axis</Name>
+                                    <AutoTitle>True </AutoTitle>
+                                    <DisplayLongName>True </DisplayLongName>
+                                    <DisplayShortName>False </DisplayShortName>
+                                    <DisplayUnitText>True </DisplayUnitText>
+                                    <CustomTitle></CustomTitle>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <FontSize>11</FontSize>
+                                    <VisibleRangeMax>100</VisibleRangeMax>
+                                    <VisibleRangeMin>-10</VisibleRangeMin>
+                                    <NumberFormat>NUMBER_FORMAT_AUTO</NumberFormat>
+                                    <Decimals>2</Decimals>
+                                    <ScaleFactor>1</ScaleFactor>
+                                    <ValuesFontSize>11</ValuesFontSize>
+                                    <AutoZoom>True </AutoZoom>
+                                    <LogarithmicScale>False </LogarithmicScale>
+                                </SummaryYAxisProperties>
+                            </LeftYAxisProperties>
+                            <RightYAxisProperties>
+                                <SummaryYAxisProperties>
+                                    <Active>True </Active>
+                                    <Name>Right Y-Axis</Name>
+                                    <AutoTitle>True </AutoTitle>
+                                    <DisplayLongName>True </DisplayLongName>
+                                    <DisplayShortName>False </DisplayShortName>
+                                    <DisplayUnitText>True </DisplayUnitText>
+                                    <CustomTitle></CustomTitle>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <FontSize>11</FontSize>
+                                    <VisibleRangeMax>100</VisibleRangeMax>
+                                    <VisibleRangeMin>-10</VisibleRangeMin>
+                                    <NumberFormat>NUMBER_FORMAT_AUTO</NumberFormat>
+                                    <Decimals>2</Decimals>
+                                    <ScaleFactor>1</ScaleFactor>
+                                    <ValuesFontSize>11</ValuesFontSize>
+                                    <AutoZoom>True </AutoZoom>
+                                    <LogarithmicScale>False </LogarithmicScale>
+                                </SummaryYAxisProperties>
+                            </RightYAxisProperties>
+                            <BottomAxisProperties>
+                                <SummaryYAxisProperties>
+                                    <Active>True </Active>
+                                    <Name>Bottom X-Axis</Name>
+                                    <AutoTitle>True </AutoTitle>
+                                    <DisplayLongName>True </DisplayLongName>
+                                    <DisplayShortName>False </DisplayShortName>
+                                    <DisplayUnitText>True </DisplayUnitText>
+                                    <CustomTitle></CustomTitle>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <FontSize>11</FontSize>
+                                    <VisibleRangeMax>100</VisibleRangeMax>
+                                    <VisibleRangeMin>-10</VisibleRangeMin>
+                                    <NumberFormat>NUMBER_FORMAT_AUTO</NumberFormat>
+                                    <Decimals>2</Decimals>
+                                    <ScaleFactor>1</ScaleFactor>
+                                    <ValuesFontSize>11</ValuesFontSize>
+                                    <AutoZoom>True </AutoZoom>
+                                    <LogarithmicScale>False </LogarithmicScale>
+                                </SummaryYAxisProperties>
+                            </BottomAxisProperties>
+                            <TimeAxisProperties>
+                                <SummaryTimeAxisProperties>
+                                    <Active>True </Active>
+                                    <ShowTitle>False </ShowTitle>
+                                    <Title>Time</Title>
+                                    <TitlePosition>AXIS_TITLE_CENTER</TitlePosition>
+                                    <FontSize>11</FontSize>
+                                    <ValuesFontSize>11</ValuesFontSize>
+                                    <AutoZoom>True </AutoZoom>
+                                    <TimeMode>DATE</TimeMode>
+                                    <TimeUnit>YEARS</TimeUnit>
+                                    <VisibleRangeMax></VisibleRangeMax>
+                                    <VisibleRangeMin></VisibleRangeMin>
+                                    <VisibleTimeModeRangeMax>2.37663528764492e-312</VisibleTimeModeRangeMax>
+                                    <VisibleTimeModeRangeMin>2.29175545600631e-312</VisibleTimeModeRangeMin>
+                                </SummaryTimeAxisProperties>
+                            </TimeAxisProperties>
+                        </SummaryPlot>
+                    </SummaryPlots>
+                </SummaryPlotCollection>
+            </SummaryPlotCollection>
+            <SummaryCrossPlotCollection>
+                <SummaryCrossPlotCollection>
+                    <SummaryCrossPlots/>
+                </SummaryCrossPlotCollection>
+            </SummaryCrossPlotCollection>
+            <FlowPlotCollection>
+                <FlowPlotCollection>
+                    <FlowCharacteristicsPlot>
+                        <FlowCharacteristicsPlot>
+                            <WindowController>
+                                <MdiWindowController>
+                                    <MainWindowID>1</MainWindowID>
+                                    <xPos>0</xPos>
+                                    <yPos>0</yPos>
+                                    <Width>-1</Width>
+                                    <Height>-1</Height>
+                                    <IsMaximized>False </IsMaximized>
+                                </MdiWindowController>
+                            </WindowController>
+                            <ShowWindow>False </ShowWindow>
+                            <FlowCase></FlowCase>
+                            <FlowDiagSolution></FlowDiagSolution>
+                            <TimeSelectionType>SELECTED</TimeSelectionType>
+                            <SelectedTimeSteps></SelectedTimeSteps>
+                            <SelectedTimeStepsUi></SelectedTimeStepsUi>
+                            <CellPVThreshold>0.1</CellPVThreshold>
+                            <ShowLegend>True </ShowLegend>
+                            <CellFilter>CELLS_ACTIVE</CellFilter>
+                            <CellFilterView></CellFilterView>
+                            <TracerFilter></TracerFilter>
+                            <SelectedTracerNames></SelectedTracerNames>
+                            <MinCommunication>0</MinCommunication>
+                            <MaxTof>146000</MaxTof>
+                        </FlowCharacteristicsPlot>
+                    </FlowCharacteristicsPlot>
+                    <DefaultWellAllocationPlot/>
+                    <StoredWellAllocationPlots/>
+                    <StoredFlowCharacteristicsPlots/>
+                </FlowPlotCollection>
+            </FlowPlotCollection>
+        </MainPlotCollection>
+    </MainPlotCollection>
+    <LinkedViews>
+        <RimViewLinkerCollection>
+            <Active>True </Active>
+            <ViewLinkers/>
+        </RimViewLinkerCollection>
+    </LinkedViews>
+    <CalculationCollection>
+        <RimSummaryCalculationCollection>
+            <Calculations/>
+        </RimSummaryCalculationCollection>
+    </CalculationCollection>
+    <CommandObjects/>
+    <MultiSnapshotDefinitions/>
+    <TreeViewState>-1-100000080;-1-1000000;-1-10000;-1-100;-1-11000;-1-110</TreeViewState>
+    <TreeViewCurrentModelIndexPath>1 0;0 0;0 0</TreeViewCurrentModelIndexPath>
+    <PlotWindowTreeViewState>-1-1000000;-1-10000;-1-100;-1-11000001000;-1-110000010;-1-1100000;-1-11000;-1-110</PlotWindowTreeViewState>
+    <PlotWindowTreeViewCurrentModelIndexPath>1 0;0 0;0 0;1 0;0 0</PlotWindowTreeViewCurrentModelIndexPath>
+    <show3DWindow>True </show3DWindow>
+    <showPlotWindow>True </showPlotWindow>
+    <DialogData>
+        <RimDialogData>
+            <ExportCarfin>
+                <RicExportCarfinUi>
+                    <CellRange>
+                        <RicCellRangeUi>
+                            <Case></Case>
+                            <GridIndex>0</GridIndex>
+                            <StartIndexI>1</StartIndexI>
+                            <StartIndexJ>1</StartIndexJ>
+                            <StartIndexK>1</StartIndexK>
+                            <CellCountI>1</CellCountI>
+                            <CellCountJ>1</CellCountJ>
+                            <CellCountK>1</CellCountK>
+                        </RicCellRangeUi>
+                    </CellRange>
+                    <ExportFileName></ExportFileName>
+                    <CaseToApply></CaseToApply>
+                    <CellCountI>2</CellCountI>
+                    <CellCountJ>2</CellCountJ>
+                    <CellCountK>2</CellCountK>
+                    <MaxWellCount>8</MaxWellCount>
+                </RicExportCarfinUi>
+            </ExportCarfin>
+            <ExportCompletionData>
+                <RicExportCompletionDataSettingsUi>
+                    <Folder></Folder>
+                    <CaseToApply></CaseToApply>
+                    <FileSplit>SPLIT_ON_WELL_AND_COMPLETION_TYPE</FileSplit>
+                    <compdatExport>TRANSMISSIBILITIES</compdatExport>
+                    <TimeStepIndex>0</TimeStepIndex>
+                    <IncludeMSW>False </IncludeMSW>
+                    <UseLateralNTG>False </UseLateralNTG>
+                    <IncludePerforations>True </IncludePerforations>
+                    <IncludeFishbones>True </IncludeFishbones>
+                    <IncludeFractures>True </IncludeFractures>
+                    <TransScalingType>False </TransScalingType>
+                    <TransScalingTimeStep>0</TransScalingTimeStep>
+                    <TransScalingWBHPSource>WBHP_SUMMARY</TransScalingWBHPSource>
+                    <TransScalingWBHP>200</TransScalingWBHP>
+                    <ExcludeMainBoreForFishbones>False </ExcludeMainBoreForFishbones>
+                    <ReportCompletionTypesSeparately>INDIVIDUALLY</ReportCompletionTypesSeparately>
+                </RicExportCompletionDataSettingsUi>
+            </ExportCompletionData>
+            <MultipleFractionsData>
+                <RiuCreateMultipleFractionsUi>
+                    <SourceCase></SourceCase>
+                    <MinDistanceFromWellTd>10</MinDistanceFromWellTd>
+                    <MaxFracturesPerWell>10</MaxFracturesPerWell>
+                    <Options/>
+                    <FractureCreationSummary>-- Selected Wells     
+   
+</FractureCreationSummary>
+                </RiuCreateMultipleFractionsUi>
+            </MultipleFractionsData>
+            <HoloLenseExportToFolderData>
+                <RicHoloLensExportToFolderUi>
+                    <ViewForExport></ViewForExport>
+                    <ExportFolder></ExportFolder>
+                </RicHoloLensExportToFolderUi>
+            </HoloLenseExportToFolderData>
+            <ExportwellPathsData>
+                <RicExportWellPathsUi>
+                    <ExportFolder></ExportFolder>
+                    <MdStepSize>5</MdStepSize>
+                </RicExportWellPathsUi>
+            </ExportwellPathsData>
+            <ExportLgr>
+                <RicExportLgrUi>
+                    <ExportFolder></ExportFolder>
+                    <CaseToApply></CaseToApply>
+                    <TimeStepIndex>0</TimeStepIndex>
+                    <IncludePerforations>True </IncludePerforations>
+                    <IncludeFractures>True </IncludeFractures>
+                    <IncludeFishbones>True </IncludeFishbones>
+                    <CellCountI>2</CellCountI>
+                    <CellCountJ>2</CellCountJ>
+                    <CellCountK>2</CellCountK>
+                    <SplitType>LGR_PER_COMPLETION</SplitType>
+                </RicExportLgrUi>
+            </ExportLgr>
+            <MockModelSettings>
+                <MockModelSettings>
+                    <CellCountX>100</CellCountX>
+                    <CellCountY>100</CellCountY>
+                    <CellCountZ>10</CellCountZ>
+                    <TotalCellCount>18859076849238125</TotalCellCount>
+                    <ResultCount>3</ResultCount>
+                    <TimeStepCount>10</TimeStepCount>
+                </MockModelSettings>
+            </MockModelSettings>
+        </RimDialogData>
+    </DialogData>
+</ResInsightProject>
