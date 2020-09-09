@@ -4,6 +4,9 @@
 
 The ResInsight user interface is made for customization. The sub-windows adapts according to your actions to provide additional relevant information. In this tutorial the standard layout is explained to allow for an easier transition to more advanced operations. The Buttons on the top are directly related to either the project or your current **View** in the Property Tree.
 
+# Reservoir View
+![Image](./Resources/Pictures/reservoir_view.png)
+
 # Quick access buttons
 
 ![Image](./Resources/Pictures/quick_access_bar.png)
@@ -79,4 +82,18 @@ The animation buttons will helps visualize the reservoir chronologically through
 # Project Tree
 ![Image](./Resources/Pictures/project_tree.png)
 
-The purpose of the Project Tree is to select what will be visualized in the main windows. 
+The purpose of the Project Tree exist to manage the views and thereby what will be visualized in the main windows. There can be multiple models, views, and properties. Properties can be filtered in several ways and combinations of their location, property value and geometrical indexing.
+
+# Property Editor
+![Image](./Resources/Pictures/property_editor.png)
+
+# Result Info
+![Image](./Resources/Pictures/result_info.png)
+
+# Process Monitor
+![Image](./Resources/Pictures/process_monitor.png)
+
+# Messages
+![Image](./Resources/Pictures/messages.png)
+
+
