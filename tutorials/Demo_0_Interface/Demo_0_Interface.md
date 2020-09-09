@@ -7,6 +7,8 @@ The ResInsight user interface is made for customization. The sub-windows adapts 
 # Overview
 ![Image](./Resources/Pictures/main_window_1.png)
 
+The standard view of ResInsight as loaded the first time will be similar to the above section. If you want to skip straight forward to one section, please select the relevant link below.
+
 1. [Reservoir View](#reservoir-view)
 2. [Quick access buttons](#quick-access-buttons)
 3. [Project Tree](#project-tree)
