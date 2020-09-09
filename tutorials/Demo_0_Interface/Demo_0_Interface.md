@@ -31,6 +31,7 @@ The ResInsight user interface is made for customization. The sub-windows adapts 
 ## Project/File Management buttons
 
 ![Image](./Resources/Pictures/project_management.png)
+
 These buttons are used for Loading and Saving projects and Eclipse Files.
 
 ## Window Management buttons
@@ -70,7 +71,6 @@ The "Mesh and Surface" provides you with the wire-frame of all selected cells in
 "Show Wells" will display all the currently selected active **Simulation Wells** in the **Property Tree**. It will by default display all the cells that each well penetrates, colored in the currently selected **Cell Results**.
 
 ## Animation buttons
-[Back to overview](#overview)
 
 ![Image](./Resources/Pictures/animation.png)
 
@@ -103,12 +103,18 @@ The animation buttons will helps visualize the reservoir chronologically through
 
 ![Image](./Resources/Pictures/project_tree.png)
 
-The purpose of the Project Tree exist to manage the views and thereby what will be visualized in the main windows. There can be multiple models, views, and properties. Properties can be filtered in several ways and combinations of their location, property value and geometrical indexing.
+The purpose of the Project Tree exist to manage the views and thereby what  elements of the deck will appear in the main windows. There can be multiple models, views, and properties. Properties can be filtered in several ways and combination of one another. Some filtering mechanisms include location, property value and geometrical indexing.
+
+## Cell Results
 
 # Property Editor
 [Back to overview](#overview)
 
+The Property Editor is one of several ways to interact with the visualization. It will adapt to actions that you perform, if for instance you select [Cell Results](cell-results) in the [Project Tree](#project-tree) several drop-down menus will appear. These include but are not limited to Static, Dynamic, Generated, Properties, Input Properties etc.
+
 ![Image](./Resources/Pictures/property_editor.png)
+
+The Property Editor 
 
 # Result Info
 [Back to overview](#overview)
