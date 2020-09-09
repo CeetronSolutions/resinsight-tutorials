@@ -77,5 +77,6 @@ The animation buttons will helps visualize the reservoir chronologically through
  "Current Time Step" is a drop-down menu in which one is able select from the report step included in the Eclipse deck.
 
 # Project Tree
+![Image](./Resources/Pictures/project_tree.png)
 
 The purpose of the Project Tree is to select what will be visualized in the main windows. 
