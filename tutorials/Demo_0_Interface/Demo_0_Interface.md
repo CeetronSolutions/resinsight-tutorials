@@ -15,39 +15,40 @@ The ResInsight user interface is made for customization. The sub-windows adapts 
 6. [Process Monitor](#process-monitor)
 7. [Messages](#messages)
 
+
 # Reservoir View
-![Back to overview](#overview)
+[Back to overview](#overview)
+
 ![Image](./Resources/Pictures/reservoir_view.png)
 
+
 # Quick access buttons
-![Back to overview](#overview)
+[Back to overview](#overview)
+
 ![Image](./Resources/Pictures/quick_access_bar.png)
 
+
 ## Project/File Management buttons
-![Back to overview](#overview)
+
 ![Image](./Resources/Pictures/project_management.png)
 These buttons are used for Loading and Saving projects and Eclipse Files.
 
 ## Window Management buttons
-![Back to overview](#overview)
 ![Image](./Resources/Pictures/window_management.png)
 
 These buttons provides access to the Plot Window, linking different **Views**, and "Tile View" to better organize your visual experience with the reservoir.
 
 ## Snapshot Tools
-![Back to overview](#overview)
 ![Image](./Resources/Pictures/snapshot_tools.png)
 
 These buttons allows for tailoring of the Screen Capture tools. The options are to print the current **View** to your clip-board (Equivallent to Ctrl + C), save your current **View** to a file, and to save all of your **Views** to files.
 
 ## View (orientation and transformation) buttons
-![Back to overview](#overview)
 ![Image](./Resources/Pictures/view_buttons.png)
 
 "Parallel View" / "Perspective View" adjusts the view accordingly. "Zoom all" adjusts the visualization to include the entire reservoir. "Look South(/North/West/East/Down/Up)" buttons are helpful for aligning your view with the different axis.  "Scale" allows you to scale the Z-axis.
 
 ## Draw Style buttons
-![Back to overview](#overview)
 ![Image](./Resources/Pictures/draw_style.png)
 
 Gives you access to the different modes of visualizing the reservoir in terms of lighting, mesh, surfaces, faults, and wells. 
@@ -69,7 +70,8 @@ The "Mesh and Surface" provides you with the wire-frame of all selected cells in
 "Show Wells" will display all the currently selected active **Simulation Wells** in the **Property Tree**. It will by default display all the cells that each well penetrates, colored in the currently selected **Cell Results**.
 
 ## Animation buttons
-![Back to overview](#overview)
+[Back to overview](#overview)
+
 ![Image](./Resources/Pictures/animation.png)
 
 The animation buttons will helps visualize the reservoir chronologically through time, either backwards or forwards. Or at a given report step.
@@ -98,24 +100,29 @@ The animation buttons will helps visualize the reservoir chronologically through
 
 # Project Tree
 [Back to overview](#overview)
+
 ![Image](./Resources/Pictures/project_tree.png)
 
 The purpose of the Project Tree exist to manage the views and thereby what will be visualized in the main windows. There can be multiple models, views, and properties. Properties can be filtered in several ways and combinations of their location, property value and geometrical indexing.
 
 # Property Editor
 [Back to overview](#overview)
+
 ![Image](./Resources/Pictures/property_editor.png)
 
 # Result Info
 [Back to overview](#overview)
+
 ![Image](./Resources/Pictures/result_info.png)
 
 # Process Monitor
 [Back to overview](#overview)
+
 ![Image](./Resources/Pictures/process_monitor.png)
 
 # Messages
 [Back to overview](#overview)
+
 ![Image](./Resources/Pictures/messages.png)
 
 
