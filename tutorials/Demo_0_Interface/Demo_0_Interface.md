@@ -136,7 +136,7 @@ When a cell is probed it will usually display the current cell property, Grid, C
 
 ![Image](./Resources/Pictures/process_monitor.png)
 
-If Octave scripts are being run; the Process Monitor is the sub-frame which will display the current status and any text output.
+If Octave scripts are being run; the Process Monitor is the sub-frame which will display the current status and any text output. You can also clear the text and stop the process.
 
 # Messages
 [Back to overview](#overview)
