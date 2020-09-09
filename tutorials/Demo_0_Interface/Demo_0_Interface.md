@@ -29,7 +29,7 @@ These buttons allows for tailoring of the Screen Capture tools. The options are 
 "Parallel View" / "Perspective View" adjusts the view accordingly. "Zoom all" adjusts the visualization to include the entire reservoir. "Look South(/North/West/East/Down/Up)" buttons are helpful for aligning your view with the different axis.  "Scale" allows you to scale the Z-axis.
 
 ## Draw Style buttons
-![Image](./Resources/Pictures/animation.png)
+![Image](./Resources/Pictures/draw_style.png)
 
 Gives you access to the different modes of visualizing the reservoir in terms of lighting, mesh, surfaces, faults, and wells. 
 
@@ -50,7 +50,7 @@ The "Mesh and Surface" provides you with the wire-frame of all selected cells in
 "Show Wells" will display all the currently selected active **Simulation Wells** in the **Property Tree**. It will by default display all the cells that each well penetrates, colored in the currently selected **Cell Results**.
 
 ## Animation buttons
-![Image](./Resources/Pictures/main_window.png)
+![Image](./Resources/Pictures/animation.png)
 
 The animation buttons will helps visualize the reservoir chronologically through time, either backwards or forwards. Or at a given report step.
 
