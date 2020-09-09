@@ -105,30 +105,42 @@ The animation buttons will helps visualize the reservoir chronologically through
 
 The purpose of the Project Tree exist to manage the views and thereby what  elements of the deck will appear in the main windows. There can be multiple models, views, and properties. Properties can be filtered in several ways and combination of one another. Some filtering mechanisms include location, property value and geometrical indexing.
 
+The actions that you take will directly affect the appearance of the [Property Editor](#property-editor). It will adapt to actions that you perform, if for instance you select [Cell Results](#cell-results) in the [Project Tree](#project-tree) several drop-down menus will appear. These include but are not limited to Static, Dynamic, Generated, Properties, Input Properties etc.
+
+
 ## Cell Results
 
 # Property Editor
 [Back to overview](#overview)
 
-The Property Editor is one of several ways to interact with the visualization. It will adapt to actions that you perform, if for instance you select [Cell Results](#cell-results) in the [Project Tree](#project-tree) several drop-down menus will appear. These include but are not limited to Static, Dynamic, Generated, Properties, Input Properties etc.
-
 ![Image](./Resources/Pictures/property_editor.png)
 
-The Property Editor 
+The Property Editor is one of several ways to interact with the visualization and its properties. The appearance and values can be selected from several text cells or drop-down menus.
+
 
 # Result Info
 [Back to overview](#overview)
 
 ![Image](./Resources/Pictures/result_info.png)
 
+The Result Info window will be where several of the results can be obtained. If the [Cell Results](#cell-results) have been set to display pressure, one can click on the reservoir to display the pressure of the selected cell.
+
+When a cell is probed it will usually display the current cell property, Grid, Cell IJK coordinates, Global Cell Index, Intersection Point, and Formation Name if such information is provided.
+
+
+
 # Process Monitor
 [Back to overview](#overview)
 
 ![Image](./Resources/Pictures/process_monitor.png)
 
+If Octave scripts are being run; the Process Monitor is the sub-frame which will display the current status and any text output.
+
 # Messages
 [Back to overview](#overview)
 
 ![Image](./Resources/Pictures/messages.png)
+
+Displays the log of ResInsight, giving you information of which project is currently being loaded and when it is complete.
 
 
