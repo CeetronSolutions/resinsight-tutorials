@@ -1,9 +1,19 @@
 # ResInsight - Graphical User Interface
 
+<<<<<<< HEAD
+![Image](./Resources/Pictures/main_window.png)
+=======
+
+![Image](./Resources/Pictures/main_window.png)
+
+The ResInsight user interface is made for customization. The sub-windows adapts according to your actions to provide additional relevant information. In this tutorial the standard layout is explained to allow for an easier transition to more advanced operations. The Buttons on the top are directly related to either the project or your current **View** in the Property Tree.
+>>>>>>> 74f17f62dc2f591cb6d7758819bc5bde217e0a77
+
 The ResInsight user interface is made for customization. The sub-windows adapts according to your actions to provide additional relevant information. In this tutorial the standard layout is explained to allow for an easier transition to more advanced operations. The Buttons on the top are directly related to either the project or your current **View** in the Property Tree.
 
-
 # Quick access buttons
+
+![Image](./Resources/Pictures/quick_access_bar.png)
 
 ## Project/File Management buttons
 
@@ -69,4 +79,4 @@ The animation buttons will helps visualize the reservoir chronologically through
 
 # Project Tree
 
-
+The purpose of the Project Tree is to select what will be visualized in the main windows. 
