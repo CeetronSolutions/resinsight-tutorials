@@ -110,7 +110,7 @@ The purpose of the Project Tree exist to manage the views and thereby what  elem
 # Property Editor
 [Back to overview](#overview)
 
-The Property Editor is one of several ways to interact with the visualization. It will adapt to actions that you perform, if for instance you select [Cell Results](cell-results) in the [Project Tree](#project-tree) several drop-down menus will appear. These include but are not limited to Static, Dynamic, Generated, Properties, Input Properties etc.
+The Property Editor is one of several ways to interact with the visualization. It will adapt to actions that you perform, if for instance you select [Cell Results](#cell-results) in the [Project Tree](#project-tree) several drop-down menus will appear. These include but are not limited to Static, Dynamic, Generated, Properties, Input Properties etc.
 
 ![Image](./Resources/Pictures/property_editor.png)
 
