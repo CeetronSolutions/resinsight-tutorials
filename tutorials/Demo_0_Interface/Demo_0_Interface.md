@@ -7,6 +7,8 @@ The ResInsight user interface is made for customization. The sub-windows adapts 
 # Overview
 ![Image](./Resources/Pictures/main_window_1.png)
 
+1. [Im a link to Quick Access buttons](#quick-access-buttons)
+
 # Reservoir View
 
 ![Image](./Resources/Pictures/reservoir_view.png)
