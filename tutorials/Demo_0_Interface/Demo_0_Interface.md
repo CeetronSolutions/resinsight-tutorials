@@ -7,7 +7,13 @@ The ResInsight user interface is made for customization. The sub-windows adapts 
 # Overview
 ![Image](./Resources/Pictures/main_window_1.png)
 
-1. [Im a link to Quick Access buttons](#quick-access-buttons)
+1. [Reservoir View](#reservoir-view)
+2. [Quick access buttons](#quick-access-buttons)
+3. [Project Tree](#project-tree)
+4. [Property Editor](#property-editor)
+5. [Result Info](#result-info)
+6. [Process Monitor](#process-monitor)
+7. [Messages](#messages)
 
 # Reservoir View
 
