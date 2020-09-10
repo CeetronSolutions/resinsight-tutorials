@@ -14,7 +14,7 @@ In the [**Project Tree**](../Demo_0_Interface/Demo_0_Interface.md#project-tree) 
 
 ## Step 3 - Animation and Report Steps
 
-Use the Play button in the [animation button](../Demo_0_Interface/Demo_0_Interface.md#animation) to get to the last step. Make sure that neither the "Repeat From Start" nor the "Repeat Forwards/Backwards" are checked. You can also select the last time step by using the drop-down menu in the [animation](../Demo_0_Interface/Demo_0_Interface.md#animation) part of the quick access bar.
+Use the Play button in the [animation button](../Demo_0_Interface/Demo_0_Interface.md#animation-buttons) to get to the last step. Make sure that neither the "Repeat From Start" nor the "Repeat Forwards/Backwards" are checked. You can also select the last time step by using the drop-down menu in the [animation](../Demo_0_Interface/Demo_0_Interface.md#animation-buttons) part of the quick access bar.
 
 ## Step 4 - Import formation names
 
