@@ -32,8 +32,9 @@ In View 2 select Cell Result and then Navigate back to the [Property Editor](../
 
 ## (OPTIONAL) Step 6 - Show and link multiple views
 
-With the two views active you could click the "Tile Window" in the [Window management](../Demo_0_Interface/Demo_0_Interface.md#window-management) buttons to visualize both the Views simultaneously. You can even link the views to show the exact same positions by selecting the "Link" option from [Window management](../Demo_0_Interface/Demo_0_Interface.md#window-management) buttons.
+With the two views active you could click the "Tile Window" in the [Window management](../Demo_0_Interface/Demo_0_Interface.md#window-management) buttons to visualize both the Views simultaneously. You can even link the views to show the exact same positions by selecting the right-clicking in both [Reservoir View](../Demo_0_Interface/Demo_0_Interface.md#reservoir-view) 
 
-![Image](Resources/Pictures/link_view.png) 
+![Image](Resources/Pictures/link_views.png)
 
-If you click this button a pop-up window will appear and you can select the View 1. Additionally, a new menu will appear in the [**Project Tree**](../Demo_0_Interface/Demo_0_Interface.md#project-tree) that allows you to attach, detach and terminate links.
+In additionally, a new menu will appear in the [**Project Tree**](../Demo_0_Interface/Demo_0_Interface.md#project-tree) that allows you to attach, detach and terminate links.
+
