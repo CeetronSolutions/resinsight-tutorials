@@ -30,7 +30,7 @@ Navigate back to the [**Project Tree**](../Demo_0_Interface/Demo_0_Interface.md#
 
 In View 2 select Cell Result and then Navigate back to the [Property Editor](../Demo_0_Interface/Demo_0_Interface.md#property-editor) and select a "Type", in this case "Formation Names" and click the "Active Formation Names" option.
 
-## (OPTIONAL) Step 6 - Multiple views
+## (OPTIONAL) Step 6 - Show and link multiple views
 
 With the two views active you could click the "Tile Window" in the [Window management](../Demo_0_Interface/Demo_0_Interface.md#window-management) buttons to visualize both the Views simultaneously. You can even link the views to show the exact same positions by selecting the "Link" option from [Window management](../Demo_0_Interface/Demo_0_Interface.md#window-management) buttons.
 
