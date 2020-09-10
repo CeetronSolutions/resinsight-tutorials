@@ -1,0 +1,1 @@
+Creating a Demo_0_Layout which would explain the different subframes of the GUI. The guide already makes fundamental "conventions", might as well illustrate the standard layout to help people stuck in later tutorials to find the correct subframes e.g. Property Editor, Project Tree, Play Buttons.
