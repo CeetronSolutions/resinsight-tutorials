@@ -9,3 +9,16 @@ EGRID
 iter
 testdata
 webviz
+lyr
+RFT
+dev
+rft
+las
+TimeDiff
+dt
+GRDECL
+Equinor
+CeetronSolutions
+github
+https
+IJK
