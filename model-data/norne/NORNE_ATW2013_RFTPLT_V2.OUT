@@ -7723,7 +7723,7 @@ Host 0 -- ip 10.221.77.50 -- ranks 0 - 3
  Total number of time steps forced to be accepted          0
  PRODUCING RUN SUMMARIES
  NORNE_ATW2013_RFTPLT_V2.SMSPEC exists
- SPEC file succesfully read
+ SPEC file successfully read
  Opened file NORNE_ATW2013_RFTPLT_V2.UNSMRY
      1 files exist containing      894 timesteps
  Summary file NORNE_ATW2013_RFTPLT_V2.UNSMRY opened
