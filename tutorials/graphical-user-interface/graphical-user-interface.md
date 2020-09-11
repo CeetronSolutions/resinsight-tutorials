@@ -15,6 +15,7 @@ The standard view of ResInsight as loaded the first time will be similar to the 
 4. [Property Editor](#property-editor)
 5. [Result Info](#result-info)
 6. [Process Monitor](#process-monitor)
+8. [Result Plot](#result-plot)
 7. [Messages](#messages)
 
 
