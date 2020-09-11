@@ -1,2 +1,11 @@
 resinsight
 ResInsight
+ATW
+EGRID
+NORNE
+RFTPLT
+norne
+EGRID
+iter
+testdata
+webviz
