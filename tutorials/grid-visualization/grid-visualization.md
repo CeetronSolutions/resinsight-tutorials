@@ -34,7 +34,7 @@ In View 2 select Cell Result and then Navigate back to the [Property Editor](../
 
 With the two views active you could click the "Tile Window" in the [Window management](../graphical-user-interface/graphical-user-interface.md#window-management) buttons to visualize both the Views simultaneously. You can even link the views to show the exact same positions by selecting the right-clicking in both [Reservoir View](../graphical-user-interface/graphical-user-interface.md#reservoir-view) 
 
-![Image](Resources/Pictures/link_views.png)
+![Image](Resources/Pictures/link_view.png)
 
 In additionally, a new menu will appear in the [**Project Tree**](../graphical-user-interface/graphical-user-interface.md#project-tree) that allows you to attach, detach and terminate links.
 
