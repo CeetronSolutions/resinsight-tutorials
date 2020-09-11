@@ -10,8 +10,12 @@ First, import the Eclipse case by selecting the "Import Eclipse Files" and navig
 
 ## Step 2. Locate Octave Script 
 
-### Step 2.1 (Optional) - If Octave is not already installed on your system
+### (Optional) - If Octave is not already installed on your system
 Follow the link in [References](#references) 
+
+![Image](Resources/Pictures/add_script_path.png)
+
+By right-clicking the **Scripts** menu and selecting "Add Script Path", then locate Octave Script `post-processing-with-octave/TimeDiff_SOIL.m`.
 
 
 ## References
