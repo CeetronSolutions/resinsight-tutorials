@@ -1,0 +1,6 @@
+Suggestions:
+"View" - Is not an intuitive name and might be confused with **View** in the property tree. An alternative could be to rename it something along the lines "Orientation and Transformations" which provides a more descriptive naming scheme.
+
+"Repeat from start": This action works as advertised. If played backwards it will start from the end. Could be renamed.
+
+"Animation Speed": Should be evident
