@@ -25,3 +25,5 @@ IJK
 rsp
 riOctaveScripts
 Ctrl
+txt
+wordlist
