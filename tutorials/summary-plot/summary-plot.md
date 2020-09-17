@@ -46,7 +46,7 @@ Then execute the calculation by clicking the "Calculate" button and close the wi
 
 ![Image](./Resources/Pictures/add_calculated.png)
 
-Head back to the "Edit Summary Plot" the same procedure as [**Step 2**](summary-plot.md#step-2.-selecting-curves-to-visualize). Now, we want to add the calculated curve to the summary plot. This can be done by adding "Calculated" in "Summary Types" and then selecting the only curve inside. Close the dialog by clicking "OK"
+Head back to the "Edit Summary Plot" following the same procedure as in **Step 2**. Now, we want to add the calculated curve to the summary plot. This can be done by adding "Calculated" in "Summary Types" and then selecting the only curve inside. Close the dialog by clicking "OK"
 
 ![Image](./Resources/Pictures/final_curves.png)
 
