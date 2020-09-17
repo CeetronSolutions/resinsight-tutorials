@@ -1,6 +1,6 @@
 # Summary Plotting
 
-# Step 1. Loading the Summary case
+## Step 1. Loading the Summary case
 
 ![Image](./Resources/Pictures/open_plotting_window.png)
 
@@ -10,7 +10,7 @@ Open the "Plot Window" by clicking this button on the [Quick Access bar](../grap
 
 Then click the "Import Summary Case" button and navigate to the "Demo1_3DViz" directory, and click "Open".
 
-# Step 2. Selecting curves to visualize
+## Step 2. Selecting curves to visualize
 
 ![Image](./Resources/Pictures/edit_summary_plot.png)
 
@@ -28,7 +28,7 @@ Now, we can plot different curves. Locate the "Well Oil Production Totals (WOPT)
 
 Select B-3H and B-4H, go to the "Summaries" coloumn and select "WOPT" and close the dialog box by clicking "OK"
 
-# Step 3. Using data from curves to generate additional curves
+## Step 3. Using data from curves to generate additional curves
 
 ![Image](./Resources/Pictures/curve_calculator.png)
 
@@ -42,7 +42,7 @@ By clicking the "Edit" button, we can select these properties again. ([WOPT for 
 
 Then execute the calculation by clicking the "Calculate" button and close the window by clicking "Close".
 
-# Step 4. Plotting a Calculated curve.
+## Step 4. Plotting a Calculated curve.
 
 ![Image](./Resources/Pictures/add_calculated.png)
 
