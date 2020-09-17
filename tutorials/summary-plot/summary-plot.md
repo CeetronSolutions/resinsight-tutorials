@@ -25,6 +25,7 @@ Then de-select the checked box to remove the curve. If you cannot find this in t
 Now, we can plot different curves. Locate the "Well Oil Production Totals (WOPT)" by de-selecting "Field" in "Summary Types" and select "Well" in the same coloumn. A list will appear to the right displaying the names of the wells simulated wells. 
 
 ![Image](./Resources/Pictures/select_wells.png)
+
 Select B-3H and B-4H, go to the "Summaries" coloumn and select "WOPT" and close the dialog box by clicking "OK"
 
 # Step 3. Using data from curves to generate additional curves
