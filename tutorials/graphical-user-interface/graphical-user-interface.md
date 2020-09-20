@@ -47,6 +47,7 @@ These buttons provides access to the Plot Window, linking different **Views**, a
 
 These buttons allows for tailoring of the Screen Capture tools. The options are to print the current **View** to your clip-board (Equivalent to Ctrl + C), save your current **View** to a file, and to save all of your **Views** to files.
 
+
 ## View (orientation and transformation) buttons
 ![Image](./Resources/Pictures/view_buttons.png)
 
