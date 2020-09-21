@@ -30,3 +30,4 @@ wordlist
 ctrl
 FOPT
 SMSPEC
+WOPT
