@@ -8,7 +8,7 @@ Open the "Plot Window" by clicking this button on the [Quick Access bar](../grap
 
 ![Image](./Resources/Pictures/import_summary_case.png)
 
-Then click the "Import Summary Case" button and navigate to the "Demo1_3DViz" directory, and click "Open".
+Then click the "Import Summary Case" button and navigate to the "model-data/norne" directory, select "NORNE_ATW2013_RFTPLT_V2.SMSPEC" and click "Open".
 
 ## Step 2. Selecting curves to visualize
 
@@ -22,17 +22,17 @@ Then de-select the checked box to remove the curve. If you cannot find this in t
 
 ![Image](./Resources/Pictures/select_well.png)
 
-Now, we can plot different curves. Locate the "Well Oil Production Totals (WOPT)" by de-selecting "Field" in "Summary Types" and select "Well" in the same coloumn. A list will appear to the right displaying the names of the wells simulated wells. 
+Now, we can plot different curves. Locate the "Well Oil Production Totals (WOPT)" by unchecking "Field" in "Summary Types" and select "Well" in the same column. A list will appear to the right displaying the names of the simulated wells.
 
 ![Image](./Resources/Pictures/select_wells.png)
 
-Select B-3H and B-4H, go to the "Summaries" coloumn and select "WOPT" and close the dialog box by clicking "OK"
+Select **B-3H** and **B-4H**, go to the "Summaries" coloumn and select "WOPT" and close the dialog box by clicking "OK"
 
 ## Step 3. Using data from curves to generate additional curves
 
 ![Image](./Resources/Pictures/curve_calculator.png)
 
-Open the "Curve calculator" by selecting the button as illustrated above. In the previous step we selected one property from the "B-3H" and "B-4H", we would now like to calculate the sum of the two.
+Open the "Curve Calculator" by selecting the button as illustrated above. In the previous step we selected one property from the "B-3H" and "B-4H", we would now like to calculate the sum of the two.
 
 ![Image](./Resources/Pictures/edit_buttons.png)
 
@@ -51,7 +51,4 @@ Head back to the "Edit Summary Plot" following the same procedure as in **Step 2
 ![Image](./Resources/Pictures/final_curves.png)
 
 You will now have a plot that shows the "Well Oil Production Total" of both "B-3H" and "B-4H" in addition to the sum.
-
-
-
 
