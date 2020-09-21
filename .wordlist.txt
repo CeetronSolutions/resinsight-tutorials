@@ -27,3 +27,4 @@ riOctaveScripts
 Ctrl
 txt
 wordlist
+ctrl
