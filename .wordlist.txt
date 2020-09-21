@@ -28,3 +28,5 @@ Ctrl
 txt
 wordlist
 ctrl
+FOPT
+SMSPEC
