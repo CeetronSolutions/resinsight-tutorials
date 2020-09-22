@@ -120,7 +120,7 @@ Displays the Results for the given [Cell Result](#cell-results) through time.
 
 ## Relative Permeability Plot
 
-![Image](./Resources/Pictures/relative_permeability.png)
+![Image](./Resources/Pictures/relative_permeability_plot.png)
 
 Displays the relative permeability.
 
