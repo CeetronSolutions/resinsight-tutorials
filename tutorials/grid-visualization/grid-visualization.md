@@ -37,3 +37,5 @@ With the two views active you could click the "Tile Window" in the [Window manag
 ![Image](Resources/Pictures/link_view.png)
 
 In additionally, a new menu will appear in the Project Tree that allows you to attach, detach and terminate links.
+
+For more information go to: https://resinsight.org/3d-main-window/linkedviews/

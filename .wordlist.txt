@@ -31,3 +31,8 @@ ctrl
 FOPT
 SMSPEC
 WOPT
+cellresults
+resultinspection
+resampling
+linkedviews
+dviews
