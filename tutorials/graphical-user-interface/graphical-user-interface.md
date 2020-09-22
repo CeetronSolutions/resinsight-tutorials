@@ -2,7 +2,7 @@
 
 ![Image](./Resources/Pictures/main_window.png)
 
-The ResInsight user interface is made for customization. The sub-windows adapts according to your actions to provide additional relevant information. In this tutorial the standard layout is explained to allow for an easier transition to more advanced operations. The Buttons on the top are directly related to either the project or your current **View** in the Property Tree.
+The ResInsight user interface is made for customization. The sub-windows adapts according to your actions to provide additional relevant information. In this tutorial the standard layout is explained to allow for an easier transition to more advanced operations. The Buttons on the top are directly related to either the project or your current **View** in the Property Tree. This short introduction serves as an orientation, for more extensive information visit the main user resource at [ResInsight.org](https://resinsight.org/3d-main-window/)
 
 # Overview
 ![Image](./Resources/Pictures/main_window_1.png)
