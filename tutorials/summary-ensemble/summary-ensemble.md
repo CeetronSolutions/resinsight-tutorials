@@ -1,9 +1,5 @@
 # Ensemble Plotting
 
-This tutorial is split into two parts.
-
-# Part I
-
 ## Step 1. Importing an Ensemble
 
 ![Image](Resources/Pictures/import_ensemble.png) ![Image](Resources/Pictures/import_ensemble_1.png)
