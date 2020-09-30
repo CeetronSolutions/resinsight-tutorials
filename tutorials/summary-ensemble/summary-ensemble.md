@@ -10,7 +10,7 @@ This tutorial is split into two parts.
 
 Either click the "Import Ensemble" button in the [Quick Access bar](../graphical-user-interface/graphical-user-interface.md#quick-access-buttons) or navigate through the "File" drop-down menu and select ´Import->Summary Cases->Import Ensemble´
 
-![Image](Resources/Pictures/import_ensemble.png)
+![Image](Resources/Pictures/find_ensemble.png)
 
 A prompt will appear; select the "..." (as illustrated in the above picture) and navigate to the folder which contains the ensemble. It will appear a file-path to the folder you have selected. In our case we are using the Reek ensemble.
 
