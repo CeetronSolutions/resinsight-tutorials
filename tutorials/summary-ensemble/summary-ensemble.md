@@ -12,7 +12,7 @@ A prompt will appear; select the "..." (as illustrated in the above picture) and
 
 ![Image](Resources/Pictures/filter_ensemble.png)
 
-The Reek ensemble we are working with contains one base prediction, iteration 1, iteration 2, and "pred_op6". To import the base prediction ("base_pred") we add the following syntax to the file path: "\*/base_pred/\*", the asterix symbol ("\*") means that it will match any number of any character. As the above illustration shows, press the "Find" it will search for all the ".SMSPEC" files associated with the "base_pred".
+The Reek ensemble we are working with contains one base prediction, iteration 1, iteration 2, and "pred_op6". To import the base prediction ("base_pred") we add the following syntax to the file path: "\*/base_pred/\*", the astrix symbol ("\*") means that it will match any number of any character. As the above illustration shows, press the "Find" it will search for all the ".SMSPEC" files associated with the "base_pred".
 
 ![Image](Resources/Pictures/select_ensemble.png)
 
