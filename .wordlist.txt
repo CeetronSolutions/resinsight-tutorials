@@ -38,3 +38,6 @@ linkedviews
 dviews
 pred
 astrix
+casegroupsandstatistics
+PORO
+subfolders
