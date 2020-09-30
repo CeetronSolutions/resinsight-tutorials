@@ -20,7 +20,7 @@ Then we create an intersection by right-clicking the "Intersections" button in t
 
 We then head down to the [Property Editor](../graphical-user-interface/graphical-user-interface.md#property-editor), we can select the type of intersection geometry that we would like to make. In this instance we are creating a well from the follow intersection. We therefore select "Polyline" as the geometry.
 
-![Image](Resources/Pictures/deselect_sim_faults.png)
+![Image](Resources/Pictures/start_picking_points.png)
 
 Next we select "Start Picking Points" such that we can probe the reservoir for coordinates for the "Polyline" intersections.
 
