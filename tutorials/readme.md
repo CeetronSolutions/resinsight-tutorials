@@ -6,3 +6,5 @@ Underneath you can select the tutorial you would like to enter
 1. [3D Grid Visualization](grid-visualization/grid-visualization.md)
 2. [Post-processing and Scripting with Octave](post-processing-with-octave/post-processing-with-octave.md)
 3. [Summary Plotting](summary-plot/summary-plot.md)
+4. [Summary Ensemble](summary-ensemble/summary-ensemble.md)
+5. [Grid Group Statistics](grid-group-statistics/grid-group-statistics)
