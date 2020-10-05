@@ -45,3 +45,4 @@ In the Property Editor, select "Static", and all the calculated will be displaye
 # References:
 
 For information go to: https://resinsight.org/3d-main-window/casegroupsandstatistics/
+
