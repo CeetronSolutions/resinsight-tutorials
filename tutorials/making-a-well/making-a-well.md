@@ -2,7 +2,7 @@
 
 ## Step 1 - Import Eclipse Case
 
-<img src="../grid-visualization/Resources/Pictures/import_eclipse.png" width="800">
+<img src="../grid-visualization/Resources/Pictures/import_eclipse.png" width="500">
 
 Import grid data by using the "Import Eclipse Case"-button and locate the folder "grid-visualization".
 
