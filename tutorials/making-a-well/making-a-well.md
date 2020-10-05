@@ -72,7 +72,7 @@ The well should look somewhat like this.
 
 ## Step 4 - Exporting the well
 
-<img src="Resources/Pictures/export_selected_well_paths.png" width="500">
+<img src="Resources/Pictures/export_selected_well_paths.png" width="700">
 
 We can now export the well path we have created by selecting the "Export Selected Well Paths" option as shown above, this will create a ".dev"-file in your selected location.
 
