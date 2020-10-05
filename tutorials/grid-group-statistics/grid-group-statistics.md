@@ -2,7 +2,7 @@
 
 # Step 1: Create a Case Group
 
-![Image](Resources/Pictures/import_grid_case_group.png | width=200)
+![Image](Resources/Pictures/import_grid_case_group.png =width200x200)
 
 As illustrated in the above picture, select the `File->Import->Eclipse Cases->Import Grid Case Group from Files Recursively`. This will bring up a prompt, where you should select the folder of the ensemble.
 
