@@ -71,4 +71,4 @@ or dynamic property. Now, add a third Track and select PRESSURE as the property.
 
 <img src="Resources/Pictures/export.png" width="500">
 
-Export the current view to a PDF file by clicking the "Export View to PDF" button in the [Quick Access Bar](../graphical-user-interface/graphical-user-interface.md#quick-access-bar) and naming the file something appropriat.
+Export the current view to a PDF file by clicking the "Export View to PDF" button in the [Quick Access Bar](../graphical-user-interface/graphical-user-interface.md#quick-access-bar) and naming the file something appropriate.
