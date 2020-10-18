@@ -47,3 +47,4 @@ astrix
 fishbones
 Fishbones
 multisegmented
+fishbone
