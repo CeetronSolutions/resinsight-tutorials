@@ -86,7 +86,7 @@ We can now add a Fracture to the trajectory. By again right-clicking the Complet
 
 <img src="Resources/Pictures/19_adjust_location_fracture.png" width="500">
 
-The Fracture will be initialised at 0 MD. In the Property Editor adjust the slider such that a blue circle enters the Reservoir View. (If the "add-perforation.rsp" is the project you can se the MD to be equal to 4305.53)
+The Fracture will be initialised at 0 MD. In the Property Editor adjust the slider such that a blue circle enters the Reservoir View. (If the "add-perforation.rsp" is the project you can set the MD to be equal to 4305.53)
 
 <img src="Resources/Pictures/20_show_fracture_perpendicular.png" width="800">
 
