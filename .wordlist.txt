@@ -46,3 +46,4 @@ Polyline
 astrix
 fishbones
 Fishbones
+multisegmented

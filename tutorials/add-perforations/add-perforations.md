@@ -27,7 +27,7 @@ These two options control the geometry of the perforations and the "Skin Factor"
 
 <img src="Resources/Pictures/6_start_end_date.png" width="500">
 
-Ïn addition we can adjust the start and end-date by enabling "Custom Start Date" and/or "Custom End Date".
+In addition we can adjust the start and end-date by enabling "Custom Start Date" and/or "Custom End Date".
 
 <img src="Resources/Pictures/7_one_interval.png" width="800">
 
