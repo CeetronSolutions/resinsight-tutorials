@@ -76,7 +76,7 @@ Debug Found /prog/ecl/grid/macros
 Debug Platform: system=Linux hostname=stj-lcb02-01-09 release=2.6.32-504.el6.x86_64 os_version=#1 SMP Tue Sep 16 01:56:35 EDT 2014 machine=x86_64 processor=x86_64
 Debug Found /prog/ecl/grid/macros
 Debug Analysing for run
-Debug Analysed NORNE_ATW2013_RFTPLT_V2.DATA
+Debug Analyzed NORNE_ATW2013_RFTPLT_V2.DATA
 Licenses = []
 Processors = 4
 File root = /project/multiscale/OPM/Ceetron/simu/Deeper/W1.3_RFTdata/norne
@@ -7723,7 +7723,7 @@ Host 0 -- ip 10.221.77.50 -- ranks 0 - 3
  Total number of time steps forced to be accepted          0
  PRODUCING RUN SUMMARIES
  NORNE_ATW2013_RFTPLT_V2.SMSPEC exists
- SPEC file succesfully read
+ SPEC file successfully read
  Opened file NORNE_ATW2013_RFTPLT_V2.UNSMRY
      1 files exist containing      894 timesteps
  Summary file NORNE_ATW2013_RFTPLT_V2.UNSMRY opened
