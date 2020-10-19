@@ -24,7 +24,7 @@ In the [Quick Access Bar](../graphical-user-interface/graphical-user-interface.m
 
 <img src="Resources/Pictures/4_remove_simulated_wells.png" width="500">
 
-The [Reservoir View](../graphical-user-interface/graphical-user-interface.md#reservoir-view) should now include one intersection following the our imported well path, in addition there should be multiple simulated wells. We can de-visualize the simulated wells by unchecking the box, as illustrated in the picture above.
+The [Reservoir View](../graphical-user-interface/graphical-user-interface.md#reservoir-view) should now include one intersection following the our imported well path, in addition there should be multiple simulated wells. We can deselect the simulated wells by unchecking the box, as illustrated in the picture above.
 
 ## Step 4 - Create Perforation Intervals
 
@@ -64,7 +64,7 @@ A pop-up menu will appear, here you can adjust the Grid Refinement by specifying
 
 <img src="Resources/Pictures/13_confirm_LGR.png" width="500">
 
-Click on the "OK" button to confirm your choise.
+Click on the "OK" button to confirm your choice.
 
 ## Step 6 - Display the newly created LGR
 
