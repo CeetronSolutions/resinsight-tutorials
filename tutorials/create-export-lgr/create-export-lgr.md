@@ -68,7 +68,7 @@ Click on the "OK" button to confirm your choice.
 
 ## Step 6 - Display the newly created LGR
 
-<img src="Resources/Pictures/14_show_LGR_and_not_main_grid.png" width="500">
+<img src="Resources/Pictures/14_show_LGR_and_not_main_grid.png" width="800">
 
 In the Project Tree, go to the grid section and organize the "checked boxes" such as illustrated in the picture above.
 
