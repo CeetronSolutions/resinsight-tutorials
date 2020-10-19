@@ -48,3 +48,7 @@ fishbones
 Fishbones
 multisegmented
 fishbone
+completionslgr
+LGR
+uncheck
+LGRs

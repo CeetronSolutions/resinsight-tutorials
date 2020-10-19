@@ -84,4 +84,4 @@ After having performed our visual inspection, we can now export the LGR by navig
 
 ## References:
 
-For further information, head to the reference section on ResInsight.org https://resinsight.org/wells-and-completions/completionslgr/
+For further information, head to the reference section on ResInsight.org: https://resinsight.org/wells-and-completions/completionslgr/
