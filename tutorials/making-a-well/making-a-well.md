@@ -32,7 +32,7 @@ We then move over to the [Reservoir View](../graphical-user-interface/graphical-
 
 Stop picking points by selecting the "Stop Picking Points" button in the Property Editor. 
 
-<img src="Resources/Pictures/hide_cell.png" width="500">
+<img src="Resources/Pictures/hide_cells.png" width="500">
 
 We can now hide the cells of the reservoir by clicking the "Hide Grid Cells" button in the [Quick Access Bar](../graphical-user-interface/graphical-user-interface.md#quick-access-bar). We will now observe that only the selected intersection is displayed.
 

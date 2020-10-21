@@ -35,7 +35,7 @@ To add a new curve, right-click "Track 1" and add press the "New Well Log Extrac
 
 Make sure that the second item in the menu is selected, as illustrated above.
 
-<img src="Resources/Pictures/select_second_property" width="500">
+<img src="Resources/Pictures/select_second_property.png" width="500">
 
 We can now move down to the Property Editor and select the other property. We will add the "SWAT" (Water Saturation) from the "Dynamic" properties to the current Track.
 
