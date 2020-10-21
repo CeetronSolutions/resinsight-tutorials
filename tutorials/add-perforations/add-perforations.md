@@ -120,3 +120,6 @@ The fracture can now be exported by right-clicking the "Fractures" option in the
 All completion data for this well can be exported by right-clicking the Completions option in the Project Tree and navigating to "Export Completions->Export Completion Data for Current Well".
 
 
+## References:
+
+For further information, head to the reference section on ResInsight.org: https://resinsight.org/wells-and-completions/completions/
