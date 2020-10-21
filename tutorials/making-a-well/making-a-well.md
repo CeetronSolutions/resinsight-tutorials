@@ -80,3 +80,6 @@ We can now export the well path we have created by selecting the "Export Selecte
 
 In addition you have the option to show the Well Plan by selecting "Show Well Plan". This brings up a window which you can select the details you want to bring and use the clipboard to export.
 
+## References:
+
+For further information, head to the reference section on ResInsight.org: https://resinsight.org/wells-and-completions/wellpaths/
