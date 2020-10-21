@@ -59,7 +59,7 @@ Make sure that the item "Well-1" in Track 2 is selected, as illustrated above.
 
 <img src="Resources/Pictures/select_second_property.png" width="500">
 
-We move back down to the Property Editor; here we again find either the SWAT under "Dynamic" properties.
+We move back down to the Property Editor; here we again find the SWAT (Water Saturation) property under "Dynamic".
 
 <img src="Resources/Pictures/two_track_view.png" width="800">
 

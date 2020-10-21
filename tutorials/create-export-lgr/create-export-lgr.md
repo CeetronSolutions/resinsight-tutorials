@@ -4,7 +4,7 @@
 
 <img src="../grid-visualization/Resources/Pictures/import_eclipse.png" width="500">
 
-Import grid data by using the "Import Eclipse Case"-button and locate the folder "Resources/Model".
+Import grid data by using the "Import Eclipse Case"-button and locate the folder model-data/norne" folder.
 
 ## Step 2 - Import a well
 

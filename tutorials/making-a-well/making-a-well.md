@@ -4,9 +4,9 @@
 
 <img src="../grid-visualization/Resources/Pictures/import_eclipse.png" width="500">
 
-Import grid data by using the "Import Eclipse Case"-button and locate the folder "grid-visualization".
+Import grid data by using the "Import Eclipse Case"-button and locate the folder "model-data/norne" folder.
 
-## Step 2 - Preparing to make Well
+## Step 2 - Preparing to make a Well
 
 <img src="Resources/Pictures/deselect_sim_faults.png" width="500">
 
