@@ -52,4 +52,5 @@ completionslgr
 LGR
 uncheck
 LGRs
-
+wellmeasurements
+wellpaths
