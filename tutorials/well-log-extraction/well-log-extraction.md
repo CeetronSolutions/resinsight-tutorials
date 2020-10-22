@@ -35,7 +35,7 @@ To add a new curve, right-click "Track 1" and add press the "New Well Log Extrac
 
 Make sure that the second item in the menu is selected, as illustrated above.
 
-<img src="Resources/Pictures/select_second_property" width="500">
+<img src="Resources/Pictures/select_second_property.png" width="500">
 
 We can now move down to the Property Editor and select the other property. We will add the "SWAT" (Water Saturation) from the "Dynamic" properties to the current Track.
 
@@ -59,7 +59,7 @@ Make sure that the item "Well-1" in Track 2 is selected, as illustrated above.
 
 <img src="Resources/Pictures/select_second_property.png" width="500">
 
-We move back down to the Property Editor; here we again find either the SWAT under "Dynamic" properties.
+We move back down to the Property Editor; here we again find the SWAT (Water Saturation) property under "Dynamic".
 
 <img src="Resources/Pictures/two_track_view.png" width="800">
 
@@ -72,3 +72,7 @@ or dynamic property. Now, add a third Track and select PRESSURE as the property.
 <img src="Resources/Pictures/export.png" width="500">
 
 Export the current view to a PDF file by clicking the "Export View to PDF" button in the [Quick Access Bar](../graphical-user-interface/graphical-user-interface.md#quick-access-bar) and naming the file something appropriate.
+
+## References:
+
+For further information, head to the reference section on ResInsight.org: https://resinsight.org/wells-and-completions/wellmeasurements/

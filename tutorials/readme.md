@@ -10,3 +10,6 @@ Underneath you can select the tutorial you would like to enter
 5. [Grid Group Statistics](grid-group-statistics/grid-group-statistics.md)
 6. [Making a well](making-a-well/making-a-well.md)
 7. [Well Log Extraction](well-log-extraction/well-log-extraction.md)
+8. [Add and Export perforations](add-perforations/add-perforations.md)
+9. [Add and Export Local Grid Refinements](create-export-lgr/create-export-lgr.md)
+

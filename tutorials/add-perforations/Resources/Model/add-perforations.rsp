@@ -3,9 +3,9 @@
     <DocumentFileName>C:/Users/BrageSK/Dropbox/CeetronSolutions/temp/ResInsightProject.rsp</DocumentFileName>
     <ProjectFileVersionString>2020.04.1-dev.01</ProjectFileVersionString>
     <ReferencedExternalFiles>
-        $PathId_001$ NORNE_ATW2013_RFTPLT_V2.EGRID;
-        $PathId_002$ FAULT_JUN_05.INC;
-        $PathId_003$ NORNE_ATW2013_RFTPLT_V2.SMSPEC;
+        $PathId_001$ ../../../../model-data/Norne/NORNE_ATW2013_RFTPLT_V2.EGRID;
+        $PathId_002$ ../../../../model-data/Norne/FAULT_JUN_05.INC;
+        $PathId_003$ ../../../../model-data/Norne/NORNE_ATW2013_RFTPLT_V2.SMSPEC;
     </ReferencedExternalFiles>
     <OilFields>
         <ResInsightOilField>

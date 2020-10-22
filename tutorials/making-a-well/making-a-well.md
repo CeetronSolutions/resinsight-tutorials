@@ -4,9 +4,9 @@
 
 <img src="../grid-visualization/Resources/Pictures/import_eclipse.png" width="500">
 
-Import grid data by using the "Import Eclipse Case"-button and locate the folder "grid-visualization".
+Import grid data by using the "Import Eclipse Case"-button and locate the folder "model-data/norne" folder.
 
-## Step 2 - Preparing to make Well
+## Step 2 - Preparing to make a Well
 
 <img src="Resources/Pictures/deselect_sim_faults.png" width="500">
 
@@ -32,7 +32,7 @@ We then move over to the [Reservoir View](../graphical-user-interface/graphical-
 
 Stop picking points by selecting the "Stop Picking Points" button in the Property Editor. 
 
-<img src="Resources/Pictures/hide_cell.png" width="500">
+<img src="Resources/Pictures/hide_cells.png" width="500">
 
 We can now hide the cells of the reservoir by clicking the "Hide Grid Cells" button in the [Quick Access Bar](../graphical-user-interface/graphical-user-interface.md#quick-access-bar). We will now observe that only the selected intersection is displayed.
 
@@ -80,3 +80,6 @@ We can now export the well path we have created by selecting the "Export Selecte
 
 In addition you have the option to show the Well Plan by selecting "Show Well Plan". This brings up a window which you can select the details you want to bring and use the clipboard to export.
 
+## References:
+
+For further information, head to the reference section on ResInsight.org: https://resinsight.org/wells-and-completions/wellpaths/

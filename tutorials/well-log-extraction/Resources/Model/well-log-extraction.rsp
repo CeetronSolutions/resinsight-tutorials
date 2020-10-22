@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ResInsightProject>
-    <DocumentFileName>C:/Users/BrageSK/Dropbox/CeetronSolutions/temp/ResInsightProject.rsp</DocumentFileName>
+    <DocumentFileName>/Dropbox/CeetronSolutions/resinsight-tutorials/resinsight-tutorials/tutorials/well-log-extraction/Resources/Model/well-log-extraction.rsp</DocumentFileName>
     <ProjectFileVersionString>2020.04.1-dev.01</ProjectFileVersionString>
     <ReferencedExternalFiles>
-        $PathId_001$ NORNE_ATW2013_RFTPLT_V2.EGRID;
-        $PathId_002$ FAULT_JUN_05.INC;
-        $PathId_003$ NORNE_ATW2013_RFTPLT_V2.SMSPEC;
+        $PathId_001$ F:/Dropbox/CeetronSolutions/resinsight-tutorials/resinsight-tutorials/model-data/norne/NORNE_ATW2013_RFTPLT_V2.EGRID;
+        $PathId_002$ F:/Dropbox/CeetronSolutions/resinsight-tutorials/resinsight-tutorials/model-data/model-data/norne/FAULT_JUN_05.INC;
+        $PathId_003$ F:/Dropbox/CeetronSolutions/resinsight-tutorials/resinsight-tutorials/model-data/model-data/norne/NORNE_ATW2013_RFTPLT_V2.SMSPEC;
     </ReferencedExternalFiles>
     <OilFields>
         <ResInsightOilField>

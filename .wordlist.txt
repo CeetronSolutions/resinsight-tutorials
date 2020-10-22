@@ -46,3 +46,11 @@ Polyline
 astrix
 fishbones
 Fishbones
+multisegmented
+fishbone
+completionslgr
+LGR
+uncheck
+LGRs
+wellmeasurements
+wellpaths
