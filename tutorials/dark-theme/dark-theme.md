@@ -22,10 +22,13 @@ Use the drop-down menu from "GUI Theme" and select "Dark Theme".
 
 <img src="Resources/Pictures/4_confirm_choice.png" width="500">
 
+Confirm your choice by clicking "OK"
+
 ## Final Result
 
 <img src="Resources/Pictures/5_dark_theme_enabled.png" width="800">
 
+The GUI should now look similar to this
 
 ## References:
 
