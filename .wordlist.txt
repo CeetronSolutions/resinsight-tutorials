@@ -54,3 +54,4 @@ uncheck
 LGRs
 wellmeasurements
 wellpaths
+releasenotes
