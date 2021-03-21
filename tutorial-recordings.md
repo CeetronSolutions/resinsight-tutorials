@@ -8,7 +8,7 @@ or
 Read here for more details- [[ResInsight Graphical User Interface](graphical-user-interface/graphical-user-interface.md)
 
 # Change Default Settings and Enable Dark Theme
-You will learn to change defualt settings and enable dark mode. [Watch here for more details!] (https://www.youtube.com/watch?v=quc9WvUtdY8)
+You will learn to change defualt settings and enable dark mode. [Watch here for more details!](https://www.youtube.com/watch?v=quc9WvUtdY8)
 or
 Read here for more details- [Enable Dark Theme](dark-theme/dark-theme.md)
 
