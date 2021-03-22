@@ -3,6 +3,7 @@ Underneath you can find list of available recordings and links to read tutorial 
 
 ## 1. ResInsight Graphical User Interface
 This tutorial will help you to import EGRID file, switch between #D and plotting window, change navigation mode, learn about different section.  
+
 Watch the recording here-[Brief Introdcution to ResInsight Video](https://www.youtube.com/watch?v=MFfRczq1TM4).  
 Read here for more details- [[ResInsight Graphical User Interface](graphical-user-interface/graphical-user-interface.md)  
 
