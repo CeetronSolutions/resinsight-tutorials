@@ -37,8 +37,8 @@ Read here for more details-[Summary Ensemble tutorial](summary-ensemble/summary-
 
 ## 7. Grid Group Statistics
 
-Watch the recording here -[Grid Group Statistics Video](https://youtu.be/F0RJDN0aklY).
-Read here for more details -[Grid Group Statistics Video](grid-group-statistics/grid-group-statistics.md).
+Watch the recording here -[Grid Group Statistics Video](https://youtu.be/F0RJDN0aklY).  
+Read here for more details -[Grid Group Statistics tutorial](grid-group-statistics/grid-group-statistics.md).  
 
 
 ## 8.Making a Well
