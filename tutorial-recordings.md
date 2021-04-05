@@ -5,7 +5,7 @@ Underneath you can find list of available recordings and links to read tutorial 
 This tutorial will help you to import EGRID file, switch between #D and plotting window, change navigation mode, learn about different section.  
 
 Watch the recording here-[Brief Introdcution to ResInsight Video](https://www.youtube.com/watch?v=MFfRczq1TM4).  
-Read here for more details-[ResInsight Graphical User Interface](graphical-user-interface/graphical-user-interface.md)  
+Read here for more details-[ResInsight Graphical User Interface](tutorials/graphical-user-interface/graphical-user-interface.md)  
 
 ## 2. Change Default Settings and Enable Dark Theme
 You will learn to change defualt settings and enable dark mode.  
