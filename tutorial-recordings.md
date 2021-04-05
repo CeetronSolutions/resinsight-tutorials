@@ -20,23 +20,30 @@ Watch the recording here- [3D Grid Visualization Video](https://www.youtube.com/
 Read here for more derails- [3D Grid Visualization tutorial](grid-visualization/grid-visualization.md).  
 
 
-## 4. Summary Plotting
+## 5. Summary Plotting
 You will learn to produce summary curves for available summary vectors, generate addidtional curves using data from available curves.  
 
 Watch the recording here-[Summary Plotting Video]().  
 Read here for more details-[Summary Plotting tutorial](summary-plot/summary-plot.md).  
 
 
-## 4. Ensemble Plotting
+## 6. Ensemble Plotting
 You will learn to import ensemble, create ensemble plots, change plotting color and extract statistical data from the plot.   
 
 
-Watch the recording here-[Summary Ensemble Plotting Video]().   
+Watch the recording here-[Summary Ensemble Plotting Video](https://youtu.be/tGvFV0XQtlk).   
 Read here for more details-[Summary Ensemble tutorial](summary-ensemble/summary-ensemble.md).  
 
 
-## 5.Making a Well
+## 7. Grid Group Statistics
+
+Watch the recording here -[Grid Group Statistics Video](https://youtu.be/F0RJDN0aklY).
+Read here for more details -[Grid Group Statistics Video](grid-group-statistics/grid-group-statistics.md).
+
+
+## 8.Making a Well
 You will learn to make a well from scratch by manually picking up points in an interactive way combined with visualization of well and intersecion and later exporting the created well path.  
 
-Watch the recording here-[Making a Well Video]().  
+Watch the recording here-[Making a Well Video](https://youtu.be/qYniqCeinEs).  
 Read here for more details- [Making a well tutorial](making-a-well/making-a-well.md).  
+
