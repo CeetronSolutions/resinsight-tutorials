@@ -36,7 +36,7 @@ Read here for more details-[Summary Ensemble tutorial](tutorials/summary-ensembl
 
 
 ## 7. Grid Group Statistics
-
+This tutorial will give you an overview of how to create a grid case group, create statistics across ensemble and visualize the generated statistics in ResInsight. 
 Watch the recording here -[Grid Group Statistics Video](https://youtu.be/F0RJDN0aklY).  
 Read here for more details -[Grid Group Statistics tutorial](tutorials/grid-group-statistics/grid-group-statistics.md).  
 
