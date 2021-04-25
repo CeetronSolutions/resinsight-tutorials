@@ -50,19 +50,19 @@ You will learn to make a well from scratch by manually picking up points in an i
 You will learn how to creat well log extraction curve with one or multiple tracks, each displaying single or multiple curves. 
 
 [Well Log Extraction video](https://youtu.be/tMY1fDD7-6M). 
-[Well Log Extraction](well-log-extraction/well-log-extraction.md). 
+[Well Log Extraction](tutorials/well-log-extraction/well-log-extraction.md). 
 
 ## 10. Add and Export Perforations
 You will learn how to create perforation intervals along the well path and add fisherbone and fracture completions.  
 
 [Add and Export perforations video](https://youtu.be/gLXixpiI8BE).  
-[Add and Export perforations](add-perforations/add-perforations.md). 
+[Add and Export perforations](tutorials/add-perforations/add-perforations.md). 
 
 ## 11. Add and Export Local Grid Refinements
 You will learn to add local grid refinements surrounding perfroation interval along the well path.  
 
 [Add and Export Local Grid Refinements video](https://youtu.be/iJjDVgr7WGw).  
-[Add and Export Local Grid Refinements](create-export-lgr/create-export-lgr.md).  
+[Add and Export Local Grid Refinements](tutorials/create-export-lgr/create-export-lgr.md).  
 
 
 
