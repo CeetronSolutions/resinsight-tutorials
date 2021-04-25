@@ -47,9 +47,9 @@ You will learn to make a well from scratch by manually picking up points in an i
 [Making a well tutorial](tutorials/making-a-well/making-a-well.md).  
 
 ## 9. Well Log Extraction
-You will learn how to creat well log extraction curve with one or multiple tracks, each displaying single or multiple curves. 
+You will learn how to creat well log extraction curve with one or multiple tracks, each displaying single or multiple curves.  
 
-[Well Log Extraction video](https://youtu.be/tMY1fDD7-6M). 
+[Well Log Extraction video](https://youtu.be/tMY1fDD7-6M).  
 [Well Log Extraction](tutorials/well-log-extraction/well-log-extraction.md). 
 
 ## 10. Add and Export Perforations
