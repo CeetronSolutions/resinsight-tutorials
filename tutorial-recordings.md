@@ -36,7 +36,7 @@ You will learn to import ensemble, create ensemble plots, change plotting color 
 ## 7. Grid Group Statistics
 This tutorial will give you an overview of how to create a grid case group, create statistics across ensemble and visualize the generated statistics in ResInsight. 
 [Grid Group Statistics Video](https://youtu.be/F0RJDN0aklY).  
-[Grid Group Statistics tutorial](tutorials/grid-group-statistics/grid-group-statistics.md).  
+[Grid Group Statistics tutorial](tutorials/grid-group-statistics/grid-group-statistics.md).   
 
 
 ## 8.Making a Well
@@ -48,19 +48,19 @@ You will learn to make a well from scratch by manually picking up points in an i
 ## 9. Well Log Extraction
 You will learn how to creat well log extraction curve with one or multiple tracks, each displaying single or multiple curves.
 
-[Well Log Extraction video](https://youtu.be/tMY1fDD7-6M)
-[Well Log Extraction](well-log-extraction/well-log-extraction.md)
+[Well Log Extraction video](https://youtu.be/tMY1fDD7-6M). 
+[Well Log Extraction](well-log-extraction/well-log-extraction.md). 
 
 ## 10. Add and Export Perforations
-You will learn how to create perforation intervals along the well path and add fisherbone and fracture completions.
+You will learn how to create perforation intervals along the well path and add fisherbone and fracture completions. 
 
-[Add and Export perforations video](https://youtu.be/gLXixpiI8BE)
-[Add and Export perforations](add-perforations/add-perforations.md)
+[Add and Export perforations video](https://youtu.be/gLXixpiI8BE). 
+[Add and Export perforations](add-perforations/add-perforations.md). 
 
 ## 11. Add and Export Local Grid Refinements
-You will learn to add local grid refinements surrounding perfroation interval along the well path.
-[Add and Export Local Grid Refinements video](https://youtu.be/iJjDVgr7WGw)
-[Add and Export Local Grid Refinements](create-export-lgr/create-export-lgr.md)
+You will learn to add local grid refinements surrounding perfroation interval along the well path. 
+[Add and Export Local Grid Refinements video](https://youtu.be/iJjDVgr7WGw). 
+[Add and Export Local Grid Refinements](create-export-lgr/create-export-lgr.md). 
 
 
 
