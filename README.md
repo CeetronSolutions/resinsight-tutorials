@@ -11,8 +11,4 @@ Each tutorial is described in a text file. A suggested solution to some of the c
 
 - [Install ResInsight](https://resinsight.org/getting-started/download-and-install/)
 - Clone the repository  `git clone https://github.com/CeetronSolutions/resinsight-tutorials/`
-
-- Start ResInsight, and open the project file with extension `.rsp` from the [tutorials](tutorials) folder
-
-## Automated spell checking
-When adding new content, spell checking is performed. If spelling errors are detected, either fix the spelling errors or add the words to the file `.wordlist.txt`
+- When asked to import data, import from the `model-data` folder
