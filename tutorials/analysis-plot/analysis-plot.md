@@ -30,7 +30,28 @@ Select "New Delta Ensemble" from right-click on "Summary Cases" as shown above.
 
 ![Image](Resources/Pictures/select_delta_ensemble.png) 
 
-Create a Delta Enseble as the difference between the two cases (iter-6-iter-0)
+Create a Delta Ensemble as the difference between the two cases (iter-6-iter-0)
 
 
 ## Step 3: Create Analysis Plot
+
+![Image](Resources/Pictures/create_analysis_plot.png) 
+
+In project tree, right click on "Analysis Plot" and select new Analysis Plot as displayed in screenshot above.
+
+![Image](Resources/Pictures/select_vector.png) 
+
+In Property Editor, in group Selected Vectors, click on the button with three dots “…” as illustrated above
+
+
+![Image](Resources/Pictures/analysis_plot_editor.png)  
+
+Set source to Delta ensemble, select well OP_1-5 and summary Vector WOPT as shown above. Once desired property is selected, click "OK"
+
+![Image](Resources/Pictures/bar_settings.png) 
+
+Change bar setting configuration (Bar Orientation: Horizontal, Select Summary Item in Major Grouping  and sort by abs(Value) as illustrated in the figure above.
+
+
+![Image](Resources/Pictures/bar_label.png) 
+Activate Bar labels and show legends.
