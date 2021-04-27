@@ -10,7 +10,6 @@ Navigate through the "File" drop-down menu and select ´Import->Summary Cases->I
 
 ![Image](./Resources/Pictures/file_location.png)
 
-
 A prompt will appear; select the "..." (as illustrated in the above picture) and navigate to the folder which contains the ensemble. It will appear a file-path to the folder you have selected. In our case we are using the Reek ensemble.
 
 ![Image](Resources/Pictures/import_recursively.png)
