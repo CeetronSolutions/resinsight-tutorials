@@ -41,18 +41,23 @@ As the screen shot above illustrates we now want to select "Well", "OP_5" and th
 Confirm the choice and display the graphs by clicking the OK button. 
 
 
-## Step 3: Change the curve appearance 
+## Step 3: Change the plot appearance 
+
+### General Plot Options
 
 ![Image](Resources/Pictures/change_title.png) 
 
+### Changing curve appearance
+
 ![Image](Resources/Pictures/change_color.png) 
+
+### Changing aixs settings
 
 ![Image](Resources/Pictures/change_axis.png) 
 
-![Image](Resources/Pictures/change_font.png)  
 
 
-Change the curve appearance of thw two curves the way you linke best. For example, rename the title, increase font size of axis labels and legends, changing color of curves are some options to begin with.
+Change the curve appearance of the two curves the way you linke best. For example, rename the title, increase font size of axis labels and legends, changing color of curves, line style are some options to begin with.
 
 ## Step 4: Save plot template
 
