@@ -8,12 +8,12 @@ Navigate through the "File" drop-down menu and select ´Import->Summary Cases->I
 
 ![Image](./Resources/Pictures/import_recursively.png)
 
-![Image](./Resources/Pictures/find_recursively.png)
+![Image](./Resources/Pictures/file_location.png)
 
 
 A prompt will appear; select the "..." (as illustrated in the above picture) and navigate to the folder which contains the ensemble. It will appear a file-path to the folder you have selected. In our case we are using the Reek ensemble.
 
-![Image](Resources/Pictures/filter_summarycases.png)
+![Image](Resources/Pictures/import_recursively.png)
 
 The Reek ensemble we are working with contains 9 realization each having four iterations ranging from iter 0 to iter 3. To import the iter-0 ("base_pred") we add the following syntax to the file path: "\*/iter-0/\*", the astrix symbol ("\*") means that it will match any number of any character. As the above illustration shows, press the "Find" it will search for all the ".SMSPEC" files associated with the "iter-0".
 
@@ -28,8 +28,11 @@ Open the "Plot Window" by clicking this button on the [Quick Access bar](../grap
 ![Image](Resources/Pictures/select_twocases.png)
 Select two summary cases in the project tree as shown above and from right-click menu select "Open Summary Plot Editor" 
 
+![Image](Resources/Pictures/summaryplot_editor.png)
 As the screen shot above illustrates we now want to select "Well", "OP_5" and the property we are interested in displaying. In our case this will be the Oil Production Total or "WOPT", select in the scrolling window or use the search functionality on top to find it.
 
+![Image](Resources/Pictures/press_ok.png)
+Confirm the choice and display the graphs by clicking the OK button.
 
 ## Step 3: Change the curve appearance
 ![Image](Resources/Pictures/change_title.png)
@@ -41,6 +44,7 @@ Change the curve appearance of thw two curves the way you linke best. For exampl
 ## Step 4: Save plot template
 
 ![Image](Resources/Pictures/save_template.png)
+![Image](Resources/Pictures/name_template.png)
 Once desired curve appearance is achieved, in the plot area, right-click and select "Save as Plot Template". Create a folder inn your user area and store this template in thsi folder using the template name "wopr_two_cases" as illustated above
 
 
@@ -49,6 +53,6 @@ Once desired curve appearance is achieved, in the plot area, right-click and sel
 In the project tree , select two other summary cases than the ones used to produce template. From the right-click menu, select " Create Plot from Template" and select the recently created template as illustated above.
 
 ![Image](Resources/Pictures/test_template.png)
-Visual settings you stored in the template should be applied to the geenrated plot as shown above.
+Visual settings you stored in the template should be applied to the generated plot as shown above.
 
 
