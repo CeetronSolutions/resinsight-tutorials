@@ -16,7 +16,7 @@ A prompt will appear; select the "..." (as illustrated in the above picture) and
 
 The Reek ensemble we are working with contains 9 realization each having four iterations ranging from iter 0 to iter 3. To import the iter-0 ("base_pred") we add the following syntax to the file path: "\*/iter-0/\*", the astrix symbol ("\*") means that it will match any number of any character. As the above illustration shows, press the "Find" it will search for all the ".SMSPEC" files associated with the "iter-0".
 
-![Image](Resources/Pictures/select_ensemble.png)
+![Image](Resources/Pictures/select_ensamble.png)
 
 Select realization 0 through 9, as illustrated in the above screenshot. This will open up the plot window.
 
@@ -24,7 +24,8 @@ Open the "Plot Window" by clicking this button on the [Quick Access bar](../grap
 
 
 ## Step 2: Create Summary Plot
-![Image](Resources/Pictures/select_twocases.png)
+![Image](Resources/Pictures/select_twocases.png)  
+
 Select two summary cases in the project tree as shown above and from right-click menu select "Open Summary Plot Editor" 
 
 ![Image](Resources/Pictures/summaryplot_editor.png)
