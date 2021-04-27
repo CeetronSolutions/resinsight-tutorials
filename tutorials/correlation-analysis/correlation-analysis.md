@@ -23,15 +23,18 @@ Select realization 0 through 9, as illustrated in the above screenshot and click
 
 ## Step 2: Create Correlation Plot
 
-![Image](Resources/Pictures/select_reportplot.png)
+![Image](Resources/Pictures/select_reportplot.png) 
+
 A plot will appear showing the "Iter-1, Oil Production Total". From the right-click of the curve, select “Create Correlation Plot from Curve Point ->New Report Plot”
 
 ## Step 3: Pearson Calculation
-![Image](Resources/Pictures/show_pearson.png)
+![Image](Resources/Pictures/show_pearson.png) 
+
 This will open up the report plot. Click on the individual correlation matrix and see how the cross plot is updated as illustrated above for one martix. 
 Click on individual cells in the Correlation Matrix, and see how the cross plot is updated
 
 ## Step 4: Showing data for all the wells
-![Image](Resources/Pictures/change_wopt.png)
+![Image](Resources/Pictures/change_wopt.png) 
+
 In the property editor window, change data source to WOPT for all wells OP_1 to OP_5 as shown above.
 
