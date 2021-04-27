@@ -30,11 +30,16 @@ A plot will appear showing the "Iter-1, Oil Production Total". From the right-cl
 ## Step 3: Pearson Calculation
 ![Image](Resources/Pictures/show_pearson.png) 
 
-This will open up the report plot. Click on the individual correlation matrix and see how the cross plot is updated as illustrated above for one martix. 
-Click on individual cells in the Correlation Matrix, and see how the cross plot is updated
+This will open up the report plot. Currently selected cell is indicated by a green border.
+Click on the individual correlation matrix, and see how the cross plot is updated as illustrated above for one martix. 
+
 
 ## Step 4: Showing data for all the wells
 ![Image](Resources/Pictures/change_wopt.png) 
 
 In the property editor window, change data source to WOPT for all wells OP_1 to OP_5 as shown above.
+
+![Image](Resources/Pictures/new_correlationplot.png) 
+
+Again click on the individual correlation matrix to see how the cross plot is updated as illustrated above for one martix. 
 
