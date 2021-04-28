@@ -2,7 +2,7 @@
 
 ## Step 1: Import a Summary Ensemble
 
-Navigate through the "File" drop-down menu and select 'Import->Summary Cases->Import Summary Ensemble' to import a summary ensemble. Alternatively, refer to [Import Summary Ensemble](../import-summary-ensemble/import-summary-ensemble.md) tutorial to import ensemble for iter-0 of reek histroy match data.
+Refer to [Import Summary Ensemble](../import-summary-ensemble/import-summary-ensemble.md) tutorial to import an ensemble for iter-0 of reek data.
 
 
 
