@@ -1,12 +1,14 @@
 
 # Import Summary Ensemble
 
+
 ![Image](./Resources/Pictures/import_ensemble.png) 
+![Image](../summary-ensemble/Resources/Pictures/import_ensemble_1.png)
 
 
-Navigate through the "File" drop-down menu and select 'Import->Summary Cases->Import Summary Ensemble' as shown above. 
+Either click the "Import Ensemble" button in the [Quick Access bar](../graphical-user-interface/graphical-user-interface.md#quick-access-buttons) or navigate through the "File" drop-down menu and select 'Import->Summary Cases->Import Ensemble'. or Navigate through the "File" drop-down menu and select 'Import->Summary Cases->Import Summary Ensemble' as shown above. 
 
-![Image](./Resources/Pictures/file_location.png) 
+![Image](/Resources/Pictures/file_location.png) 
 
 
 A prompt will appear; select the "..." (as illustrated in the above picture) and navigate to the folder which contains the ensemble. It will appear a file-path to the folder you have selected. In our case we are using the Reek ensemble. 
