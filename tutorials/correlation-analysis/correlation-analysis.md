@@ -13,7 +13,6 @@ Refer to [Import Summary Ensemble](../import-summary-ensemble/import-summary-ens
 A plot will appear showing the "Iter-0, Oil Production Total". From the right-click of the curve, select “Create Correlation Plot from Curve Point ->New Report Plot”
 
 ## Step 3: Pearson Calculation
-![Image](Resources/Pictures/show_pearson.png) 
 
 ![Image](Resources/Pictures/reportplot.png) 
 This will open up the report plot. Currently selected cell is indicated by a green border.
