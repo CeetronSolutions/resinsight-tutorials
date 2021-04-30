@@ -57,7 +57,7 @@ Confirm the choice and display the graphs by clicking the OK button.
 
 
 
-Change the curve appearance of the two curves the way you linke best. For example, rename the title, increase font size of axis labels and legends, changing color of curves, line style are some options to begin with.
+Change the curve appearance of the two curves the way you like best. For example, rename the title, increase font size of axis labels and legends, changing color of curves, line style are some options to begin with.
 
 ## Step 4: Save plot template
 
