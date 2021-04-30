@@ -32,7 +32,7 @@ Select two summary cases in the project tree and from right-click menu select "O
  
 ![Image](Resources/Pictures/summaryplot_editor.png) 
 
-As the screen shot above illustrates we now want to select "Well", "OP_5" and the property we are interested in displaying. In our case this will be the Oil Production Total or "WOPT", select in the scrolling window or use the search functionality on top to find it. 
+As the screen shot above illustrates we now want to select "Well", "OP_5" and the property we are interested in displaying. In our case this will be the Oil Production Rate or "WOPR", select in the scrolling window or use the search functionality on top to find it. 
 
 
 ![Image](Resources/Pictures/press_ok.png) 
