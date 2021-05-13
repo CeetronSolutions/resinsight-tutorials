@@ -12,9 +12,11 @@ An overview of the recorded tutorial sessions is available here [Recorded Tutori
 
 [ResInsight YouTube Channel](https://www.youtube.com/channel/UCEJoH_ti1YZXz4hPMeAKMgw)
 
-
 ## How to use the tutorial model data files
 
 - [Install ResInsight](https://resinsight.org/getting-started/download-and-install/)
 - Clone the repository  `git clone https://github.com/CeetronSolutions/resinsight-tutorials/`
 - When asked to import data, import from the `model-data` folder
+
+## Other resources created by the ResInsight community
+[Resources](online-resources.md)
