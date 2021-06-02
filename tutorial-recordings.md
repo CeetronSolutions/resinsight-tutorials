@@ -66,7 +66,7 @@ You will learn to add local grid refinements surrounding perfroation interval al
 
 ## 12. Create Plot Templates
 You will learn how to create and store plot templates for later use.
-[Create Plot Templates video](https://youtu.be/no3OBFqn8Qw)    
+[Create Plot Templates video](https://youtu.be/no3OBFqn8Qw)   
 [Create Plot Templates](prepare-plot-template/plot-template.md)  
 
 
