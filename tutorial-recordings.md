@@ -64,7 +64,20 @@ You will learn to add local grid refinements surrounding perfroation interval al
 [Add and Export Local Grid Refinements video](https://youtu.be/iJjDVgr7WGw).  
 [Add and Export Local Grid Refinements](tutorials/create-export-lgr/create-export-lgr.md).  
 
+## 12. Create Plot Templates
+You will learn how to create and store plot templates for later use.
+[Create Plot Templates video](https://youtu.be/no3OBFqn8Qw)    
+[Create Plot Templates](prepare-plot-template/plot-template.md)  
 
+
+## 13. Create and Configure a Correlation Plot
+ [Create and Configure a Correlation Plot video](https://youtu.be/ODRhdfYujas)  
+ [Create and Configure a Correlation Plot](correlation-analysis/correlation-analysis.md)  
+
+
+## 14. Create and Configure Analysis Plot
+[Create and Configure Analysis Plot video](https://youtu.be/7UORkHg6uKQ)  
+[Create and Configure Analysis Plot](analysis-plot/analysis-plot.md)  
 
 
 
