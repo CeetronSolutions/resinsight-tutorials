@@ -54,6 +54,7 @@ target points are slected, click on "Stop Picking Points" in property editro as 
 
 
 ## Step 3: Create a Property Filter
+In addition to cell filters, we also have property filters to fliter out cells based on values.
 
 In project tree, right click on "Property Filter" and select "New property filter" as shown in the image below. By default, it will activate property filter for cell property SOIL, i.e., saturaiton of oil. Which can be changed to SWAT or other property from peroperty editor, as displayed below.
 ![Image](Resources/Pictures/rightclick_propertyfliters.png) 
