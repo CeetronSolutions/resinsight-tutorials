@@ -76,7 +76,7 @@ You will learn how to create and store plot templates for later use.
 
 
 ## 14. Create and Configure Analysis Plot
-[Create and Configure Analysis Plot video](https://youtu.be/7UORkHg6uKQ)  
+[Create and Configure Analysis Plot video](https://youtu.be/w2k6mn7iwek)  
 [Create and Configure Analysis Plot](analysis-plot/analysis-plot.md)  
 
 
