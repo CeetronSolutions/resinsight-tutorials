@@ -33,7 +33,7 @@ Alternatively, one can add range filters directly from right click menu in 3D vi
 
 When k slice fliter is selected, it will create a new item in porject tree and will have corresponding property editor activated as shown in image below.
 
-![Image](Resources/Pictures/kslice_propoertyeditor.png) 
+![Image](Resources/Pictures/kslice_propertyeditor.png) 
 
 
 Manipulate start point and width for the k slice by changing the "range selction"  in property editor as shown in figure below and visualize its effect from 3D view.
@@ -60,7 +60,7 @@ Delete previously created slice filters and create "Polygon Filter", either from
 
 
 
-![Image](Resources/Pictures/polygon_start_picking_points.png) 
+![Image](Resources/Pictures/polygon_start_picking.png) 
 
 
 Once desired points are picked, click on "Stop Picking Points" button in property editor, followed by enabling the filter as shown below. 
