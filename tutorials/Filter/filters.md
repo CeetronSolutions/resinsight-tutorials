@@ -91,7 +91,7 @@ In addition to cell filters, there is option to create property filters to flite
 
 In project tree, right click on "Property Filter" and select "New property filter" as shown in the image below.
 
-![Image](Resources/Pictures/propertyfliter_right_click.png) 
+![Image](Resources/Pictures/propertyfilter_right_click.png) 
 
 
 
