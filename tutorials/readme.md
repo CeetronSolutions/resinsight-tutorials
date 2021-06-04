@@ -17,5 +17,5 @@ Underneath you can select the tutorial you would like to enter
 13. [Create Plot Templates](prepare-plot-template/plot-template.md)
 14. [Create and Configure a Correlation Plot](correlation-analysis/correlation-analysis.md)
 15. [Create and Configure Analysis Plot](analysis-plot/analysis-plot.md)
-16. [Filter](filter/filter.md)
+16. [Filter](Filter/filters.md)
 
