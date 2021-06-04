@@ -104,19 +104,30 @@ By default, it will activate property filter for cell property SOIL, which can b
 
 ## Step 4: Combination of Multiple FIlters
 
-![Image](Resources/Pictures/combination_multiple_filters.png) 
+One can also have combination of multiple filters. Following illustrations shows combination fo polygone, range, and property filter. Do not that polygone filter is excluded here, therefore, creating a void in 3D view.
+
+
+![Image](Resources/Pictures/combination_filters.png) 
 
 
 
 
 
 ## Step 5: Histogram info in 3D View
-![Image](Resources/Pictures/histogram_infoview.png) 
+By turning on "Info Box", statistical values corresponding to combination of filters can be found. 
+![Image](Resources/Pictures/histogram_view.png) 
 
 
 
 ## Step 6: Grid Statistics Plot in 2D View
+Navigate to 2D plot window and under the statistics folder in Plot Project tree, right click on Grid Statistics Plots and create a Grid Statistics Plot, also illustrated in image below.
 
+
+![Image](Resources/Pictures/create_gridstatisticsplot.png) 
+
+
+
+Then make the changes highlighted in red box and get the grid statistic plot corresponding to combination of filters applied earlier.
 ![Image](Resources/Pictures/grid_statistics.png) 
 
 
