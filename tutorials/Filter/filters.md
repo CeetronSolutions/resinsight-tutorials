@@ -14,9 +14,7 @@ This tutorial will provide an overview of different filters in ResInsight.
 
 ## Step 2: Create Cell Filters
 
-In project tree, right click on "Cell Filters" and then select desired filter type 
 
-![Image](Resources/Pictures/cellfilters_right_click.png) 
 
 ### Range Filters
 
