@@ -60,7 +60,7 @@ Delete previously created slice filters and create "Polygon Filter", either from
 
 
 
-![Image](Resources/Pictures/polygon_start_picking.png) 
+![Image](Resources/Pictures/polygone_start_picking.png) 
 
 
 Once desired points are picked, click on "Stop Picking Points" button in property editor, followed by enabling the filter as shown below. 
