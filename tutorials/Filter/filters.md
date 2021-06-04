@@ -1,7 +1,7 @@
 
 # Filters
 
-This tutorial will provide an overview of different filters options available in ResInsight and how to use them.
+This tutorial will provide an overview of different filters in ResInsight.
 
 ## Step 1: Import Eclipse Case
 
