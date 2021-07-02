@@ -54,7 +54,7 @@ Manipulate start point of i/j/k slicer as per requirement and visualize correspo
 
 ### Polygon Filter
 
-Delete previously created slice filters and create "Polygon Filter", either from right click menu on 3D view, or from right click menue on Cell Filters in project tree. This will allow user to start picking target points on 3D view, such that one can probe the reservoir for coordinates for the "Polygone". Four points are slected as shown below:
+Delete previously created slice filters and create "Polygon Filter", either from right click menu on 3D view, or from right click menue on Cell Filters in project tree. This will allow user to start picking target points on 3D view, such that one can probe the reservoir for coordinates for the "Polygon". Four points are selected as shown below:
 
 
 
@@ -72,7 +72,7 @@ Once desired points are picked, click on "Stop Picking Points" button in propert
 
 
 
-In addition, one can also try to lock the polygone plane and adjust the plane depth from perperty editor, as illustrated in image below.
+In addition, one can also try to lock the polygon plane and adjust the plane depth from perperty editor, as illustrated in image below.
 
 
 
@@ -102,7 +102,7 @@ By default, it will activate property filter for cell property SOIL, which can b
 
 ## Step 4: Combination of Multiple FIlters
 
-One can also have combination of multiple filters. Following illustrations shows combination fo polygone, range, and property filter. Do not that polygone filter is excluded here, therefore, creating a void in 3D view.
+One can also have combination of multiple filters. Following illustrations shows combination fo polygon, range, and property filter. Do not that polygon filter is excluded here, therefore, creating a void in 3D view.
 
 
 ![Image](Resources/Pictures/combination_filters.png) 
