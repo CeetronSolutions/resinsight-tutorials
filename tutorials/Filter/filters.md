@@ -135,4 +135,4 @@ Then make the changes highlighted in red box and get the grid statistic plot cor
 
 
 
-
+More details can be found [here](https://opm.github.io/ResInsight-UserDocumentation/3d-main-window/filters/#cell-filters)
