@@ -34,6 +34,9 @@ When k slice fliter is selected, it will create a new item in porject tree and w
 ![Image](Resources/Pictures/kslice_propertyeditor.png) 
 
 
+More details can be found [here](https://opm.github.io/ResInsight-UserDocumentation/3d-main-window/filters/#cell-filters)
+
+
 Manipulate start point and width for the k slice by changing the "range selction"  in property editor as shown in figure below and visualize its effect from 3D view.
 ![Image](Resources/Pictures/change_start_point.png) 
 
