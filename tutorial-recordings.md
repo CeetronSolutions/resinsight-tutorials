@@ -67,17 +67,17 @@ You will learn to add local grid refinements surrounding perfroation interval al
 ## 12. Create Plot Templates
 You will learn how to create and store plot templates for later use.    
 [Create Plot Templates video](https://youtu.be/no3OBFqn8Qw)   
-[Create Plot Templates](prepare-plot-template/plot-template.md)  
+[Create Plot Templates](tutorials/prepare-plot-template/plot-template.md)  
 
 
 ## 13. Create and Configure a Correlation Plot
  [Create and Configure a Correlation Plot video](https://youtu.be/ODRhdfYujas)  
- [Create and Configure a Correlation Plot](correlation-analysis/correlation-analysis.md)  
+ [Create and Configure a Correlation Plot](tutorials/correlation-analysis/correlation-analysis.md)  
 
 
 ## 14. Create and Configure Analysis Plot
 [Create and Configure Analysis Plot video](https://youtu.be/w2k6mn7iwek)  
-[Create and Configure Analysis Plot](analysis-plot/analysis-plot.md)  
+[Create and Configure Analysis Plot](tutorials/analysis-plot/analysis-plot.md)  
 
 
 
