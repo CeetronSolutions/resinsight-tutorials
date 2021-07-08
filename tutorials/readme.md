@@ -13,4 +13,9 @@ Underneath you can select the tutorial you would like to enter
 9. [Well Log Extraction](well-log-extraction/well-log-extraction.md)
 10. [Add and Export perforations](add-perforations/add-perforations.md)
 11. [Add and Export Local Grid Refinements](create-export-lgr/create-export-lgr.md)
+12. [Import Summary Ensemble](import-summary-ensemble/import-summary-ensemble.md)
+13. [Create Plot Templates](prepare-plot-template/plot-template.md)
+14. [Create and Configure a Correlation Plot](correlation-analysis/correlation-analysis.md)
+15. [Create and Configure Analysis Plot](analysis-plot/analysis-plot.md)
+16. [Filter](Filter/filters.md)
 
