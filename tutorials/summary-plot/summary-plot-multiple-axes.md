@@ -17,7 +17,7 @@ to import summary case, navigate to directory *model-data/norne*, select *NORNE_
 2. Navigate to well *B-2H*, right-click vector *WBHP* and select **New Summary Plot**.
 3. Set plot columns and rows both to 1 instead of ![Image](./Resources/ToolbarColumnsRows.png)
 
-## Drag/Drop wells
+## Drag/Drop well vectors
 
 ![Image](./Resources/DataSourceDragDropVectorsIntoSamePlot.png)
 
