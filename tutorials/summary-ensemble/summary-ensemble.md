@@ -14,12 +14,6 @@ A prompt will appear; select the "..." (as illustrated in the above picture) and
 
 The Reek ensemble we are working with contains one base prediction, iteration 1, iteration 2, and "pred_op6". To import the base prediction ("base_pred") we add the following syntax to the file path: "\*/base_pred/\*", the astrix symbol ("\*") means that it will match any number of any character. As the above illustration shows, press the "Find" it will search for all the ".SMSPEC" files associated with the "base_pred".
 
-![Image](Resources/Pictures/select_ensemble.png)
-
-Select realization 0 through 9, as illustrated in the above screenshot.
-
-A new prompt will appear; asking you to name the ensemble. We will call this "Base Prediction". Then press "OK".
-
 ## Step 2. Creating an Ensemble Plot for Well OP_5
 
 A plot will appear showing the "Base prediction, Oil Production Total". We want to replace this curve with the curve showing the cumulative oil production of "OP_5". 
