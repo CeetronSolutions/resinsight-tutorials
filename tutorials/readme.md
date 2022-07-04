@@ -3,7 +3,7 @@
 ## Introduction
 - [ResInsight Graphical User Interface](graphical-user-interface/graphical-user-interface.md)
 - [3D Grid Visualization](grid-visualization/grid-visualization.md)
-- [Cell Filters](Filter/filters.md)
+- [Cell Filters (2022.06)](Filter/filters.md)
 
 ## Summary Data Plotting
 - [Summary Plotting](summary-plot/summary-plot.md)
