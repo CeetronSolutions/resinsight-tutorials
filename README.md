@@ -5,7 +5,7 @@
 https://resinsight.org/
 
 ## Tutorials introduction
-Each tutorial is described in a text file in the `tutorials` folder
+Each tutorial is described in a text file in the `tutorials` folder. See the following file for an  [overview](tutorials/readme.md).
 
 ## Tutorials videos
 An overview of the recorded tutorial sessions is available here [Recorded Tutorials](tutorial-recordings.md)
