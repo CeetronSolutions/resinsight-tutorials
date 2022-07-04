@@ -38,7 +38,7 @@ to import summary case, navigate to directory *model-data/norne*, select *NORNE_
 ![Image](./Resources/PlotsAxesAutoAdjust.png)
 
 1. Click the plot in **Plots** window
-2. In **Property Editor**, set *Axis Range Aggregation* to *All Wells* to harmonize axes across all wells
+2. In **Property Editor**, set *Axis Range Control* to *All Wells* to harmonize axes across all wells
 3. Check *Auto Adjust Appearance* to have ResInsight to automatically adjust the plot for best appearance 
 
 ## Resulting summary plot
