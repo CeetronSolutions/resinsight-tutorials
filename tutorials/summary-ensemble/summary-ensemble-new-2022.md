@@ -27,29 +27,29 @@ Make sure preferences is set to color curve by phase, and append history vector 
 
 Type "WOPR" in the search field in **Data Sources**
 
-![Image](Resources/Pictures/data-source-filter-wopr.PNG)
+![Image](Resources/Pictures/data-source-filter-wopr.png)
 
 
 Select "New Summary Plot" from the right-click menu of **WOPR**
 
-![Image](Resources/Pictures/data-source-new-summary-plot.PNG)
+![Image](Resources/Pictures/data-source-new-summary-plot.png)
 
 
 A plot with both WOPR and WOPRH is created. Note that the default curve color is green, and the default curve style for the history vector is set according to preferences.
 
-![Image](Resources/Pictures/ensemble-wopr-woprh.PNG)
+![Image](Resources/Pictures/ensemble-wopr-woprh.png)
 
 Individual curves can be highlighted when clicking on curves. Activate the right-click menu on a curve to show the curve as a single curve in a new plot.
 
-![Image](Resources/Pictures/new-plot-from-curve.PNG)
+![Image](Resources/Pictures/new-plot-from-curve.png)
 
 Investigate other realizations using the source stepping toolbar.
 
-![Image](Resources/Pictures/single-curve-source-stepping.PNG)
+![Image](Resources/Pictures/single-curve-source-stepping.png)
 
 Drag and drop other realizations into the plot to compare different curves.
 
-![Image](Resources/Pictures/drag-drop-realizations.PNG)
+![Image](Resources/Pictures/drag-drop-realizations.png)
 
 
 ## Documentation References
