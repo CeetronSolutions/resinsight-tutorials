@@ -1,0 +1,18 @@
+# This file contains dummy data
+C-3H, 2500.18, 2022-10-13, XLOT, 1.26,  3, Good test
+C-3H, 2865.18, 2022-10-13, XLOT, 1.21,  1, Poor test
+C-3H, 2995.18, 2022-10-13, XLOT, 2.95,  1, Poor test
+C-3H, 3065.18, 2022-10-13, XLOT, 3.41,  1, Poor test
+C-3H, 3300.18, 2022-10-13, XLOT, 1.96,  3, Good test
+C-3H, 3500.18, 2022-10-13, XLOT, 1.21,  1, Poor test
+C-3H, 3600.18, 2022-10-13, XLOT, 2.25,  1, Poor test
+C-3H, 3800.18, 2022-10-13, XLOT, 3.21,  1, Poor test
+C-3H, 3550.18, 2022-10-13, LOT, 1.51,  1, Poor test
+C-3H, 3650.18, 2022-10-13, LOT, 2.55,  1, Poor test
+C-3H, 3850.18, 2022-10-13, LOT, 3.51,  1, Poor test
+#_Here comes another well
+E-3H, 2500.12, 2005-10-24, DP, 3.1, 0, Wash outs
+E-3H, 2600.12, 2005-10-24, DP, 4.2, 0, Wash outs
+E-3H, 2700.12, 2005-10-24, DP, 3.4, 0, Wash outs
+E-3H, 2800.12, 2005-10-24, DP, 4.5, 0, Wash outs
+E-3H, 3000.12, 2005-10-24, DP, 5.8, 0, Wash outs
