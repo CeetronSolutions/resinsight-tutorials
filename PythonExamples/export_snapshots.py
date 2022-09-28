@@ -9,10 +9,7 @@ import rips
 resinsight = rips.Instance.find()
 cases = resinsight.project.cases()
 
-# Set main window size
-resinsight.set_main_window_size(width=800, height=500)
-
-n = 5  # every n-th time_step for snapshot
+skip_time_step_count = 3  # every n-th time_step for snapshot
 property_list = ["SOIL", "PRESSURE"]  # list of parameter for snapshot
 
 print("Looping through cases")
@@ -40,6 +37,6 @@ for case in cases:
             view.apply_cell_result(
                 result_type="DYNAMIC_NATIVE", result_variable=property
             )
-        for time_step in range(0, len(time_steps), 10):
-            view.set_time_step(time_step=time_step)
-            view.export_snapshot()
+            for time_step in range(0, len(time_steps), skip_time_step_count):
+                view.set_time_step(time_step=time_step)
+                view.export_snapshot()
