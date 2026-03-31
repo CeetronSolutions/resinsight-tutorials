@@ -139,6 +139,15 @@
 % ── Pandoc compatibility shims ─────────────────────────────────────────────────
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newsavebox\pandocbox
+\providecommand{\pandocbounded}[1]{%
+  \sbox\pandocbox{#1}%
+  \ifdim\wd\pandocbox>\linewidth
+    \resizebox{\linewidth}{!}{\usebox\pandocbox}%
+  \else
+    \usebox\pandocbox%
+  \fi
+}
 
 $if(highlighting-macros)$
 $highlighting-macros$

@@ -31,7 +31,18 @@ Contour maps can be used to identify the distribution of hydrocarbons in the res
 1. In the Project Tree, right-click the view and select **New Contour Map from 3D View**
 1. A contour map is created, and select the last time step
 1. Select **Map Projection**, and set **Result Aggregation** to **Oil Column**
-1. Enable **Value Filter**, select **Above**, and set the threshold value to 11
+1. Enable **Value Filter**, select **Above**, and set the threshold value to 18
 1. In the contour map view, right-click and select **Create Polygon From Contour Map**
+1. Inspect the polygons, and optionally rename the polygon you what to use
 
+![Contour Map](contour_map.png)
+
+# Export Sector Model based on Filters
+
+1. Select the 3D view in the Property Editor
+1. Right click the **Cell Filters**, and select the **Polygon Cell Filter**
+1. Right-click the 3D view, and select **Export Sector Model [BETA]**
+1. Select the output folder, and use defaults in all settings
+
+![Export Sector Model](export_sector_model.png)
 
