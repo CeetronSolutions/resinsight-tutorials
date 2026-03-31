@@ -1,0 +1,172 @@
+% ResInsight Tutorial PDF Template
+% Usage: pandoc input.md --template=resinsight-template.latex --pdf-engine=xelatex
+\documentclass[11pt, a4paper]{article}
+
+% ── Fonts ──────────────────────────────────────────────────────────────────────
+\usepackage{fontspec}
+\setmainfont{$if(mainfont)$$mainfont$$else$Georgia$endif$}
+\setsansfont{$if(sansfont)$$sansfont$$else$Arial$endif$}
+\setmonofont{$if(monofont)$$monofont$$else$Cascadia Mono$endif$}[Scale=0.88]
+
+% ── Geometry ───────────────────────────────────────────────────────────────────
+\usepackage[
+  a4paper,
+  top=2.8cm,
+  bottom=2.8cm,
+  left=2.5cm,
+  right=2.5cm,
+  headheight=40pt,
+]{geometry}
+
+% ── Colors (ResInsight teal palette) ───────────────────────────────────────────
+\usepackage{xcolor}
+\definecolor{ri-teal}{HTML}{006B7A}    % primary brand color
+\definecolor{ri-dark}{HTML}{1A2B32}    % dark text / rules
+\definecolor{ri-light}{HTML}{E8F4F6}   % section background tint
+\definecolor{ri-link}{HTML}{005F6E}    % hyperlinks
+
+% ── Hyperlinks ─────────────────────────────────────────────────────────────────
+\usepackage[
+  colorlinks=true,
+  linkcolor=ri-link,
+  urlcolor=ri-link,
+  citecolor=ri-link,
+  bookmarks=true,
+  pdfusetitle,
+]{hyperref}
+
+% ── Graphics & figures ─────────────────────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{float}
+% Cap images at text width automatically
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \oldincludegraphics[max width=\linewidth,#1]{#2}%
+}
+\usepackage[export]{adjustbox}   % provides max width= key
+
+% ── Tables ─────────────────────────────────────────────────────────────────────
+\usepackage{longtable,booktabs,array}
+\usepackage{multirow}
+
+% ── Code blocks ────────────────────────────────────────────────────────────────
+\usepackage{fancyvrb,framed}
+\usepackage[]{listings}
+\lstset{
+  basicstyle=\small\ttfamily,
+  breaklines=true,
+  frame=single,
+  rulecolor=\color{ri-teal!40},
+  backgroundcolor=\color{ri-light},
+  xleftmargin=6pt,
+  xrightmargin=6pt,
+}
+% Pandoc uses Shaded + Highlighting for fenced code
+\definecolor{shadecolor}{HTML}{E8F4F6}
+
+% ── Section styling ────────────────────────────────────────────────────────────
+\usepackage{titlesec}
+\titleformat{\section}
+  {\large\bfseries\color{ri-teal}}
+  {\thesection}{1em}{}
+  [\color{ri-teal}\titlerule]
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{ri-dark}}
+  {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalsize\itshape\color{ri-dark}}
+  {\thesubsubsection}{1em}{}
+
+% ── Header & Footer ────────────────────────────────────────────────────────────
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% Header: logo left, document title right
+\fancyhead[L]{%
+  \ifdefined\logopath
+    \includegraphics[height=28pt]{\logopath}%
+  \else
+    \textcolor{ri-teal}{\textbf{ResInsight}}%
+  \fi
+}
+\fancyhead[R]{\small\color{ri-dark} $if(title)$$title$$endif$}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{ri-teal}\leaders\hrule height \headrulewidth\hfill}}
+
+% Footer: section left, page number right
+\fancyfoot[L]{\small\color{ri-dark!60} $if(date)$$date$$endif$}
+\fancyfoot[R]{\small\color{ri-dark} \thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{ri-teal!50}\leaders\hrule height \footrulewidth\hfill}}
+
+% Plain style for chapter-opening pages
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\small\color{ri-dark} \thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ── Title page ─────────────────────────────────────────────────────────────────
+\usepackage{titling}
+\pretitle{%
+  \begin{center}
+  \ifdefined\logopath
+    \includegraphics[width=5cm]{\logopath}\\[1.5em]
+  \fi
+  {\color{ri-teal}\rule{\linewidth}{2pt}}\\[0.8em]
+  \Huge\bfseries\color{ri-dark}
+}
+\posttitle{%
+  \\[0.4em]{\color{ri-teal}\rule{\linewidth}{2pt}}
+  \end{center}
+  \vskip 0.5em
+}
+\preauthor{\begin{center}\large\color{ri-dark}}
+\postauthor{\end{center}}
+\predate{\begin{center}\color{ri-dark!70}}
+\postdate{\end{center}\vfill}
+
+% ── TOC styling ────────────────────────────────────────────────────────────────
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\color{ri-teal}\bfseries}
+\renewcommand{\cftsecpagefont}{\color{ri-teal}}
+\renewcommand{\cftsubsecfont}{\color{ri-dark}}
+
+% ── Misc ───────────────────────────────────────────────────────────────────────
+\usepackage{parskip}        % space between paragraphs instead of indent
+\usepackage{microtype}      % better text justification
+\usepackage{csquotes}
+\setlength{\emergencystretch}{3em}  % prevent overfull hboxes
+
+% ── Pandoc compatibility shims ─────────────────────────────────────────────────
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% ── Document ───────────────────────────────────────────────────────────────────
+\begin{document}
+
+$if(title)$
+\title{$title$}
+\author{$for(author)$$author$$sep$ \and $endfor$}
+\date{$if(date)$$date$$else$\today$endif$}
+\maketitle
+\thispagestyle{empty}
+\newpage
+$endif$
+
+$if(toc)$
+{
+  \hypersetup{linkcolor=ri-dark}
+  \tableofcontents
+  \newpage
+}
+$endif$
+
+$body$
+
+\end{document}
