@@ -6,7 +6,7 @@
 - [Cell Filters (2022.06)](Filter/filters.md)
 
 ## Summary Data Plotting
-- [Summary Plotting](summary-plot/summary-plot.md)
+- [Summary Plotting (2022.06)](summary-plot/summary-plot.md)
 - [Multiple Axes (2022.06)](summary-plot/summary-plot-multiple-axes.md)
 - [Drag and Drop (2022.06)](summary-plot/summary-plot-drag-and-drop.md)
 - [Summary Ensemble](summary-ensemble/summary-ensemble.md)
