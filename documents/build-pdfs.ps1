@@ -4,7 +4,7 @@
 $ErrorActionPreference = "Stop"
 
 $SrcDir      = "$PSScriptRoot\src"
-$OutDir      = "$PSScriptRoot\dist"
+$OutDir      = "$PSScriptRoot\..\dist"
 $Template    = "$SrcDir\resinsight-template.latex"
 $Logo        = "$SrcDir\logo.png"
 
@@ -12,7 +12,8 @@ New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 
 $LogoFlag = @()
 if (Test-Path $Logo) {
-    $LogoFlag = @("--variable", "logopath=$Logo")
+    $logopath = $Logo -replace '\\', '/'
+    $LogoFlag = @("--variable", "logopath=$logopath")
 }
 
 $Sources = Get-ChildItem -Path $SrcDir -Filter "*.md"

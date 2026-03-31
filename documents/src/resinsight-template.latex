@@ -85,11 +85,9 @@
 
 % Header: logo left, document title right
 \fancyhead[L]{%
-  \ifdefined\logopath
-    \includegraphics[height=28pt]{\logopath}%
-  \else
-    \textcolor{ri-teal}{\textbf{ResInsight}}%
-  \fi
+  $if(logopath)$\oldincludegraphics[height=28pt]{$logopath$}%
+  $else$\textcolor{ri-teal}{\textbf{ResInsight}}%
+  $endif$
 }
 \fancyhead[R]{\small\color{ri-dark} $if(title)$$title$$endif$}
 \renewcommand{\headrulewidth}{0.8pt}
@@ -112,9 +110,7 @@
 \usepackage{titling}
 \pretitle{%
   \begin{center}
-  \ifdefined\logopath
-    \includegraphics[width=5cm]{\logopath}\\[1.5em]
-  \fi
+  $if(logopath)$\oldincludegraphics[width=5cm]{$logopath$}\\[1.5em]$endif$
   {\color{ri-teal}\rule{\linewidth}{2pt}}\\[0.8em]
   \Huge\bfseries\color{ri-dark}
 }
