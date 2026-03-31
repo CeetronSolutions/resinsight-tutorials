@@ -1,4 +1,4 @@
-# Build all PDFs from documents/src/*.md
+# Build all PDFs from documents/src/**/*.md
 # Run from the repo root: .\documents\build-pdfs.ps1
 
 $ErrorActionPreference = "Stop"
@@ -16,23 +16,34 @@ if (Test-Path $Logo) {
     $LogoFlag = @("--variable", "logopath=$logopath")
 }
 
-$Sources = Get-ChildItem -Path $SrcDir -Filter "*.md"
+$Sources = Get-ChildItem -Path $SrcDir -Filter "*.md" -File -Recurse
 
 if ($Sources.Count -eq 0) {
     Write-Host "No .md files found in $SrcDir"
     exit 1
 }
 
+$nameCounts = @{}
+
 foreach ($src in $Sources) {
-    $name = $src.BaseName
-    $out  = "$OutDir\$name.pdf"
-    Write-Host "Building $name.pdf ..."
+    $relativeSource = Resolve-Path -LiteralPath $src.FullName -Relative
+    $safeName = $src.BaseName
+    if ($nameCounts.ContainsKey($safeName)) {
+        $nameCounts[$safeName] += 1
+        $safeName = "$safeName_$($nameCounts[$safeName])"
+    } else {
+        $nameCounts[$safeName] = 1
+    }
+    $out  = Join-Path $OutDir "$safeName.pdf"
+    Write-Host "Building $relativeSource -> $out"
+
+    $resourcePath = "$($src.DirectoryName);$SrcDir;."
 
     $args = @(
         $src.FullName,
         "--pdf-engine=xelatex",
         "--template=$Template",
-        "--resource-path=$SrcDir;.",
+        "--resource-path=$resourcePath",
         "--toc",
         "--variable", "mainfont=Georgia",
         "--variable", "sansfont=Arial",
@@ -41,7 +52,7 @@ foreach ($src in $Sources) {
 
     & pandoc @args
     if ($LASTEXITCODE -ne 0) {
-        Write-Error "Failed to build $name.pdf"
+        Write-Error "Failed to build $safeName.pdf"
     }
 }
 
