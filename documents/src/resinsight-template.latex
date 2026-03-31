@@ -11,8 +11,9 @@
 % ── Geometry ───────────────────────────────────────────────────────────────────
 \usepackage[
   a4paper,
-  top=2.8cm,
-  bottom=2.8cm,
+  landscape,
+  top=2.2cm,
+  bottom=2.2cm,
   left=2.5cm,
   right=2.5cm,
   headheight=40pt,
