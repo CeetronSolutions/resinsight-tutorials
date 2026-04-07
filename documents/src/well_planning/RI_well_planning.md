@@ -5,44 +5,110 @@ date: "2026"
 ---
 
 
-# Introduction
+# Well Planning Guide
 
-Well Planning can be used to identify and evaluate new well targets.
+## Overview
 
-# Configure OPM Flow
+Well Planning in ResInsight enables you to identify and evaluate new well targets, configure production constraints, and run simulations to assess well performance. This guide walks through the complete workflow from simulation setup to well analysis.
 
-ResInsight is able to start a simulation using the OPM Flow simulator. The path to flow must be specified in Preferences, e.g. `/usr/bin/flow`
+---
 
-## Windows and WSL
+# Getting Started
 
-When using Windows and WSL, the distribution must be selected in Preferences. Specify the path to the simulator using the full path on the file system of the Linux distribution, e.g. `/usr/bin/flow`
+## Configure OPM Flow Simulator
 
-# Use Job to Run Simulation
+ResInsight can start simulations using the OPM Flow simulator. The simulator path must be configured in the **Preferences** menu.
 
-1. Open Scripts/Jobs window
-1. Right-click on Jobs, and select "New OPM Flow Simulation"
-1. Select the `norne-atw2013/NORNE_ATW2013.DATA` file and select output folder
-1. Run the simulation, and the simulation grid will automatically open in **ResInsight**
+**Example path:** `/usr/bin/flow`
 
-# Contour Maps
+### Windows and WSL
 
-Contour maps can be used to identify the distribution of hydrocarbons in the reservoir. These maps can be used to create polygons.
+When using Windows with the Windows Subsystem for Linux (WSL):
 
-1. In the Project Tree, right-click the view and select **New Contour Map from 3D View**
-1. A contour map is created, and select the last time step
-1. Select **Map Projection**, and set **Result Aggregation** to **Oil Column**
-1. Enable **Value Filter**, select **Above**, and set the threshold value to 18
-1. In the contour map view, right-click and select **Create Polygon From Contour Map**
-1. Inspect the polygons, and optionally rename the polygon you what to use
+1. Select the WSL distribution in **Preferences**
+2. Specify the simulator path using the Linux file system path (not Windows path)
+
+**Example Linux path:** `/usr/bin/flow`
+
+---
+
+# Simulation Workflow
+
+## Step 1: Run Simulation via Job
+
+To execute a simulation and automatically load results in ResInsight:
+
+1. Open the **Scripts/Jobs** window
+2. Right-click on **Jobs** and select **New OPM Flow Simulation**
+3. Select the simulation data file (e.g., `norne-atw2013/NORNE_ATW2013.DATA`)
+4. Choose an output folder in a scratch location (e.g., `norne-full-field`)
+5. *(Optional)* Tick **Pause before running OPM Flow** to inspect the data file before execution
+6. Run the simulation — results will automatically load in ResInsight
+
+---
+
+## Step 2: Analyze Results with Contour Maps
+
+Contour maps visualize property distributions in the reservoir. They can be used to identify target zones and create selection polygons.
+
+**To create a contour map:**
+
+1. In the Project Tree, right-click the 3D view and select **New Contour Map from 3D View**
+2. Select the last time step to analyze final conditions
+3. Configure the map:
+   - Set **Map Projection** as needed
+   - Set **Result Aggregation** to **Oil Column**
+4. Enable **Value Filter** and set threshold to **18** (or desired value) — select **Above** to show values exceeding threshold
+5. Right-click the contour map and select **Create Polygon From Contour Map**
+6. Review and rename polygons for further use
 
 ![Contour Map](contour_map.png)
 
-# Export Sector Model based on Filters
+---
+
+## Step 3: Export Sector Model from Filtered Region
+
+Create a reduced model by filtering cells spatially:
 
 1. Select the 3D view in the Property Editor
-1. Right click the **Cell Filters**, and select the **Polygon Cell Filter**
-1. Right-click the 3D view, and select **Export Sector Model [BETA]**
-1. Select the output folder, and use defaults in all settings
+2. Right-click **Cell Filters** and select **Polygon Cell Filter**
+3. Right-click the 3D view and select **Export Sector Model [BETA]**
+4. Choose output folder (e.g., `norne-sector`) and use default settings
 
 ![Export Sector Model](export_sector_model.png)
+
+---
+
+## Step 4: Simulate Sector Model
+
+Run the exported sector model to verify grid properties:
+
+1. Create a job from the exported `*.DATA` file
+2. Set the export subfolder to `job`
+3. Run the simulation and verify grid geometry and properties
+
+---
+
+# Well Planning and Configuration
+
+## Add a New Well
+
+To define a new well path and configure production constraints:
+
+1. Create a new well and perforation interval positioned strategically (e.g., below existing well perforations like **B-2H**)
+2. Select the Job object and configure:
+   - Enable **Add New Well** and select the well path
+   - Set **Well Group Name** (e.g., `B1-DUMMY`)
+3. Open the **WCONPROD** group to set production constraints (see example below)
+4. Enable **Append Extra Dates** to extend the simulation date range
+5. Review summary plots to analyze well performance
+
+### Production Constraint Example
+
+| Parameter | Value |
+|---|---:|
+| Max Surface Oil Production Rate | 4000 |
+| Max Surface Water Production Rate | 5000 |
+| Max Surface Liquid Production Rate | 5000 |
+| Max Bottom Hole Pressure | 50 |
 
