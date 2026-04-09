@@ -1,3 +1,8 @@
 *.LODSMRY
 *.RESINSIGHT_IDX
 *.ESMRY
+
+# Generated PDFs (built by CI)
+documents/dist/
+dist/
+.claude
