@@ -45,6 +45,23 @@ To execute a simulation and automatically load results in ResInsight:
 5. *(Optional)* Tick **Pause before running OPM Flow** to inspect the data file before execution
 6. Run the simulation — results will automatically load in ResInsight
 
+### Schedule File Variants
+
+The INCLUDE statement in `NORNE_ATW2013.DATA` references `BC0407_HIST01122006.SCH`. Three versions are available — swap the filename in the INCLUDE to change simulation speed vs. detail:
+
+| File | Timesteps | Period | Use case |
+|---|---:|---|---|
+| `BC0407_HIST01122006-very_short_history.SCH` | 3 | Nov–Dec 1997 only | Quick smoke test, minimal run time |
+| `BC0407_HIST01122006-yearly-reporting.SCH`  | 10 | 1997–2006 (yearly) | Balanced: full history span, ~25× faster than complete |
+| `BC0407_HIST01122006-complete.SCH` | 247 | 1997–2006 (monthly) | Full accuracy, longest run time |
+
+To switch, edit the INCLUDE line in `NORNE_ATW2013.DATA`:
+
+```
+INCLUDE
+'./INCLUDE/BC0407_HIST01122006-very_short_history.SCH' /
+```
+
 ---
 
 ## Step 2: Analyze Results with Contour Maps
