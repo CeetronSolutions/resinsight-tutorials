@@ -18,12 +18,14 @@ jobs:
           sparse-checkout: |
             documents
 
-      - name: Install fonts
+      - name: Install fonts and LaTeX packages
         run: |
-          apt-get update -qq && apt-get install -y -qq fonts-liberation fonts-cascadia-code texlive-latex-extra
+          apt-get update -qq && apt-get install -y -qq fonts-liberation fonts-cascadia-code
           # fonts-liberation provides Liberation Serif (metrically compatible with Times/Georgia)
           # Update font cache
           fc-cache -fv
+          # Install missing LaTeX packages via tlmgr (pandoc/extra uses TeX Live)
+          tlmgr install tocloft
 
       - name: Build PDFs
         run: |
