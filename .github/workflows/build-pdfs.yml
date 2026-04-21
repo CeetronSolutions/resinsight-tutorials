@@ -49,7 +49,7 @@ jobs:
               --toc \
               --variable mainfont="Liberation Serif" \
               --variable sansfont="Liberation Sans" \
-              --variable monofont="Cascadia Mono" \
+              --variable monofont="Liberation Mono" \
               $LOGO_FLAG \
               -o "dist/${name}.pdf"
           done
