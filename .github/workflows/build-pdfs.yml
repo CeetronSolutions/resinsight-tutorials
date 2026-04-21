@@ -15,8 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 1
           sparse-checkout: |
             documents
+          sparse-checkout-cone-mode: true
 
       - name: Install fonts and LaTeX packages
         run: |
