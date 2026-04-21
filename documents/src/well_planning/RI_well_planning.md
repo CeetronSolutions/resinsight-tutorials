@@ -75,7 +75,7 @@ Contour maps visualize property distributions in the reservoir. They can be used
 3. Configure the map:
    - Set **Map Projection** as needed
    - Set **Result Aggregation** to **Oil Column**
-4. Enable **Value Filter** and set threshold to **18** (or desired value) — select **Above** to show values exceeding threshold
+4. Enable **Value Filter** and set threshold to **17** (or desired value) — select **Above** to show values exceeding threshold
 5. Right-click the contour map and select **Create Polygon From Contour Map**
 6. Review and rename polygons for further use
 

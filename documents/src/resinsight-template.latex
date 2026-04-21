@@ -49,6 +49,8 @@
 % ── Tables ─────────────────────────────────────────────────────────────────────
 \usepackage{longtable,booktabs,array}
 \usepackage{multirow}
+\usepackage{calc}              % pandoc uses \real{…} for column widths
+\newcounter{none}              % pandoc sets \LTcaptype=none for uncaptioned tables
 
 % ── Code blocks ────────────────────────────────────────────────────────────────
 \usepackage{fancyvrb,framed}
