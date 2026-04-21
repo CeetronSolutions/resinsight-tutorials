@@ -14,10 +14,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            documents
 
       - name: Install fonts
         run: |
-          apt-get update -qq && apt-get install -y -qq fonts-liberation fonts-cascadia-code
+          apt-get update -qq && apt-get install -y -qq fonts-liberation fonts-cascadia-code texlive-latex-extra
           # fonts-liberation provides Liberation Serif (metrically compatible with Times/Georgia)
           # Update font cache
           fc-cache -fv
