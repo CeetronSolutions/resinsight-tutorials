@@ -38,7 +38,8 @@ jobs:
             LOGO_FLAG="--variable logopath=$LOGO"
           fi
 
-          for f in documents/src/*.md; do
+          for f in documents/src/**/*.md documents/src/*.md; do
+            [ -f "$f" ] || continue
             name=$(basename "$f" .md)
             echo "Building $name.pdf"
             pandoc "$f" \
