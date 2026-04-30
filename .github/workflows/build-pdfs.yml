@@ -58,7 +58,9 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: tutorial-pdfs
-          path: dist/*.pdf
+          path: |
+            dist/*.pdf
+            documents/*.pdf
           retention-days: 30
 
       - name: Publish to GitHub Release
