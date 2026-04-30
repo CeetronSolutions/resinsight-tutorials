@@ -47,7 +47,7 @@ To execute a simulation and automatically load results in ResInsight:
 
 ### Schedule File Variants
 
-The INCLUDE statement in `NORNE_ATW2013.DATA` references `BC0407_HIST01122006.SCH`. Three versions are available — swap the filename in the INCLUDE to change simulation speed vs. detail:
+The `INCLUDE` statement in `NORNE_ATW2013.DATA` references `BC0407_HIST01122006.SCH`. Three versions are available — swap the filename in the `INCLUDE` to change simulation speed vs. detail:
 
 | File | Timesteps | Period | Use case |
 |---|---:|---|---|
@@ -70,7 +70,7 @@ Contour maps visualize property distributions in the reservoir. They can be used
 
 **To create a contour map:**
 
-1. In the Project Tree, right-click the 3D view and select **New Contour Map from 3D View**
+1. In the **Project Tree**, right-click the 3D view and select **New Contour Map from 3D View**
 2. Select the last time step to analyze final conditions
 3. Configure the map:
    - Set **Map Projection** as needed
@@ -128,4 +128,16 @@ To define a new well path and configure production constraints:
 | Max Surface Water Production Rate | 5000 |
 | Max Surface Liquid Production Rate | 5000 |
 | Max Bottom Hole Pressure | 50 |
+
+
+## Review Well Performance
+
+1. Create plots for WOPR, WGOR and WWCT for all wells
+
+## Add Refinement
+
+1. Add a Refinement Region from the right-click menu of a 3D view
+1. Move the refinement region to cover the perforation interval of the introduced well path.
+1. Export sector model to a new folder, and make sure the new well is part of the simulation.
+1. Run the simulation and compare with no refinement.
 
