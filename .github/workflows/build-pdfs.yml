@@ -25,6 +25,7 @@ jobs:
           # Update font cache
           fc-cache -fv
           # Install missing LaTeX packages via tlmgr (pandoc/extra uses TeX Live)
+          tlmgr update --self
           tlmgr install tocloft
 
       - name: Build PDFs
